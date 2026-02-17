@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3976a5cb77629845b239adfc59c3033
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Prefabs/AI Enemy/Enemy_Demon_Walking.prefab
+  uploadId: 789940

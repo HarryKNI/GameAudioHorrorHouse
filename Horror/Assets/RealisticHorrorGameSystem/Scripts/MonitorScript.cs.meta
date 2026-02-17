@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 08e5ead244f40c44aacf6381d620a540
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Scripts/MonitorScript.cs
+  uploadId: 789940

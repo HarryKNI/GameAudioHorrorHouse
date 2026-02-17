@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 335b8acf35f218744bfc18c46356de4d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Scripts/AnomalyDetector.cs
+  uploadId: 789940

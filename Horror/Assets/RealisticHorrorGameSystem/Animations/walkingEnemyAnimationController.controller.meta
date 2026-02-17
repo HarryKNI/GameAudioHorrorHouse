@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 791a92a2d3c2346ce9de1e904a0659dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Animations/walkingEnemyAnimationController.controller
+  uploadId: 789940

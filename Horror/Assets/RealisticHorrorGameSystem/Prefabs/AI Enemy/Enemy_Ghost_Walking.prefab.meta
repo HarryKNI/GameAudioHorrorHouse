@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 667e81f146ec6c941844a8c5ef89279e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Prefabs/AI Enemy/Enemy_Ghost_Walking.prefab
+  uploadId: 789940

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e95e870ce2f1d954ab5c3434f6a3efcd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Prefabs/AI Enemy/Enemy_Zombie_Crawling.prefab
+  uploadId: 789940

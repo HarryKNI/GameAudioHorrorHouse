@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5de528ccb34294568958ad7d4b8b6d64
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Animations/MoveObject.anim
+  uploadId: 789940

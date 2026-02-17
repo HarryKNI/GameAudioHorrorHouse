@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1a4a4eed5b514175b10a10ea1c19add
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Materials/ParticleSystem_Additive_Emission.mat
+  uploadId: 789940

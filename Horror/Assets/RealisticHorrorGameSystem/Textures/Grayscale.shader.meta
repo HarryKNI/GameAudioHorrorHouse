@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c035f97e7534e614d8ded7db034a0154
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Textures/Grayscale.shader
+  uploadId: 789940

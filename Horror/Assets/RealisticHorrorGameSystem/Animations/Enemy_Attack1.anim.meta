@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c1f5cd0ca4eb49c0b46c96b95dbcb6d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Animations/Enemy_Attack1.anim
+  uploadId: 789940

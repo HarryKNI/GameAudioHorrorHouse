@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c4214c4e92e5742d98682732fd98bf9e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Prefabs/AdvancedFPSPlayer/AdvancedFPSPlayer.prefab
+  uploadId: 789940

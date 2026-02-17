@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c55a3baae1c7f814ca4ee270d4927eae
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Prefabs/Jumpscares/Jumpscare_Corpse.prefab
+  uploadId: 789940

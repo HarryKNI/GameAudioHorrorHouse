@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6df3733bff67b1e4ebd4815570ede708
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Scenes/Sample Scene/NavMesh-Grounds.asset
+  uploadId: 789940

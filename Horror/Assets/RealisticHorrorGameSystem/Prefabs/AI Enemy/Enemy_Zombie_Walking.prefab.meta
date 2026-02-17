@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96ffac1321be9df4abd1a952b983aacb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 333690
+  packageName: Easy Realistic Horror and Survival Game Creator
+  packageVersion: 1.0
+  assetPath: Assets/RealisticHorrorGameSystem/Prefabs/AI Enemy/Enemy_Zombie_Walking.prefab
+  uploadId: 789940
