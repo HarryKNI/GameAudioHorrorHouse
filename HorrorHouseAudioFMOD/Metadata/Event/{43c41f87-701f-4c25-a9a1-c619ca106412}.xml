@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{43c41f87-701f-4c25-a9a1-c619ca106412}">
 		<property name="note">
 			<value>In this example we have an event that recreates the static effect of RF radios.

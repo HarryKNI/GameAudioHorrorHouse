@@ -46,7 +46,7 @@ namespace RealisticHorrorGameSystem
             {
                 objectsToAct[i].GetComponent<Animation>().Play(AnimationNameForMove);
             }
-            AudioManager.Instance.audioSource.PlayOneShot(Audio_SoundEffect);
+            //AudioManager.Instance.audioSource.PlayOneShot(Audio_SoundEffect);
             yield return new WaitForSeconds(0f);
             if (hasPlayerShock)
             {
@@ -62,7 +62,7 @@ namespace RealisticHorrorGameSystem
                 objectsToAct[i].GetComponent<Collider>().isTrigger = false;
                 objectsToAct[i].GetComponent<Rigidbody>().AddTorque(new Vector3(Random.Range(-90, 90), Random.Range(-90, 90), Random.Range(-90, 90)) * 10, ForceMode.Impulse);
             }
-            AudioManager.Instance.audioSource.PlayOneShot(Audio_SoundEffect);
+            //AudioManager.Instance.audioSource.PlayOneShot(Audio_SoundEffect);
             yield return new WaitForSeconds(0f);
             if (hasPlayerShock)
             {
@@ -78,7 +78,7 @@ namespace RealisticHorrorGameSystem
                 objectsToAct[i].GetComponent<Rigidbody>().useGravity = true;
                 objectsToAct[i].GetComponent<Rigidbody>().AddExplosionForce(ExplosionPower, new Vector3(Random.Range(objectsToAct[0].transform.position.x - 1, objectsToAct[0].transform.position.x + 1), Random.Range(objectsToAct[0].transform.position.y - 1, objectsToAct[0].transform.position.y), Random.Range(objectsToAct[0].transform.position.z - 1, objectsToAct[0].transform.position.z + 1)), Range);
             }
-            AudioManager.Instance.audioSource.PlayOneShot(Audio_SoundEffect);
+            //AudioManager.Instance.audioSource.PlayOneShot(Audio_SoundEffect);
             yield return new WaitForSeconds(0f);
             if (hasPlayerShock)
             {

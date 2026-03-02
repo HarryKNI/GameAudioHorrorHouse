@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{be6203d8-c8d8-41c5-8ce6-bce0de95807b}">
 		<property name="note">
 			<value>This is an example of a one-shot collision-based event that uses the physics of the game world to drive a parameter.

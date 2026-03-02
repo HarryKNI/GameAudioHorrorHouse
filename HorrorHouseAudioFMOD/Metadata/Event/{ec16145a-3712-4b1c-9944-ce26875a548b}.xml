@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ec16145a-3712-4b1c-9944-ce26875a548b}">
 		<property name="note">
 			<value>This is an example of horizontal re-sequencing for a dynamic music event using musical demarcations.
