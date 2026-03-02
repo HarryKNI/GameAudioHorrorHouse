@@ -342,7 +342,16 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks: []
+  Banks:
+  - Dialogue_CN
+  - Dialogue_EN
+  - Dialogue_JP
+  - Haptics
+  - Music
+  - SFX
+  - Vehicles
+  - VO
+  - Zombie_Groans
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

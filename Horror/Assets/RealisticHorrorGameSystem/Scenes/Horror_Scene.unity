@@ -2064,10 +2064,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1763210146889529435, guid: bfe584cf8a0c0904b9ab60634c1baee8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 398218112}
     - targetCorrespondingSourceObject: {fileID: 8354774535170469147, guid: bfe584cf8a0c0904b9ab60634c1baee8,
         type: 3}
       insertIndex: -1
@@ -5658,47 +5654,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1 &398218107 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1763210146889529435, guid: bfe584cf8a0c0904b9ab60634c1baee8,
-    type: 3}
-  m_PrefabInstance: {fileID: 140384649}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &398218112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398218107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1958460028
-      Data2: 1217165032
-      Data3: -261621348
-      Data4: -48242944
-    Path: event:/Music/Level 01
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params:
-  - Name: Progression
-    Value: 0
-  - Name: Stinger
-    Value: 0
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &404618217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15693,7 +15648,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7118049081345687704, guid: 96ffac1321be9df4abd1a952b983aacb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
