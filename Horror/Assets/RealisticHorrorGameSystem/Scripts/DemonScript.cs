@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,13 +28,13 @@ namespace RealisticHorrorGameSystem
         public float Distance;
         public Transform targetLocation;
         public float InitSpeed = 0;
-        public AudioClip[] Audio_Pains;
+        /*public AudioClip[] Audio_Pains;
         public AudioClip[] Audio_Dies;
         public AudioClip[] Audio_Hits;
         public AudioSource audioSource;
-        public AudioSource audioSourceRoar;
+        public AudioSource audioSourceRoar;*/
         public bool attacked = false;
-        public AudioClip[] audios_Roars;
+        //public AudioClip[] audios_Roars;
         public List<Transform> PointsToPatrol;
         private bool hasRealizedPlayer = false;
 
@@ -92,8 +93,9 @@ namespace RealisticHorrorGameSystem
         {
             if (currentStatus == BehoviourType.Chasing || currentStatus == BehoviourType.Idle)
             {
-                audioSourceRoar.clip = audios_Roars[UnityEngine.Random.Range(0, audios_Roars.Length)];
-                audioSourceRoar.Play();
+                //audioSourceRoar.clip = audios_Roars[UnityEngine.Random.Range(0, audios_Roars.Length)];
+                //audioSourceRoar.Play();
+                
             }
         }
 
@@ -311,8 +313,8 @@ namespace RealisticHorrorGameSystem
                 {
                     attacked = true;
                     animator.SetTrigger("MeeleeAttack");
-                    audioSource.PlayOneShot(Audio_Hits[UnityEngine.Random.Range(0, Audio_Hits.Length)]);
-                    StartCoroutine(HitToPlayer());
+                    /*audioSource.PlayOneShot(Audio_Hits[UnityEngine.Random.Range(0, Audio_Hits.Length)]);
+                    StartCoroutine(HitToPlayer());*/
                 }
             }
         }
@@ -352,11 +354,11 @@ namespace RealisticHorrorGameSystem
             if (Time.time > LastTimeFireDamage + 0.5f)
             {
                 LastTimeFireDamage = Time.time;
-                if (!audioSource.isPlaying)
+                /*if (!audioSource.isPlaying)
                 {
                     audioSource.clip = Audio_Pains[UnityEngine.Random.Range(0, Audio_Pains.Length)];
                     audioSource.Play();
-                }
+                }*/
             }
             StartCoroutine(StopGettingDamage());
 
@@ -366,7 +368,7 @@ namespace RealisticHorrorGameSystem
                 agent.speed = 0;
                 animator.SetTrigger("Die");
                 currentStatus = BehoviourType.Dead;
-                audioSource.PlayOneShot(Audio_Dies[UnityEngine.Random.Range(0, Audio_Dies.Length)]);
+                //audioSource.PlayOneShot(Audio_Dies[UnityEngine.Random.Range(0, Audio_Dies.Length)]);
                 Destroy(gameObject, 3);
             }
         }
@@ -394,11 +396,11 @@ namespace RealisticHorrorGameSystem
             if (Time.time > LastTimeFireDamage + 0.5f)
             {
                 LastTimeFireDamage = Time.time;
-                if (!audioSource.isPlaying)
-                {
-                    audioSource.clip = Audio_Pains[UnityEngine.Random.Range(0, Audio_Pains.Length)];
-                    audioSource.Play();
-                }
+                //if (!audioSource.isPlaying)
+                //{
+                //    audioSource.clip = Audio_Pains[UnityEngine.Random.Range(0, Audio_Pains.Length)];
+                //    audioSource.Play();
+                //}
             }
             if (health <= 0)
             {
@@ -406,7 +408,7 @@ namespace RealisticHorrorGameSystem
                 agent.speed = 0;
                 animator.SetTrigger("Die");
                 currentStatus = BehoviourType.Dead;
-                audioSource.PlayOneShot(Audio_Dies[UnityEngine.Random.Range(0, Audio_Dies.Length)]);
+                //audioSource.PlayOneShot(Audio_Dies[UnityEngine.Random.Range(0, Audio_Dies.Length)]);
                 Destroy(gameObject, 3);
             }
         }
