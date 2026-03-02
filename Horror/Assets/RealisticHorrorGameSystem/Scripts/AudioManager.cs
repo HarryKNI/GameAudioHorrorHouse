@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 
 namespace RealisticHorrorGameSystem
@@ -38,6 +39,10 @@ namespace RealisticHorrorGameSystem
 
         [Header("Press and Hold Sound Effects")]
         public AudioClip Audio_PressAndHoldMaintainDone;
+
+        [Header("FMOD Doohickey Crap")]
+        [SerializeField] StudioEventEmitter footstepEvent;
+        [SerializeField] GameObject player;
 
         private void Awake()
         {
@@ -171,10 +176,11 @@ namespace RealisticHorrorGameSystem
         {
             if (Time.time > LastTimeWalkSound + WalkSoundPeriod)
             {
-                audioSourceWalk.pitch = UnityEngine.Random.Range(1, 1.5f);
-                audioSourceWalk.Play();
+                //audioSourceWalk.pitch = UnityEngine.Random.Range(1, 1.5f);
+                //audioSourceWalk.Play();
+                footstepEvent.Play();
                 LastTimeWalkSound = Time.time;
-                WalkSoundPeriod = UnityEngine.Random.Range(0.4f, 0.75f);
+                WalkSoundPeriod = UnityEngine.Random.Range(0.4f, 0.85f);
             }
         }
 
