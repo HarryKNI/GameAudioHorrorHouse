@@ -56,6 +56,7 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{364bdf2d-8c1b-447d-a6b7-0c882337e03a}</destination>
+			<destination>{681a156a-753f-422f-97d0-7db4337872f5}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{d372e12b-0db4-49f6-ac02-ebc5cb0fd144}</destination>
@@ -101,6 +102,11 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cab8585f-4802-40ae-b8c8-8f822593975f}</destination>
+		</relationship>
+	</object>
+	<object class="GroupTrack" id="{681a156a-753f-422f-97d0-7db4337872f5}">
+		<relationship name="mixerGroup">
+			<destination>{e64b8201-2a03-43b9-88c4-a1122c9dd63f}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{d372e12b-0db4-49f6-ac02-ebc5cb0fd144}">
@@ -205,6 +211,20 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 		<relationship name="panner">
 			<destination>{4e064594-4d56-49e7-a721-e5dba6f1d8fa}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{04ff217a-6838-4446-8254-6239c1ff7e14}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{e64b8201-2a03-43b9-88c4-a1122c9dd63f}">
+		<property name="name">
+			<value>Audio 1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3eb78b95-74bc-4846-8c28-6cd9f73d5f83}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{06f9af51-e736-4e13-90f7-ad8816d8c52b}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{04ff217a-6838-4446-8254-6239c1ff7e14}</destination>
@@ -383,6 +403,12 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4e064594-4d56-49e7-a721-e5dba6f1d8fa}" />
+	<object class="MixerBusEffectChain" id="{3eb78b95-74bc-4846-8c28-6cd9f73d5f83}">
+		<relationship name="effects">
+			<destination>{1989bc0b-9a10-41b4-9bc2-a5b7f8f8eeb9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{06f9af51-e736-4e13-90f7-ad8816d8c52b}" />
 	<object class="MixerBusFader" id="{339a915c-b6a1-4c50-a1b7-2c9119e467ee}" />
 	<object class="ProxyEffect" id="{4675e2ba-138a-48e6-9ace-2abd8552a89f}">
 		<property name="inputFormat">
@@ -401,4 +427,5 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{968cff76-59b3-4cd1-b199-d797131da202}" />
+	<object class="MixerBusFader" id="{1989bc0b-9a10-41b4-9bc2-a5b7f8f8eeb9}" />
 </objects>
