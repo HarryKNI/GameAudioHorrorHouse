@@ -352,6 +352,7 @@ MonoBehaviour:
   - SFX
   - Vehicles
   - VO
+  - Zombie_Groans
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
