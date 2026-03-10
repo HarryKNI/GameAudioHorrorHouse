@@ -5160,10 +5160,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -102474259
-      Data2: 1237223418
-      Data3: -1347495535
-      Data4: -976223649
+      Data1: -638123966
+      Data2: 1156450834
+      Data3: -108836163
+      Data4: 1826712406
     Path: event:/Character/Flashlight
   Event: 
   EventPlayTrigger: 0
