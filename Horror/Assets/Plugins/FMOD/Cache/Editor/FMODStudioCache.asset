@@ -306,7 +306,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639087523736364432
+  lastModified: 639087530456324746
   FileSizes:
   - Name: Desktop
     Value: 21719840
@@ -2148,7 +2148,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639087523736364432
+  cacheTime: 639087530456324746
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
