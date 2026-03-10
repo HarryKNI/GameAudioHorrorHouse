@@ -42,6 +42,7 @@ namespace RealisticHorrorGameSystem
 
         [Header("FMOD Doohickey Crap")]
         [SerializeField] StudioEventEmitter footstepEvent;
+        [SerializeField] StudioEventEmitter flashlightEvent;
         [SerializeField] GameObject player;
 
         private void Awake()
@@ -158,7 +159,9 @@ namespace RealisticHorrorGameSystem
 
         public void Play_Flashlight_Open()
         {
-            audioSource.PlayOneShot(Flashlight);
+            //audioSource.PlayOneShot(Flashlight);
+            //flashlightEvent.pitch = UnityEngine.Random.Range(0.5f, 0.9f);
+            flashlightEvent.Play();
         }
 
         public void Play_Door_TryOpen()
@@ -168,7 +171,9 @@ namespace RealisticHorrorGameSystem
 
         public void Play_Flashlight_Close()
         {
-            audioSource.PlayOneShot(Flashlight);
+            //audioSource.PlayOneShot(Flashlight);
+            //flashlightEvent.pitch = UnityEngine.Random.Range(1.0f, 1.4f);
+            flashlightEvent.Play();
         }
 
 

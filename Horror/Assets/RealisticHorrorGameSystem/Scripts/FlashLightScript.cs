@@ -49,8 +49,8 @@ namespace RealisticHorrorGameSystem
                 {
                     isOn = false;
                     FlashLightScript.Instance.FlashLight_Decision(false);
+                    AudioManager.Instance.Play_Flashlight_Close();
                 }
-                AudioManager.Instance.Play_Flashlight_Open();
             }
         }
 
