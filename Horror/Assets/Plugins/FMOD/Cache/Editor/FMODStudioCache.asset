@@ -596,10 +596,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639087477950880671
+  lastModified: 639087483834511414
   FileSizes:
   - Name: Desktop
-    Value: 21640576
+    Value: 21707296
   Exists: 1
 --- !u!114 &-3955527117061811011
 MonoBehaviour:
@@ -727,10 +727,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087477875834648
+  lastModified: 639087483833444413
   FileSizes:
   - Name: Desktop
-    Value: 4578
+    Value: 4620
   Exists: 1
 --- !u!114 &-2859927162271784408
 MonoBehaviour:
@@ -747,7 +747,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087477875823803
+  lastModified: 639087483833433902
   FileSizes:
   - Name: Desktop
     Value: 15938
@@ -1094,13 +1094,14 @@ MonoBehaviour:
   - {fileID: -2779406121854797416}
   - {fileID: 3301559199858347815}
   - {fileID: -4355173831777217841}
+  - {fileID: 8312248983640466809}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2859927162271784408}
   StringsBanks:
   - {fileID: -2994805204786922351}
   cacheVersion: 131858
-  cacheTime: 639087477952363564
+  cacheTime: 639087485283854570
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -1182,6 +1183,8 @@ MonoBehaviour:
     index: 38
   - key: event:/Zombie_Groans
     index: 39
+  - key: event:/Character/Flashlight
+    index: 40
 --- !u!114 &331754751474402596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,7 +1753,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639087477952363564
+  lastModified: 639087485283854570
   FileSizes:
   - Name: Desktop
     Value: 51360
@@ -1933,6 +1936,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 999
+--- !u!114 &8312248983640466809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/Flashlight
+  m_EditorClassIdentifier: 
+  Path: event:/Character/Flashlight
+  Guid:
+    Data1: -102474259
+    Data2: 1237223418
+    Data3: -1347495535
+    Data4: -976223649
+  Banks:
+  - {fileID: -4114666193001237388}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &8787822883012815156
 MonoBehaviour:
   m_ObjectHideFlags: 0
