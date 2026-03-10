@@ -156,7 +156,7 @@ fmod.log
 fmod_editor.log
 
 # FMOD studio (In folder FMOD)
-/HorrorHouseAudioFMOD/**.user
-/HorrorHouseAudioFMOD/**.unsaved
-/HorrorHouseAudioFMOD/**.cache
-/HorrorHouseAudioFMOD/**.restore
+/HorrorHouseAudioFMOD/.user
+/HorrorHouseAudioFMOD/.unsaved
+/HorrorHouseAudioFMOD/.cache
+/HorrorHouseAudioFMOD/.restore
