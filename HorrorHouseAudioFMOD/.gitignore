@@ -1,0 +1,14 @@
+Build/
+Cache/
+Metadata/AssetBankCache/
+
+*.bank
+*.strings.bank
+
+*.user
+*.workspace
+
+.DS_Store
+Thumbs.db
+
+*.log

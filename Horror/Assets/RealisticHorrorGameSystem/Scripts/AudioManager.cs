@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 
 namespace RealisticHorrorGameSystem
@@ -38,6 +39,11 @@ namespace RealisticHorrorGameSystem
 
         [Header("Press and Hold Sound Effects")]
         public AudioClip Audio_PressAndHoldMaintainDone;
+
+        [Header("FMOD Doohickey Crap")]
+        [SerializeField] StudioEventEmitter footstepEvent;
+        [SerializeField] StudioEventEmitter flashlightEvent;
+        [SerializeField] GameObject player;
 
         private void Awake()
         {
@@ -153,7 +159,9 @@ namespace RealisticHorrorGameSystem
 
         public void Play_Flashlight_Open()
         {
-            audioSource.PlayOneShot(Flashlight);
+            //audioSource.PlayOneShot(Flashlight);
+            //flashlightEvent.pitch = UnityEngine.Random.Range(0.5f, 0.9f);
+            flashlightEvent.Play();
         }
 
         public void Play_Door_TryOpen()
@@ -163,7 +171,9 @@ namespace RealisticHorrorGameSystem
 
         public void Play_Flashlight_Close()
         {
-            audioSource.PlayOneShot(Flashlight);
+            //audioSource.PlayOneShot(Flashlight);
+            //flashlightEvent.pitch = UnityEngine.Random.Range(1.0f, 1.4f);
+            flashlightEvent.Play();
         }
 
 
@@ -171,10 +181,11 @@ namespace RealisticHorrorGameSystem
         {
             if (Time.time > LastTimeWalkSound + WalkSoundPeriod)
             {
-                audioSourceWalk.pitch = UnityEngine.Random.Range(1, 1.5f);
-                audioSourceWalk.Play();
+                //audioSourceWalk.pitch = UnityEngine.Random.Range(1, 1.5f);
+                //audioSourceWalk.Play();
+                footstepEvent.Play();
                 LastTimeWalkSound = Time.time;
-                WalkSoundPeriod = UnityEngine.Random.Range(0.4f, 0.75f);
+                WalkSoundPeriod = UnityEngine.Random.Range(0.4f, 0.85f);
             }
         }
 
