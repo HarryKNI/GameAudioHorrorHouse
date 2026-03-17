@@ -38,6 +38,12 @@ namespace RealisticHorrorGameSystem
         private InputAction interactAction;
         private InputAction mouseAction;
 
+        [Header("FMOD Event Parameters")]
+        //FMOD.Studio.ParameterInstance surfaceParam;
+        [SerializeField] private AudioManager audioManager;
+        public FMODUnity.ParamRef surfaceParam;
+        public int SurfaceIndex;
+
         void Start()
         {
             Time.timeScale = 1;
@@ -178,6 +184,16 @@ namespace RealisticHorrorGameSystem
             interactAction.Enable();
             mouseAction = new InputAction(type: InputActionType.Button, binding: "<Mouse>/leftButton");
             mouseAction.Enable();
+
+            //surfaceParam = audioManager.footstepEvent.getParameter("Surface");
+            for (int i = 0; i < audioManager.footstepEvent.Params.Length; i++)
+            {
+                if (audioManager.footstepEvent.Params[i].Name == "Surface")
+                {
+                    surfaceParam = audioManager.footstepEvent.Params[i];
+                    Debug.Log(surfaceParam.Name);
+                }
+            }
         }
 
         private void Update()
@@ -252,9 +268,38 @@ namespace RealisticHorrorGameSystem
 
         private void OnTriggerStay(Collider other)
         {
-            if(other.CompareTag("Vent") && !firstPersonController.isInVent && firstPersonController.isCrouching)
+            //Debug.Log("collision");
+            //if(other.gameObject.CompareTag("Vent") && !firstPersonController.isInVent && firstPersonController.isCrouching)
+            //{
+            //    firstPersonController.isInVent = true;
+            //}
+            if (other.gameObject.tag == "CarpetSurface")
             {
-                firstPersonController.isInVent = true;
+                surfaceParam.Value = 0;
+                SurfaceIndex = 0;
+                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            }
+            else if (other.gameObject.tag == "GrassSurface")
+            {
+                Debug.Log("Changed to grass");
+                surfaceParam.Value = 1;
+                SurfaceIndex = 1;
+                audioManager.footstepEvent.SetParameter("Surface", 1, false);
+            }
+            else if (other.gameObject.tag == "WoodSurface")
+            {
+                Debug.Log("IT WORKS DW");
+                surfaceParam.Value = 2;
+                SurfaceIndex = 2;
+                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            }
+        }
+
+        private void OnColliderEnter(Collision other)
+        {
+            if (other.gameObject.tag == "WoodSurface")
+            {
+                Debug.Log("IT WORKS?");
             }
         }
 
