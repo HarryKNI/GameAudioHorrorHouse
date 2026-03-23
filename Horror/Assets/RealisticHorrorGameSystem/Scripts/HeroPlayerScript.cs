@@ -281,16 +281,20 @@ namespace RealisticHorrorGameSystem
             }
             else if (other.gameObject.tag == "GrassSurface")
             {
-                Debug.Log("Changed to grass");
                 surfaceParam.Value = 1;
                 SurfaceIndex = 1;
                 audioManager.footstepEvent.SetParameter("Surface", 1, false);
             }
             else if (other.gameObject.tag == "WoodSurface")
             {
-                Debug.Log("IT WORKS DW");
                 surfaceParam.Value = 2;
                 SurfaceIndex = 2;
+                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            }
+            else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
+            {
+                surfaceParam.Value = 3;
+                SurfaceIndex = 3;
                 audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
             }
         }
