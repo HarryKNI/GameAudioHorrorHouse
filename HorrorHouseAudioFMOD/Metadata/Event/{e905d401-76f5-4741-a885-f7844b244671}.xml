@@ -155,6 +155,9 @@ Recordings by David at Track Time Audio.</value>
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{38713503-0836-4716-9138-89592d1ddb5c}</destination>
 			<destination>{8955f2c9-b5b7-4834-aa83-4bd1b466bb4d}</destination>
@@ -217,6 +220,17 @@ Recordings by David at Track Time Audio.</value>
 		<property name="start">
 			<value>3</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{5173f190-d950-405c-b017-88414bcc6619}</destination>
+			<destination>{4fc6b431-06d3-4a5c-bbe7-4b7fe55594f4}</destination>
+			<destination>{492d1e01-b326-4ef7-a4d8-78fcde7d7195}</destination>
+			<destination>{6437d75d-24ee-4173-9274-37084daa9d61}</destination>
+			<destination>{84700eb7-e6dc-463c-9ad4-41fbb1f90c5a}</destination>
+			<destination>{de2e85de-f72e-4d3f-ba18-64c25af9ae74}</destination>
+			<destination>{11179c7b-9897-4ea8-bcd6-64a1987ff468}</destination>
+			<destination>{a4d7243e-b301-4c26-9226-f3d65efbcd67}</destination>
+			<destination>{3f6ab71b-5dde-4bea-b835-f0a6fe1d75ba}</destination>
+		</relationship>
 	</object>
 	<object class="MultiSound" id="{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}">
 		<property name="start">
@@ -460,6 +474,51 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{608e6723-e496-41dd-af8e-53c6ffec238c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{5173f190-d950-405c-b017-88414bcc6619}">
+		<relationship name="audioFile">
+			<destination>{f5ca86e5-88c6-4de0-b0c3-649ed6607393}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{4fc6b431-06d3-4a5c-bbe7-4b7fe55594f4}">
+		<relationship name="audioFile">
+			<destination>{a8b88127-9df0-4b4d-9c20-2cf19cc60ae1}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{492d1e01-b326-4ef7-a4d8-78fcde7d7195}">
+		<relationship name="audioFile">
+			<destination>{01c3756e-223a-4712-9b12-9ccc5553c895}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{6437d75d-24ee-4173-9274-37084daa9d61}">
+		<relationship name="audioFile">
+			<destination>{0426e9a4-15b1-41e1-ad5c-442686cfe5ff}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{84700eb7-e6dc-463c-9ad4-41fbb1f90c5a}">
+		<relationship name="audioFile">
+			<destination>{b857423a-e10f-4688-93c9-3274eeb4abbf}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{de2e85de-f72e-4d3f-ba18-64c25af9ae74}">
+		<relationship name="audioFile">
+			<destination>{a58218a6-9913-45b9-9094-ce9bd2b7cdab}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{11179c7b-9897-4ea8-bcd6-64a1987ff468}">
+		<relationship name="audioFile">
+			<destination>{18470799-88ed-4b08-8221-7534e8582c64}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a4d7243e-b301-4c26-9226-f3d65efbcd67}">
+		<relationship name="audioFile">
+			<destination>{8b5b4439-9e7d-41c6-9cf1-813c0512f346}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3f6ab71b-5dde-4bea-b835-f0a6fe1d75ba}">
+		<relationship name="audioFile">
+			<destination>{fec40207-2bf9-4e52-841d-32ae1311468a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f422bf3-41c8-482b-9618-6725466c9717}">
