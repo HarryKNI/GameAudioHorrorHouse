@@ -99,6 +99,8 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{4d3a5bd5-f153-41bb-b698-c19027d564c9}</destination>
 			<destination>{c20932ee-3f55-4a2d-9e19-360418e793b5}</destination>
 			<destination>{308d8aa2-9498-48bf-9c33-8de1f2fcad94}</destination>
+			<destination>{cd136529-53b4-49d3-ba06-6cde1b0f48b3}</destination>
+			<destination>{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cab8585f-4802-40ae-b8c8-8f822593975f}</destination>
@@ -119,6 +121,8 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{308d8aa2-9498-48bf-9c33-8de1f2fcad94}</destination>
 			<destination>{c20932ee-3f55-4a2d-9e19-360418e793b5}</destination>
 			<destination>{4d3a5bd5-f153-41bb-b698-c19027d564c9}</destination>
+			<destination>{cd136529-53b4-49d3-ba06-6cde1b0f48b3}</destination>
+			<destination>{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{5decf701-7e48-4848-b796-416ec40eb26c}</destination>
@@ -208,6 +212,16 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{0c5cfaee-a761-4fb7-bc5d-4bea10b32f2a}</destination>
 			<destination>{8e0468cc-ba10-4940-8b83-a43fc39ee776}</destination>
 		</relationship>
+	</object>
+	<object class="MultiSound" id="{cd136529-53b4-49d3-ba06-6cde1b0f48b3}">
+		<property name="start">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="MultiSound" id="{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}">
+		<property name="start">
+			<value>4</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
 		<property name="name">
