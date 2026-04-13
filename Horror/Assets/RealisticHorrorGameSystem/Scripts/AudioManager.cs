@@ -1,4 +1,5 @@
 using FMODUnity;
+using UnityEditor;
 using UnityEngine;
 
 namespace RealisticHorrorGameSystem
@@ -125,7 +126,8 @@ namespace RealisticHorrorGameSystem
 
         public void Play_Door_Wooden_Open()
         {
-            audioSource.PlayOneShot(Door_Wooden_Open[UnityEngine.Random.Range(0, Door_Wooden_Open.Length)]);
+            //audioSource.PlayOneShot(Door_Wooden_Open[UnityEngine.Random.Range(0, Door_Wooden_Open.Length)]);
+            //doorOpenEvent.Play();
         }
 
         public void Play_Audio_Breathing()

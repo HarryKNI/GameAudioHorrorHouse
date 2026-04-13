@@ -3453,7 +3453,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1604380891}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 188584925}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdea6e6a4e5de99488814658283d4c12, type: 3}
@@ -5916,6 +5916,43 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f944a3915aade499dc51b533894561, type: 3}
+--- !u!1 &188584925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4833396748816020340, guid: c4214c4e92e5742d98682732fd98bf9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1604380891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &188584928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188584925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1652904472
+      Data2: 1192208627
+      Data3: -125142357
+      Data4: -1149771785
+    Path: event:/Character/Door Open
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &189390877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18544,21 +18581,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 171177933}
     m_Modifications:
-    - target: {fileID: 1974513454787668154, guid: d983d10349519904ba3cd0a7e3a1292a,
-        type: 3}
-      propertyPath: isLocked
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1974513454787668154, guid: d983d10349519904ba3cd0a7e3a1292a,
-        type: 3}
-      propertyPath: isOpened
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1974513454787668154, guid: d983d10349519904ba3cd0a7e3a1292a,
-        type: 3}
-      propertyPath: giveLockMessage
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8016593668010257066, guid: d983d10349519904ba3cd0a7e3a1292a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18614,12 +18636,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_3
       objectReference: {fileID: 0}
-    - target: {fileID: 8806058087483026313, guid: d983d10349519904ba3cd0a7e3a1292a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6630516655983675869, guid: d983d10349519904ba3cd0a7e3a1292a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -27358,11 +27376,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door_3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8806058087483026313, guid: d983d10349519904ba3cd0a7e3a1292a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36633,6 +36646,69 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1335139362}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1335510701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1335510703}
+  - component: {fileID: 1335510702}
+  m_Layer: 0
+  m_Name: Ambience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1335510702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335510701}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1537837262
+      Data2: 1160716552
+      Data3: -883590235
+      Data4: -519818459
+    Path: event:/Ambience/Wind Whistle
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1335510703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335510701}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 425.15002, y: -1.631338, z: 360.4442}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1339988840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43912,6 +43988,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 8806058087483026313, guid: d983d10349519904ba3cd0a7e3a1292a,
+        type: 3}
+    - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2001800964}
@@ -43920,6 +44002,11 @@ PrefabInstance:
       propertyPath: playerscript
       value: 
       objectReference: {fileID: 2001800975}
+    - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e,
+        type: 3}
+      propertyPath: doorOpenEvent
+      value: 
+      objectReference: {fileID: 188584928}
     - target: {fileID: 4833396748816020346, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
       propertyPath: footstepEvent
@@ -44000,6 +44087,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4833396748816020340, guid: c4214c4e92e5742d98682732fd98bf9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 188584928}
     - targetCorrespondingSourceObject: {fileID: 8375778570081209012, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
       insertIndex: -1
@@ -53556,7 +53647,7 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params:
   - Name: Surface
-    Value: 2
+    Value: 1
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
@@ -57804,6 +57895,7 @@ SceneRoots:
   - {fileID: 1604380891}
   - {fileID: 1191459601}
   - {fileID: 1128367725}
+  - {fileID: 1335510703}
   - {fileID: 1367087269}
   - {fileID: 1637181296}
   - {fileID: 853005592}

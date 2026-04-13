@@ -224,6 +224,9 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Footsteps</value>
 		</property>
@@ -254,6 +257,9 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e64b8201-2a03-43b9-88c4-a1122c9dd63f}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
 			<value>Footsteps Reverb</value>
 		</property>

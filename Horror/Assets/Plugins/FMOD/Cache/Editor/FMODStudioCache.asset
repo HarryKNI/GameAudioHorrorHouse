@@ -306,10 +306,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639099612004080107
+  lastModified: 639117207738319116
   FileSizes:
   - Name: Desktop
-    Value: 21799040
+    Value: 21798656
   Exists: 1
 --- !u!114 &-7747285715381928157
 MonoBehaviour:
@@ -649,10 +649,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Haptics.bank
   Name: Haptics
   StudioPath: bank:/Haptics
-  lastModified: 639099548804599153
+  lastModified: 639098991539974081
   FileSizes:
   - Name: Desktop
-    Value: 300480
+    Value: 387904
   Exists: 1
 --- !u!114 &-6654955515932781877
 MonoBehaviour:
@@ -669,10 +669,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639099548836158848
+  lastModified: 639098991641474864
   FileSizes:
   - Name: Desktop
-    Value: 222688
+    Value: 222624
   Exists: 1
 --- !u!114 &-6598795175555618393
 MonoBehaviour:
@@ -713,10 +713,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639099548833678859
+  lastModified: 639098991579527198
   FileSizes:
   - Name: Desktop
-    Value: 10454624
+    Value: 10454752
   Exists: 1
 --- !u!114 &-6586037241541655132
 MonoBehaviour:
@@ -1367,6 +1367,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3533095292210106517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IsIndoors
+  m_EditorClassIdentifier: 
+  Name: IsIndoors
+  StudioPath: parameter:/IsIndoors
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1346237524
+    data2: 835210456
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3269134913484664979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1740,7 +1764,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_CN.bank
   Name: Dialogue_CN
   StudioPath: bank:/Dialogue_CN
-  lastModified: 639099548802479952
+  lastModified: 639098991536582092
   FileSizes:
   - Name: Desktop
     Value: 52416
@@ -1868,7 +1892,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639099548836948749
+  lastModified: 639098991642662344
   FileSizes:
   - Name: Desktop
     Value: 51360
@@ -2117,13 +2141,14 @@ MonoBehaviour:
   - {fileID: -4714218375854972450}
   - {fileID: 5891803442787029273}
   - {fileID: 6274453543478904950}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: -3533095292210106517}
   MasterBanks:
   - {fileID: 8496942661731490781}
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639099612004080107
+  cacheTime: 639117207738319116
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2450,10 +2475,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639099548804659936
+  lastModified: 639117207735750567
   FileSizes:
   - Name: Desktop
-    Value: 4620
+    Value: 4670
   Exists: 1
 --- !u!114 &1890264081741740455
 MonoBehaviour:
@@ -2570,10 +2595,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_JP.bank
   Name: Dialogue_JP
   StudioPath: bank:/Dialogue_JP
-  lastModified: 639099548803497651
+  lastModified: 639098991538100187
   FileSizes:
   - Name: Desktop
-    Value: 66592
+    Value: 66560
   Exists: 1
 --- !u!114 &2530019044784417855
 MonoBehaviour:
@@ -3829,10 +3854,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639099548804652423
+  lastModified: 639117207735730090
   FileSizes:
   - Name: Desktop
-    Value: 15938
+    Value: 16116
   Exists: 1
 --- !u!114 &8501398307316992438
 MonoBehaviour:
@@ -3954,10 +3979,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639099548836481321
+  lastModified: 639098991641964622
   FileSizes:
   - Name: Desktop
-    Value: 38624
+    Value: 38592
   Exists: 1
 --- !u!114 &9125210713901249684
 MonoBehaviour:
@@ -4001,10 +4026,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_EN.bank
   Name: Dialogue_EN
   StudioPath: bank:/Dialogue_EN
-  lastModified: 639099548802999371
+  lastModified: 639098991537337734
   FileSizes:
   - Name: Desktop
-    Value: 61088
+    Value: 61120
   Exists: 1
 --- !u!114 &9209629004819634468
 MonoBehaviour:
