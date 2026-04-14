@@ -1072,8 +1072,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fc74b966878c85c48b8c7a39c432b811,
         type: 3}
       propertyPath: m_Name
@@ -1083,6 +1082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc74b966878c85c48b8c7a39c432b811,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fc74b966878c85c48b8c7a39c432b811,
         type: 3}
@@ -1955,25 +1959,11 @@ MonoBehaviour:
   Distance: 0
   targetLocation: {fileID: 0}
   InitSpeed: 0
-  Audio_Pains:
-  - {fileID: 8300000, guid: d7487b906f3e348eeb7857c1ed487b0f, type: 3}
-  - {fileID: 8300000, guid: fb4bd8d0672974994b088aac45abadf3, type: 3}
-  - {fileID: 8300000, guid: efe56f49e3e4c4e159922941972a7c7d, type: 3}
-  - {fileID: 8300000, guid: 87b4d4cac348641da95800c5cf0e0fa7, type: 3}
-  Audio_Dies:
-  - {fileID: 8300000, guid: 5a9be7a8adcea4cc985670b96ad608fa, type: 3}
-  - {fileID: 8300000, guid: 36d12ac89199345e792b2cf6c28874d0, type: 3}
-  Audio_Hits:
-  - {fileID: 8300000, guid: cd1a67992c0404703ae43942c68e89cd, type: 3}
-  - {fileID: 8300000, guid: d22786a154f1149708644dc51663fe33, type: 3}
-  audioSource: {fileID: 0}
-  audioSourceRoar: {fileID: 0}
   attacked: 0
-  audios_Roars:
-  - {fileID: 8300000, guid: 2767b357b95e741c2a77e6ea6c93ce47, type: 3}
-  - {fileID: 8300000, guid: 3611bf09f2d74442c8250fde72ac1294, type: 3}
-  - {fileID: 8300000, guid: 0785f17306f904f9ab917dae5d04236d, type: 3}
   PointsToPatrol: []
+  DemonRoar: {fileID: 0}
+  DemonIdle: {fileID: 0}
+  DemonChase: {fileID: 0}
 --- !u!54 &1611607876914110281
 Rigidbody:
   m_ObjectHideFlags: 0

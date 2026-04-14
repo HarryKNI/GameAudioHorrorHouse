@@ -42,7 +42,7 @@ namespace RealisticHorrorGameSystem
 
         [Header("FMOD Doohickey Crap")]
         [SerializeField] StudioEventEmitter footstepEvent;
-        [SerializeField] GameObject player;
+        [SerializeField] GameObject player; 
 
         private void Awake()
         {
