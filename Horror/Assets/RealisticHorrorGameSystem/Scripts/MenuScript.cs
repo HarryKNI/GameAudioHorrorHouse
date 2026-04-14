@@ -8,6 +8,11 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("Horror_Scene");
     }
 
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
