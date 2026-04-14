@@ -157,6 +157,9 @@ Recordings by David at Track Time Audio.</value>
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
@@ -222,6 +225,9 @@ Recordings by David at Track Time Audio.</value>
 		<property name="start">
 			<value>4</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{8775e90d-9311-4c9d-a99f-22fcb0f8bd6d}</destination>
 			<destination>{c53b3a4c-5447-457b-b59f-8a6dd1e4f239}</destination>
@@ -265,7 +271,7 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="EventMixerGroup" id="{e64b8201-2a03-43b9-88c4-a1122c9dd63f}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-30</value>
 		</property>
 		<property name="name">
 			<value>Footsteps Reverb</value>

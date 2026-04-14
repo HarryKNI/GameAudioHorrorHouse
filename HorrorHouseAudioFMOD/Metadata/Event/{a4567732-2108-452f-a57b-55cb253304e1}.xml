@@ -593,10 +593,10 @@
 			<value>WhistlingFmax</value>
 		</property>
 		<property name="value">
-			<value>2096</value>
+			<value>500</value>
 		</property>
 		<property name="curve">
-			<value>{(3.500000,1000.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(6.782609,5000.000000)}</value>
+			<value>{(1.000000,100.000000)(2.000000,400.000000)(2.285714,500.000000)}</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{ccd4838c-695f-4996-b9cb-3658370297d8}">
@@ -869,7 +869,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumValue">
-			<value>3</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c6b7ba49-9436-4acd-bacf-a4c556955532}" />
@@ -1140,10 +1140,10 @@
 			<value>WhistlingFmax</value>
 		</property>
 		<property name="value">
-			<value>1240</value>
+			<value>500</value>
 		</property>
 		<property name="curve">
-			<value>{(3.500000,1000.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(6.782609,5000.000000)}</value>
+			<value>{(1.000000,100.000000)(2.000000,400.000000)(2.285714,500.000000)}</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{46f8dfa8-ee58-4d6a-aa82-06895d5e4864}">
@@ -1416,7 +1416,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumValue">
-			<value>3</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{c91e01d3-fdc6-4ba3-be0b-f95c4412fe40}">
