@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using System.Linq;
+using FMODUnity;
+using UnityEngine.Audio;
 
 namespace RealisticHorrorGameSystem
 {
@@ -12,6 +14,9 @@ namespace RealisticHorrorGameSystem
         public int KeyID_ToOpen = 0;
         private Animation dooranimation;
         public Collider doorCollider;
+
+        [SerializeField] private StudioEventEmitter doorOpenEvent;
+        [SerializeField] private StudioEventEmitter doorCloseEvent;
 
         private void Start()
         {
@@ -61,12 +66,12 @@ namespace RealisticHorrorGameSystem
                         dooranimation.Play("Custom_Animation_Door_Open");
                         isOpened = true;
                         doorCollider.enabled = false;
-                        AudioManager.Instance.Play_Door_Wooden_Open();
+                        Play_Door_Wooden_Open();
                     }
                     else
                     {
                         isOpened = false;
-                        AudioManager.Instance.Play_Door_Close();
+                        Play_Door_Close();
                         dooranimation["Custom_Animation_Door_Open"].time = dooranimation["Custom_Animation_Door_Open"].length;
                         dooranimation["Custom_Animation_Door_Open"].speed = -1;
                         dooranimation.Play("Custom_Animation_Door_Open");
@@ -80,6 +85,18 @@ namespace RealisticHorrorGameSystem
                 yield return new WaitForSeconds(1);
                 doorCollider.enabled = true;
             }
+        }
+
+        public void Play_Door_Wooden_Open()
+        {
+            //audioSource.PlayOneShot(Door_Wooden_Open[UnityEngine.Random.Range(0, Door_Wooden_Open.Length)]);
+            doorOpenEvent.Play();
+        }
+
+        public void Play_Door_Close()
+        {
+            //audioSource.PlayOneShot(Door_Close[UnityEngine.Random.Range(0, Door_Close.Length)]);
+            doorCloseEvent.Play();
         }
     }
 }
