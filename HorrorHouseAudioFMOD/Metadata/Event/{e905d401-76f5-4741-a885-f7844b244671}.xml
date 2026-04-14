@@ -222,6 +222,13 @@ Recordings by David at Track Time Audio.</value>
 		<property name="start">
 			<value>4</value>
 		</property>
+		<relationship name="sounds">
+			<destination>{8775e90d-9311-4c9d-a99f-22fcb0f8bd6d}</destination>
+			<destination>{c53b3a4c-5447-457b-b59f-8a6dd1e4f239}</destination>
+			<destination>{3e131971-633f-4ac1-83f1-e8cce00bfc49}</destination>
+			<destination>{6d85af8b-7b21-40af-929f-3c9fc3dace26}</destination>
+			<destination>{f491e7b6-2f7c-472b-9726-2c0a5e62b5c7}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
 		<property name="volume">
@@ -482,6 +489,31 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{608e6723-e496-41dd-af8e-53c6ffec238c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{8775e90d-9311-4c9d-a99f-22fcb0f8bd6d}">
+		<relationship name="audioFile">
+			<destination>{03e62071-15f4-48c4-b4ef-3b70beb86195}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c53b3a4c-5447-457b-b59f-8a6dd1e4f239}">
+		<relationship name="audioFile">
+			<destination>{7d20314e-1f7e-46a3-91a5-625f27b0da5d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3e131971-633f-4ac1-83f1-e8cce00bfc49}">
+		<relationship name="audioFile">
+			<destination>{d58e030a-3782-456b-9641-b630fe8f408b}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{6d85af8b-7b21-40af-929f-3c9fc3dace26}">
+		<relationship name="audioFile">
+			<destination>{727ffa8d-e454-422d-9712-ab6166e57bc6}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f491e7b6-2f7c-472b-9726-2c0a5e62b5c7}">
+		<relationship name="audioFile">
+			<destination>{d953a3a9-414a-49c8-830e-a05520052b27}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f422bf3-41c8-482b-9618-6725466c9717}">
