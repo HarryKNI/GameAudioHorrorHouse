@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{5b5d39e7-47fd-4448-912b-3a4261c1e939}">
+	<object class="EncodableAsset" id="{ea942c3c-f1c7-4861-bfe2-d9bdaca31792}">
 		<property name="assetPath">
-			<value>Character/Flashlight/</value>
+			<value>Character/Footsteps/Concrete/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>

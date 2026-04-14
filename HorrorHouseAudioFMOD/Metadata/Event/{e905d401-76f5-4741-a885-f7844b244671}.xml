@@ -99,7 +99,6 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{4d3a5bd5-f153-41bb-b698-c19027d564c9}</destination>
 			<destination>{c20932ee-3f55-4a2d-9e19-360418e793b5}</destination>
 			<destination>{308d8aa2-9498-48bf-9c33-8de1f2fcad94}</destination>
-			<destination>{cd136529-53b4-49d3-ba06-6cde1b0f48b3}</destination>
 			<destination>{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -107,6 +106,9 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{681a156a-753f-422f-97d0-7db4337872f5}">
+		<relationship name="modules">
+			<destination>{cd136529-53b4-49d3-ba06-6cde1b0f48b3}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e64b8201-2a03-43b9-88c4-a1122c9dd63f}</destination>
 		</relationship>
@@ -216,6 +218,35 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{8e0468cc-ba10-4940-8b83-a43fc39ee776}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}">
+		<property name="start">
+			<value>4</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{8775e90d-9311-4c9d-a99f-22fcb0f8bd6d}</destination>
+			<destination>{c53b3a4c-5447-457b-b59f-8a6dd1e4f239}</destination>
+			<destination>{3e131971-633f-4ac1-83f1-e8cce00bfc49}</destination>
+			<destination>{6d85af8b-7b21-40af-929f-3c9fc3dace26}</destination>
+			<destination>{f491e7b6-2f7c-472b-9726-2c0a5e62b5c7}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
+		<property name="name">
+			<value>Footsteps</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6f422bf3-41c8-482b-9618-6725466c9717}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4e064594-4d56-49e7-a721-e5dba6f1d8fa}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{04ff217a-6838-4446-8254-6239c1ff7e14}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{cd136529-53b4-49d3-ba06-6cde1b0f48b3}">
 		<property name="start">
 			<value>3</value>
@@ -232,28 +263,12 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{3f6ab71b-5dde-4bea-b835-f0a6fe1d75ba}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}">
-		<property name="start">
-			<value>4</value>
-		</property>
-	</object>
-	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
-		<property name="name">
-			<value>Footsteps</value>
-		</property>
-		<relationship name="effectChain">
-			<destination>{6f422bf3-41c8-482b-9618-6725466c9717}</destination>
-		</relationship>
-		<relationship name="panner">
-			<destination>{4e064594-4d56-49e7-a721-e5dba6f1d8fa}</destination>
-		</relationship>
-		<relationship name="output">
-			<destination>{04ff217a-6838-4446-8254-6239c1ff7e14}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{e64b8201-2a03-43b9-88c4-a1122c9dd63f}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Footsteps Reverb</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{3eb78b95-74bc-4846-8c28-6cd9f73d5f83}</destination>
@@ -476,6 +491,37 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{608e6723-e496-41dd-af8e-53c6ffec238c}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{8775e90d-9311-4c9d-a99f-22fcb0f8bd6d}">
+		<relationship name="audioFile">
+			<destination>{03e62071-15f4-48c4-b4ef-3b70beb86195}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c53b3a4c-5447-457b-b59f-8a6dd1e4f239}">
+		<relationship name="audioFile">
+			<destination>{7d20314e-1f7e-46a3-91a5-625f27b0da5d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3e131971-633f-4ac1-83f1-e8cce00bfc49}">
+		<relationship name="audioFile">
+			<destination>{d58e030a-3782-456b-9641-b630fe8f408b}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{6d85af8b-7b21-40af-929f-3c9fc3dace26}">
+		<relationship name="audioFile">
+			<destination>{727ffa8d-e454-422d-9712-ab6166e57bc6}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f491e7b6-2f7c-472b-9726-2c0a5e62b5c7}">
+		<relationship name="audioFile">
+			<destination>{d953a3a9-414a-49c8-830e-a05520052b27}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6f422bf3-41c8-482b-9618-6725466c9717}">
+		<relationship name="effects">
+			<destination>{968cff76-59b3-4cd1-b199-d797131da202}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4e064594-4d56-49e7-a721-e5dba6f1d8fa}" />
 	<object class="SingleSound" id="{5173f190-d950-405c-b017-88414bcc6619}">
 		<relationship name="audioFile">
 			<destination>{f5ca86e5-88c6-4de0-b0c3-649ed6607393}</destination>
@@ -521,15 +567,11 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{fec40207-2bf9-4e52-841d-32ae1311468a}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusEffectChain" id="{6f422bf3-41c8-482b-9618-6725466c9717}">
-		<relationship name="effects">
-			<destination>{968cff76-59b3-4cd1-b199-d797131da202}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusPanner" id="{4e064594-4d56-49e7-a721-e5dba6f1d8fa}" />
 	<object class="MixerBusEffectChain" id="{3eb78b95-74bc-4846-8c28-6cd9f73d5f83}">
 		<relationship name="effects">
+			<destination>{8c5651ac-2be7-45ea-bf64-43bd49fe6f95}</destination>
 			<destination>{1989bc0b-9a10-41b4-9bc2-a5b7f8f8eeb9}</destination>
+			<destination>{aa278f44-843c-47b3-80c3-36bdc02eac85}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{06f9af51-e736-4e13-90f7-ad8816d8c52b}" />
@@ -551,5 +593,18 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{968cff76-59b3-4cd1-b199-d797131da202}" />
+	<object class="SFXReverbEffect" id="{8c5651ac-2be7-45ea-bf64-43bd49fe6f95}">
+		<property name="decayTime">
+			<value>3500</value>
+		</property>
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{1989bc0b-9a10-41b4-9bc2-a5b7f8f8eeb9}" />
+	<object class="DistortionEffect" id="{aa278f44-843c-47b3-80c3-36bdc02eac85}">
+		<property name="level">
+			<value>0.599999964</value>
+		</property>
+	</object>
 </objects>
