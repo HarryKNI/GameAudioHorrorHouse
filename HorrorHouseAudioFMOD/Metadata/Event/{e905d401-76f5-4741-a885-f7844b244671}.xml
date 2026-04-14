@@ -199,6 +199,8 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{f1849734-0d5f-4a86-a43f-30d3e6d291a8}</destination>
 			<destination>{1ca06fe7-5ce1-40bb-bf01-2ca52b6df67c}</destination>
 			<destination>{c7b94ab4-9722-4c1b-8bd4-3fa5fff4039a}</destination>
+			<destination>{0f0b6968-60c7-474a-983f-9cd7e36499de}</destination>
+			<destination>{bc9e3c96-81c4-464a-b363-cc8a521ba88c}</destination>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{308d8aa2-9498-48bf-9c33-8de1f2fcad94}">
@@ -442,6 +444,16 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{0d1a2d03-68bb-4208-b28d-208303a0166e}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{0f0b6968-60c7-474a-983f-9cd7e36499de}">
+		<relationship name="audioFile">
+			<destination>{0c5226ed-b62c-40cc-ac04-caefcc3416a9}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{bc9e3c96-81c4-464a-b363-cc8a521ba88c}">
+		<relationship name="audioFile">
+			<destination>{8bf01e47-64af-4e0b-8b5a-72b5ba8f880a}</destination>
 		</relationship>
 	</object>
 	<object class="RandomizerModulator" id="{cf32ad36-a325-4c34-9991-3dd67db3a087}">
