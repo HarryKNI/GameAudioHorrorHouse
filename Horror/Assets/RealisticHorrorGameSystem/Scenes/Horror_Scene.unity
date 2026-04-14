@@ -2125,6 +2125,12 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &62989901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7132130328440844399, guid: ab0e871eb4129ec44b926c3c987fb519,
+    type: 3}
+  m_PrefabInstance: {fileID: 971563695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &63247499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18586,6 +18592,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 171177933}
     m_Modifications:
+    - target: {fileID: 636594279777943141, guid: d983d10349519904ba3cd0a7e3a1292a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8016593668010257066, guid: d983d10349519904ba3cd0a7e3a1292a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19449,6 +19460,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617105835662925606, guid: bfe584cf8a0c0904b9ab60634c1baee8,
+        type: 3}
+      propertyPath: lightIsOnWhenStart
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5111500893072079225, guid: bfe584cf8a0c0904b9ab60634c1baee8,
         type: 3}
@@ -27141,7 +27157,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7132130328440844399, guid: ab0e871eb4129ec44b926c3c987fb519,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971563700}
   m_SourcePrefab: {fileID: 100100000, guid: ab0e871eb4129ec44b926c3c987fb519, type: 3}
 --- !u!4 &971563696 stripped
 Transform:
@@ -27149,6 +27169,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 971563695}
   m_PrefabAsset: {fileID: 0}
+--- !u!111 &971563700
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62989901}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 1664496e98bd01d4086a3a3577646bbc, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1664496e98bd01d4086a3a3577646bbc, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &973344738
 PrefabInstance:
   m_ObjectHideFlags: 0
