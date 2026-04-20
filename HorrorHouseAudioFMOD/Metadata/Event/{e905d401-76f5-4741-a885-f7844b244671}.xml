@@ -158,7 +158,7 @@ Recordings by David at Track Time Audio.</value>
 			<value>3</value>
 		</property>
 		<property name="volume">
-			<value>-5</value>
+			<value>-15</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -202,6 +202,8 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{f1849734-0d5f-4a86-a43f-30d3e6d291a8}</destination>
 			<destination>{1ca06fe7-5ce1-40bb-bf01-2ca52b6df67c}</destination>
 			<destination>{c7b94ab4-9722-4c1b-8bd4-3fa5fff4039a}</destination>
+			<destination>{0f0b6968-60c7-474a-983f-9cd7e36499de}</destination>
+			<destination>{bc9e3c96-81c4-464a-b363-cc8a521ba88c}</destination>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{308d8aa2-9498-48bf-9c33-8de1f2fcad94}">
@@ -211,14 +213,19 @@ Recordings by David at Track Time Audio.</value>
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{cf32ad36-a325-4c34-9991-3dd67db3a087}</destination>
 			<destination>{ebe92199-3690-4951-be30-3a03924190ea}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{7a94e635-fe59-475b-b5ec-763f64272d47}</destination>
-			<destination>{0c5cfaee-a761-4fb7-bc5d-4bea10b32f2a}</destination>
-			<destination>{8e0468cc-ba10-4940-8b83-a43fc39ee776}</destination>
+			<destination>{ca841a61-fe1a-4342-8b08-8eeeb823100b}</destination>
+			<destination>{b439e8ba-d5fb-4a14-b491-828ccf5070b1}</destination>
+			<destination>{e67d5b98-ea60-41cb-ba6e-0673976bc32f}</destination>
+			<destination>{a8b3eaed-c4b4-4652-b094-13f266142c97}</destination>
+			<destination>{c962272f-4825-479b-a43f-2464005a07ed}</destination>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{8d82c6d7-c051-47d6-86b8-d8c6a1bc8323}">
@@ -271,7 +278,7 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="EventMixerGroup" id="{e64b8201-2a03-43b9-88c4-a1122c9dd63f}">
 		<property name="volume">
-			<value>-30</value>
+			<value>-29.5</value>
 		</property>
 		<property name="name">
 			<value>Footsteps Reverb</value>
@@ -448,6 +455,16 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{0d1a2d03-68bb-4208-b28d-208303a0166e}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{0f0b6968-60c7-474a-983f-9cd7e36499de}">
+		<relationship name="audioFile">
+			<destination>{0c5226ed-b62c-40cc-ac04-caefcc3416a9}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{bc9e3c96-81c4-464a-b363-cc8a521ba88c}">
+		<relationship name="audioFile">
+			<destination>{8bf01e47-64af-4e0b-8b5a-72b5ba8f880a}</destination>
+		</relationship>
+	</object>
 	<object class="RandomizerModulator" id="{cf32ad36-a325-4c34-9991-3dd67db3a087}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
@@ -464,37 +481,44 @@ Recordings by David at Track Time Audio.</value>
 			<value>3</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{7a94e635-fe59-475b-b5ec-763f64272d47}">
-		<property name="length">
-			<value>0</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
+	<object class="SingleSound" id="{ca841a61-fe1a-4342-8b08-8eeeb823100b}">
+		<property name="volume">
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{f8fe8df2-84c7-466b-87d3-fffe671bbe34}</destination>
+			<destination>{66656939-6fcf-4107-b4ef-158afd92450f}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{0c5cfaee-a761-4fb7-bc5d-4bea10b32f2a}">
-		<property name="length">
-			<value>0</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
+	<object class="SingleSound" id="{b439e8ba-d5fb-4a14-b491-828ccf5070b1}">
+		<property name="volume">
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{14378e12-c81b-4be1-a076-28089543a7d4}</destination>
+			<destination>{6262925f-4b62-4dd7-b65f-a9e055ede3f9}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{8e0468cc-ba10-4940-8b83-a43fc39ee776}">
-		<property name="length">
-			<value>0</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
+	<object class="SingleSound" id="{e67d5b98-ea60-41cb-ba6e-0673976bc32f}">
+		<property name="volume">
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{608e6723-e496-41dd-af8e-53c6ffec238c}</destination>
+			<destination>{9d2f968e-ce41-4181-b09f-7bc470f38283}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a8b3eaed-c4b4-4652-b094-13f266142c97}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{8200e8b8-6baf-44de-8d1b-dcd54975848f}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c962272f-4825-479b-a43f-2464005a07ed}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{80c879cf-2d01-496d-8df3-416c3ab11753}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8775e90d-9311-4c9d-a99f-22fcb0f8bd6d}">
