@@ -1,4 +1,5 @@
 using FMODUnity;
+using UnityEditor;
 using UnityEngine;
 
 namespace RealisticHorrorGameSystem
@@ -41,9 +42,10 @@ namespace RealisticHorrorGameSystem
         public AudioClip Audio_PressAndHoldMaintainDone;
 
         [Header("FMOD Doohickey Crap")]
-        [SerializeField] StudioEventEmitter footstepEvent;
+        [SerializeField] public StudioEventEmitter footstepEvent;
         [SerializeField] StudioEventEmitter flashlightEvent;
         [SerializeField] GameObject player;
+        [SerializeField] private HeroPlayerScript playerscript;
 
         private void Awake()
         {
@@ -124,7 +126,8 @@ namespace RealisticHorrorGameSystem
 
         public void Play_Door_Wooden_Open()
         {
-            audioSource.PlayOneShot(Door_Wooden_Open[UnityEngine.Random.Range(0, Door_Wooden_Open.Length)]);
+            //audioSource.PlayOneShot(Door_Wooden_Open[UnityEngine.Random.Range(0, Door_Wooden_Open.Length)]);
+            //doorOpenEvent.Play();
         }
 
         public void Play_Audio_Breathing()
@@ -183,9 +186,10 @@ namespace RealisticHorrorGameSystem
             {
                 //audioSourceWalk.pitch = UnityEngine.Random.Range(1, 1.5f);
                 //audioSourceWalk.Play();
+                WalkSoundPeriod = UnityEngine.Random.Range(0.4f, 0.85f);
+                footstepEvent.SetParameter("Surface", playerscript.SurfaceIndex, false);
                 footstepEvent.Play();
                 LastTimeWalkSound = Time.time;
-                WalkSoundPeriod = UnityEngine.Random.Range(0.4f, 0.85f);
             }
         }
 

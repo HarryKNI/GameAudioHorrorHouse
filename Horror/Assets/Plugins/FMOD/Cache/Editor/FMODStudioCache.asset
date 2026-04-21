@@ -306,10 +306,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639087530456324746
+  lastModified: 639117578088910254
   FileSizes:
   - Name: Desktop
-    Value: 21719840
+    Value: 21836704
   Exists: 1
 --- !u!114 &-7747285715381928157
 MonoBehaviour:
@@ -494,33 +494,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56888
---- !u!114 &-7155059659364952423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Character/Flashlight
-  m_EditorClassIdentifier: 
-  Path: event:/Character/Flashlight
-  Guid:
-    Data1: -638123966
-    Data2: 1156450834
-    Data3: -108836163
-    Data4: 1826712406
-  Banks:
-  - {fileID: -7812746825709787190}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 390
 --- !u!114 &-7042704693827981391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,30 +649,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Haptics.bank
   Name: Haptics
   StudioPath: bank:/Haptics
-  lastModified: 639087477875764340
+  lastModified: 639117578086547224
   FileSizes:
   - Name: Desktop
     Value: 300480
-  Exists: 1
---- !u!114 &-6659773320215025476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Zombie_Groans.bank
-  m_EditorClassIdentifier: 
-  Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
-  Name: Zombie_Groans
-  StudioPath: bank:/Zombie_Groans
-  lastModified: 639087485283854570
-  FileSizes:
-  - Name: Desktop
-    Value: 51360
   Exists: 1
 --- !u!114 &-6654955515932781877
 MonoBehaviour:
@@ -716,7 +669,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639087477951602820
+  lastModified: 639117578089299261
   FileSizes:
   - Name: Desktop
     Value: 222688
@@ -760,7 +713,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639087477902844429
+  lastModified: 639117578087363390
   FileSizes:
   - Name: Desktop
     Value: 10454624
@@ -1414,6 +1367,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3533095292210106517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IsIndoors
+  m_EditorClassIdentifier: 
+  Name: IsIndoors
+  StudioPath: parameter:/IsIndoors
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1346237524
+    data2: 835210456
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3269134913484664979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,7 +1764,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_CN.bank
   Name: Dialogue_CN
   StudioPath: bank:/Dialogue_CN
-  lastModified: 639087477873631165
+  lastModified: 639117578085739537
   FileSizes:
   - Name: Desktop
     Value: 52416
@@ -1900,6 +1877,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 54339
+--- !u!114 &-722862926959776770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Zombie_Groans.bank
+  m_EditorClassIdentifier: 
+  Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
+  Name: Zombie_Groans
+  StudioPath: bank:/Zombie_Groans
+  lastModified: 639117578089697717
+  FileSizes:
+  - Name: Desktop
+    Value: 51360
+  Exists: 1
 --- !u!114 &-559810128464457193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2037,7 +2034,7 @@ MonoBehaviour:
   Name: Surface
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 4
   Default: 0
   ID:
     data1: 2238430967
@@ -2047,7 +2044,9 @@ MonoBehaviour:
   Labels:
   - Carpet
   - Grass
-  - Wood Floor
+  - Wood
+  - Metal
+  - Concrete
   Exists: 1
 --- !u!114 &-196724655913543001
 MonoBehaviour:
@@ -2099,7 +2098,7 @@ MonoBehaviour:
   - {fileID: -7812746825709787190}
   - {fileID: 9081570151260649005}
   - {fileID: -6654955515932781877}
-  - {fileID: -6659773320215025476}
+  - {fileID: -722862926959776770}
   EditorEvents:
   - {fileID: -8864465389195106370}
   - {fileID: -2938819705138391111}
@@ -2135,20 +2134,21 @@ MonoBehaviour:
   - {fileID: 3107747689255403342}
   - {fileID: 8288199119893169770}
   - {fileID: -5831340360546997291}
-  - {fileID: -7155059659364952423}
   - {fileID: -7205713306099336161}
   - {fileID: -8478528555142180114}
   - {fileID: 4928679416859134034}
   - {fileID: 4910792328178416225}
   - {fileID: -4714218375854972450}
-  - {fileID: 8215449052773981384}
-  EditorParameters: []
+  - {fileID: 5891803442787029273}
+  - {fileID: 6274453543478904950}
+  EditorParameters:
+  - {fileID: -3533095292210106517}
   MasterBanks:
   - {fileID: 8496942661731490781}
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639087530456324746
+  cacheTime: 639117578089697717
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2218,17 +2218,17 @@ MonoBehaviour:
     index: 32
   - key: event:/UI/Cancel
     index: 33
-  - key: event:/Character/Flashlight
-    index: 34
   - key: event:/Weapons/Machine Gun
-    index: 35
+    index: 34
   - key: event:/VO/Main Menu
-    index: 36
+    index: 35
   - key: event:/VO/Welcome
-    index: 37
+    index: 36
   - key: event:/Vehicles/Car Engine
-    index: 38
+    index: 37
   - key: event:/Vehicles/Ride-on Mower
+    index: 38
+  - key: event:/Character/Flashlight
     index: 39
   - key: event:/Zombie_Groans
     index: 40
@@ -2475,10 +2475,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639087523688018063
+  lastModified: 639117578086618038
   FileSizes:
   - Name: Desktop
-    Value: 4620
+    Value: 4670
   Exists: 1
 --- !u!114 &1890264081741740455
 MonoBehaviour:
@@ -2595,7 +2595,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_JP.bank
   Name: Dialogue_JP
   StudioPath: bank:/Dialogue_JP
-  lastModified: 639087477874641931
+  lastModified: 639117578086033927
   FileSizes:
   - Name: Desktop
     Value: 66592
@@ -3348,6 +3348,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1488
+--- !u!114 &5891803442787029273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/Flashlight
+  m_EditorClassIdentifier: 
+  Path: event:/Character/Flashlight
+  Guid:
+    Data1: -638123966
+    Data2: 1156450834
+    Data3: -108836163
+    Data4: 1826712406
+  Banks:
+  - {fileID: -7812746825709787190}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 390
 --- !u!114 &6163655321219284885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3416,6 +3443,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6274453543478904950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zombie_Groans
+  m_EditorClassIdentifier: 
+  Path: event:/Zombie_Groans
+  Guid:
+    Data1: 522105440
+    Data2: 1304246639
+    Data3: -152602438
+    Data4: -1793671370
+  Banks:
+  - {fileID: -722862926959776770}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &6950328379026183738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3648,33 +3702,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &8215449052773981384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Zombie_Groans
-  m_EditorClassIdentifier: 
-  Path: event:/Zombie_Groans
-  Guid:
-    Data1: 522105440
-    Data2: 1304246639
-    Data3: -152602438
-    Data4: -1793671370
-  Banks:
-  - {fileID: -6659773320215025476}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
 --- !u!114 &8253254439780777540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3827,10 +3854,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639087523688006526
+  lastModified: 639117578086608578
   FileSizes:
   - Name: Desktop
-    Value: 15938
+    Value: 16116
   Exists: 1
 --- !u!114 &8501398307316992438
 MonoBehaviour:
@@ -3952,7 +3979,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639087477951930381
+  lastModified: 639117578089514158
   FileSizes:
   - Name: Desktop
     Value: 38624
@@ -3999,7 +4026,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_EN.bank
   Name: Dialogue_EN
   StudioPath: bank:/Dialogue_EN
-  lastModified: 639087477874142524
+  lastModified: 639117578085891827
   FileSizes:
   - Name: Desktop
     Value: 61088
