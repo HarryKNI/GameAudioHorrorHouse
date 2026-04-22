@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3274849988680494586}
   - component: {fileID: 7165672556225715198}
   - component: {fileID: 4830067930020232534}
+  - component: {fileID: 7366391872679437723}
+  - component: {fileID: 8392879698950100162}
   m_Layer: 0
   m_Name: Door_7
   m_TagString: Item
@@ -71,9 +73,8 @@ MonoBehaviour:
   isOpened: 0
   KeyID_ToOpen: 0
   doorCollider: {fileID: 2881054346080681604}
-  doorOpenEvent: {fileID: 0}
-  doorCloseEvent: {fileID: 0}
-  doorAnim: {fileID: 8544973656570061722}
+  doorLockedEvent: {fileID: 8392879698950100162}
+  doorCloseEvent: {fileID: 7366391872679437723}
 --- !u!114 &7165672556225715198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +115,68 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5801692, y: 2.4783988, z: 0.5983691}
   m_Center: {x: -0.0037554502, y: 1.2382588, z: 0.0012957454}
+--- !u!114 &7366391872679437723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029213319551665473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1125158724
+      Data2: 1215768668
+      Data3: -380992089
+      Data4: 1039913086
+    Path: event:/Building/Door Creak
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8392879698950100162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029213319551665473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1988374449
+      Data2: 1321644581
+      Data3: -1737194309
+      Data4: -2146172601
+    Path: event:/Building/Door Locked
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &887411397356014229
 PrefabInstance:
   m_ObjectHideFlags: 0

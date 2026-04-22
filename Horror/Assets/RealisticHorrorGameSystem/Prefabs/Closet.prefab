@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: Baby
+  CollisionTag: Player
   EventReference:
     Guid:
       Data1: 1792283150
@@ -84,8 +84,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.0598304, z: 1.4702799}
-  m_Center: {x: 0, y: 0.6893114, z: -0.35151768}
+  m_Size: {x: 0.54309887, y: 1.0598304, z: 1.2020879}
+  m_Center: {x: 0.0244236, y: 0.6893114, z: -0.21742201}
 --- !u!1001 &5661022383243341197
 PrefabInstance:
   m_ObjectHideFlags: 0

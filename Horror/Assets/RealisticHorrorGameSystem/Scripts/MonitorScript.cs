@@ -20,7 +20,7 @@ namespace RealisticHorrorGameSystem
         public bool useMipMaps = false;
         public int antiAliasing = 1;
         public bool isOn = false;
-        public AudioSource audioSource;
+        //public AudioSource audioSource;
         public Material grayscaleMaterial;
 
         [Header("Fmod Doohickey Crap")]

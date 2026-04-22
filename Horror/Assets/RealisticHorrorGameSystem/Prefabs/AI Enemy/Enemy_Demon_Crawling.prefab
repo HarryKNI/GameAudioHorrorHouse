@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 1599822754255576508}
   - component: {fileID: 7324154100781966509}
   - component: {fileID: 7136466410849692247}
+  - component: {fileID: 3257995879440958347}
   m_Layer: 10
   m_Name: Enemy_Demon_Crawling
   m_TagString: Enemy
@@ -325,6 +326,9 @@ MonoBehaviour:
   InitSpeed: 0
   attacked: 0
   PointsToPatrol: []
+  DemonRoar: {fileID: 3257995879440958347}
+  DemonIdle: {fileID: 3257995879440958347}
+  DemonChase: {fileID: 3257995879440958347}
 --- !u!95 &675222243961863075
 Animator:
   serializedVersion: 7
@@ -419,6 +423,37 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &3257995879440958347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3466478517421141015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -101618021
+      Data2: 1257203199
+      Data3: 727985587
+      Data4: 601162639
+    Path: event:/Zombie Groans/Zombie_Groans
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4058207544515236964
 GameObject:
   m_ObjectHideFlags: 0

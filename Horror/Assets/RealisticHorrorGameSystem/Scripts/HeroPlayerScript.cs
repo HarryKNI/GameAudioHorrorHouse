@@ -301,32 +301,34 @@ namespace RealisticHorrorGameSystem
             //{
             //    firstPersonController.isInVent = true;
             //}
-            if (other.gameObject.tag == "CarpetSurface")
+            if (other.gameObject.CompareTag("CarpetSurface"))
             {
                 surfaceParam.Value = 0;
                 SurfaceIndex = 0;
                 audioManager.footstepEvent.SetParameter("Surface", 0, false);
             }
-            else if (other.gameObject.tag == "GrassSurface")
+            else if (other.gameObject.CompareTag("GrassSurface"))
             {
                 surfaceParam.Value = 1;
                 SurfaceIndex = 1;
                 audioManager.footstepEvent.SetParameter("Surface", 1, false);
             }
-            else if (other.gameObject.tag == "WoodSurface")
+            else if (other.gameObject.CompareTag("WoodSurface"))
             {
                 surfaceParam.Value = 2;
                 SurfaceIndex = 2;
                 audioManager.footstepEvent.SetParameter("Surface", 2, false);
             }
-            else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
+            else if (other.gameObject.CompareTag("MetalSurface") || other.gameObject.CompareTag("Vent"))
             {
                 surfaceParam.Value = 3;
                 SurfaceIndex = 3;
                 audioManager.footstepEvent.SetParameter("Surface", 3, false);
             }
-            else if (other.gameObject.tag == "ConcreteSurface")
+            else if (other.gameObject.CompareTag("ConcreteSurface"))
             {
+                surfaceParam.Value = 4;
+                SurfaceIndex = 4;
                 audioManager.footstepEvent.SetParameter("Surface", 4, false);
             }
         }

@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9013036096231825377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/wooden_collision_2_dry_dull
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/wooden_collision_2_dry_dull
+  Guid:
+    Data1: -1587493425
+    Data2: 1140966525
+    Data3: 1109834635
+    Data4: -1878751095
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 663
 --- !u!114 &-8992617502836774752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,6 +342,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7852769971002937146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interactables.bank
+  m_EditorClassIdentifier: 
+  Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
+  Name: Interactables
+  StudioPath: bank:/Interactables
+  lastModified: 639124790636770317
+  FileSizes:
+  - Name: Desktop
+    Value: 1902560
+  Exists: 1
 --- !u!114 &-7812746825709787190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,10 +377,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639124196356205799
+  lastModified: 639124790642787065
   FileSizes:
   - Name: Desktop
-    Value: 21939136
+    Value: 21950144
   Exists: 1
 --- !u!114 &-7747285715381928157
 MonoBehaviour:
@@ -462,6 +509,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1047
+--- !u!114 &-7332521812450277697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/wooden_collision_3_dry_dull
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/wooden_collision_3_dry_dull
+  Guid:
+    Data1: 1868647114
+    Data2: 1260983088
+    Data3: -958776675
+    Data4: -1679050581
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 469
 --- !u!114 &-7205713306099336161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +747,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Haptics.bank
   Name: Haptics
   StudioPath: bank:/Haptics
-  lastModified: 639098991539974081
+  lastModified: 639124790625243542
   FileSizes:
   - Name: Desktop
     Value: 387904
@@ -693,7 +767,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639124147565580389
+  lastModified: 639124790643484619
   FileSizes:
   - Name: Desktop
     Value: 222624
@@ -737,7 +811,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639124147560211572
+  lastModified: 639124790638668915
   FileSizes:
   - Name: Desktop
     Value: 10454752
@@ -766,6 +840,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6567164566500327618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/locking-door
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/locking-door
+  Guid:
+    Data1: -27270383
+    Data2: 1146449312
+    Data3: -1232061558
+    Data4: -1584046285
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 840
+--- !u!114 &-6551824766190223827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/wooden_collision_1_dry_dull
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/wooden_collision_1_dry_dull
+  Guid:
+    Data1: -972647596
+    Data2: 1171743778
+    Data3: 1382712485
+    Data4: 1728358905
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 663
 --- !u!114 &-6381275117564350750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,6 +949,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 653
+--- !u!114 &-6356495232943868140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/barrel_rolling_loop
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/barrel_rolling_loop
+  Guid:
+    Data1: 1738789419
+    Data2: 1224953985
+    Data3: 1626438064
+    Data4: -488018993
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6416
+--- !u!114 &-6320491738012507762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/tv-static
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/tv-static
+  Guid:
+    Data1: 648992293
+    Data2: 1116684635
+    Data3: 681791376
+    Data4: -833095406
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59861
 --- !u!114 &-6315055172370698580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,7 +1013,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Wooden Collision/Speed
+  m_Name: parameter:/wooden Collision/Speed
   m_EditorClassIdentifier: 
   Name: Speed
   StudioPath: 
@@ -845,6 +1027,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6166713390090229420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/wooden_collision_small_dry_dull
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/wooden_collision_small_dry_dull
+  Guid:
+    Data1: 410118753
+    Data2: 1261556320
+    Data3: 1626429865
+    Data4: -1927437801
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 476
 --- !u!114 &-6124718527989703072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,9 +1528,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Interactables/Barrel Roll
+  m_Name: event:/Interactables/barrel Roll
   m_EditorClassIdentifier: 
-  Path: event:/Interactables/Barrel Roll
+  Path: event:/Interactables/barrel Roll
   Guid:
     Data1: -1003740608
     Data2: 1122878646
@@ -1361,6 +1570,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3424055260057416839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/wind-against-trees
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/wind-against-trees
+  Guid:
+    Data1: 1727387710
+    Data2: 1262254011
+    Data3: -853983605
+    Data4: 1674660450
+  Banks:
+  - {fileID: 4962848633035128301}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3269134913484664979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1734,7 +1970,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_CN.bank
   Name: Dialogue_CN
   StudioPath: bank:/Dialogue_CN
-  lastModified: 639098991536582092
+  lastModified: 639124790624236270
   FileSizes:
   - Name: Desktop
     Value: 52416
@@ -1863,10 +2099,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639098991642662344
+  lastModified: 639124793488215094
   FileSizes:
   - Name: Desktop
-    Value: 51360
+    Value: 51712
   Exists: 1
 --- !u!114 &-559810128464457193
 MonoBehaviour:
@@ -1929,7 +2165,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Barrel Roll/Speed
+  m_Name: parameter:/barrel Roll/Speed
   m_EditorClassIdentifier: 
   Name: Speed
   StudioPath: 
@@ -1943,6 +2179,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-470390124539603411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/Switch
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/Switch
+  Guid:
+    Data1: -2099613155
+    Data2: 1237312708
+    Data3: 1341707178
+    Data4: 817490607
+  Banks:
+  - {fileID: 8496942661731490781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 470
 --- !u!114 &-415801565597856702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,6 +2333,9 @@ MonoBehaviour:
   - {fileID: 9081570151260649005}
   - {fileID: -6654955515932781877}
   - {fileID: -722862926959776770}
+  - {fileID: 4962848633035128301}
+  - {fileID: -7852769971002937146}
+  - {fileID: 3325237649366995459}
   EditorEvents:
   - {fileID: -8864465389195106370}
   - {fileID: -2938819705138391111}
@@ -2109,9 +2375,29 @@ MonoBehaviour:
   - {fileID: 4910792328178416225}
   - {fileID: -4714218375854972450}
   - {fileID: 5891803442787029273}
-  - {fileID: 6274453543478904950}
   - {fileID: 4096774061835873264}
   - {fileID: 4123137901581273511}
+  - {fileID: 7725124312577102684}
+  - {fileID: -3424055260057416839}
+  - {fileID: 1571796248553238512}
+  - {fileID: 3225720299637605953}
+  - {fileID: -6567164566500327618}
+  - {fileID: -6320491738012507762}
+  - {fileID: -6356495232943868140}
+  - {fileID: 2387703516719226595}
+  - {fileID: -6551824766190223827}
+  - {fileID: -6166713390090229420}
+  - {fileID: 3316517849959856842}
+  - {fileID: 2765579428812583537}
+  - {fileID: -7332521812450277697}
+  - {fileID: -9013036096231825377}
+  - {fileID: -470390124539603411}
+  - {fileID: 3923670825076275904}
+  - {fileID: 9098235881119625796}
+  - {fileID: 7043583549249903643}
+  - {fileID: 7609841185638415420}
+  - {fileID: 2745706993330569305}
+  - {fileID: 1496606268558404409}
   EditorParameters:
   - {fileID: -3533095292210106517}
   MasterBanks:
@@ -2119,7 +2405,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639124196356205799
+  cacheTime: 639124793488215094
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2163,7 +2449,7 @@ MonoBehaviour:
     index: 19
   - key: event:/Character/Enemy Footsteps
     index: 20
-  - key: event:/Interactables/Barrel Roll
+  - key: event:/Interactables/barrel Roll
     index: 21
   - key: event:/Ambience/Country
     index: 22
@@ -2179,7 +2465,7 @@ MonoBehaviour:
     index: 27
   - key: event:/Character/Health
     index: 28
-  - key: event:/Interactables/Wooden Collision
+  - key: event:/Interactables/wooden Collision
     index: 29
   - key: event:/Ambience/Forest
     index: 30
@@ -2197,12 +2483,52 @@ MonoBehaviour:
     index: 36
   - key: event:/Character/Flashlight
     index: 37
-  - key: event:/Zombie_Groans
-    index: 38
   - key: event:/Building/Door Creak
-    index: 39
+    index: 38
   - key: event:/Building/Door Locked
+    index: 39
+  - key: event:/Ambience/water-dripping
     index: 40
+  - key: event:/Ambience/wind-against-trees
+    index: 41
+  - key: event:/Ambience/windwhistle
+    index: 42
+  - key: event:/Interactables/toilet-flush
+    index: 43
+  - key: event:/Interactables/locking-door
+    index: 44
+  - key: event:/Interactables/tv-static
+    index: 45
+  - key: event:/Interactables/barrel_rolling_loop
+    index: 46
+  - key: event:/Interactables/rocking-chair
+    index: 47
+  - key: event:/Interactables/wooden_collision_1_dry_dull
+    index: 48
+  - key: event:/Interactables/wooden_collision_small_dry_dull
+    index: 49
+  - key: event:/Interactables/tv-switch-off 2
+    index: 50
+  - key: event:/Interactables/picking-up-paper
+    index: 51
+  - key: event:/Interactables/wooden_collision_3_dry_dull
+    index: 52
+  - key: event:/Interactables/wooden_collision_2_dry_dull
+    index: 53
+  - key: event:/Interactables/Switch
+    index: 54
+  - key: event:/Interactables/locking Door
+    index: 55
+  - key: event:/Interactables/tv-switch-off
+    index: 56
+  - key: event:/Weapons/Knife SFX/Knife-swoosh
+    index: 57
+  - key: event:/Weapons/Knife SFX/Knife-slash
+    index: 58
+  - key: event:/Weapons/Knife SFX/Knife-fleshy-SFX
+    index: 59
+  - key: event:/Zombie Groans/Zombie_Groans
+    index: 60
 --- !u!114 &331754751474402596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2353,6 +2679,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 150857
+--- !u!114 &1496606268558404409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zombie Groans/Zombie_Groans
+  m_EditorClassIdentifier: 
+  Path: event:/Zombie Groans/Zombie_Groans
+  Guid:
+    Data1: -101618021
+    Data2: 1257203199
+    Data3: 727985587
+    Data4: 601162639
+  Banks:
+  - {fileID: -722862926959776770}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1571796248553238512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/windwhistle
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/windwhistle
+  Guid:
+    Data1: 1737857153
+    Data2: 1076883067
+    Data3: -910530665
+    Data4: -1011249613
+  Banks:
+  - {fileID: 4962848633035128301}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7893
 --- !u!114 &1655448986847641463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2446,10 +2826,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639124185556122737
+  lastModified: 639124793487900891
   FileSizes:
   - Name: Desktop
-    Value: 4760
+    Value: 5908
   Exists: 1
 --- !u!114 &1890264081741740455
 MonoBehaviour:
@@ -2566,11 +2946,38 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_JP.bank
   Name: Dialogue_JP
   StudioPath: bank:/Dialogue_JP
-  lastModified: 639098991538100187
+  lastModified: 639124790624517586
   FileSizes:
   - Name: Desktop
     Value: 66560
   Exists: 1
+--- !u!114 &2387703516719226595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/rocking-chair
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/rocking-chair
+  Guid:
+    Data1: 2057970231
+    Data2: 1188300655
+    Data3: 1044345255
+    Data4: -272199340
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 43320
 --- !u!114 &2530019044784417855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2662,6 +3069,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10598
+--- !u!114 &2745706993330569305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Knife SFX/Knife-fleshy-SFX
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Knife SFX/Knife-fleshy-SFX
+  Guid:
+    Data1: 488987347
+    Data2: 1220079502
+    Data3: 1612659589
+    Data4: 26536155
+  Banks:
+  - {fileID: 3325237649366995459}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 624
+--- !u!114 &2765579428812583537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/picking-up-paper
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/picking-up-paper
+  Guid:
+    Data1: 1213224125
+    Data2: 1079355347
+    Data3: -360537442
+    Data4: 1641287001
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11198
 --- !u!114 &3055402028819376756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2699,9 +3160,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Interactables/Wooden Collision
+  m_Name: event:/Interactables/wooden Collision
   m_EditorClassIdentifier: 
-  Path: event:/Interactables/Wooden Collision
+  Path: event:/Interactables/wooden Collision
   Guid:
     Data1: -1100872744
     Data2: 1103481048
@@ -2745,6 +3206,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3225720299637605953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/toilet-flush
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/toilet-flush
+  Guid:
+    Data1: 1792283150
+    Data2: 1076784917
+    Data3: -1991390531
+    Data4: 1514513657
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19464
 --- !u!114 &3301559199858347815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2772,6 +3260,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2182
+--- !u!114 &3316517849959856842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/tv-switch-off 2
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/tv-switch-off 2
+  Guid:
+    Data1: 231132346
+    Data2: 1114583248
+    Data3: -1658392422
+    Data4: -1634725043
+  Banks:
+  - {fileID: -7852769971002937146}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2040
+--- !u!114 &3325237649366995459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Weapons.bank
+  m_EditorClassIdentifier: 
+  Path: ../HorrorHouseAudioFMOD/Build/Desktop/Weapons.bank
+  Name: Weapons
+  StudioPath: bank:/Weapons
+  lastModified: 639124790644175027
+  FileSizes:
+  - Name: Desktop
+    Value: 21536
+  Exists: 1
 --- !u!114 &3427603549565191311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2956,6 +3491,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3923670825076275904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/locking Door
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/locking Door
+  Guid:
+    Data1: -847152324
+    Data2: 1227151337
+    Data3: 1900535459
+    Data4: -35984565
+  Banks:
+  - {fileID: 8496942661731490781}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 840
 --- !u!114 &3933708608407234305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3225,6 +3787,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2182
+--- !u!114 &4962848633035128301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 639124790624059729
+  FileSizes:
+  - Name: Desktop
+    Value: 459168
+  Exists: 1
 --- !u!114 &5091775622544899185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3496,33 +4078,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &6274453543478904950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Zombie_Groans
-  m_EditorClassIdentifier: 
-  Path: event:/Zombie_Groans
-  Guid:
-    Data1: 522105440
-    Data2: 1304246639
-    Data3: -152602438
-    Data4: -1793671370
-  Banks:
-  - {fileID: -722862926959776770}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
 --- !u!114 &6950328379026183738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3578,6 +4133,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56888
+--- !u!114 &7043583549249903643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Knife SFX/Knife-swoosh
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Knife SFX/Knife-swoosh
+  Guid:
+    Data1: -1742016745
+    Data2: 1271407348
+    Data3: 713324467
+    Data4: 1740828445
+  Banks:
+  - {fileID: 3325237649366995459}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 504
 --- !u!114 &7231669671865337164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3659,6 +4241,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1162
+--- !u!114 &7609841185638415420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/Knife SFX/Knife-slash
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/Knife SFX/Knife-slash
+  Guid:
+    Data1: -517587920
+    Data2: 1165456549
+    Data3: -1319678837
+    Data4: 1866396377
+  Banks:
+  - {fileID: 3325237649366995459}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 936
 --- !u!114 &7630340541505887058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3683,6 +4292,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7725124312577102684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/water-dripping
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/water-dripping
+  Guid:
+    Data1: 730824757
+    Data2: 1284983106
+    Data3: 362848444
+    Data4: 42208459
+  Banks:
+  - {fileID: 4962848633035128301}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22073
 --- !u!114 &7745892124714548024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3907,10 +4543,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639124185556102579
+  lastModified: 639124793487880750
   FileSizes:
   - Name: Desktop
-    Value: 16116
+    Value: 34304
   Exists: 1
 --- !u!114 &8501398307316992438
 MonoBehaviour:
@@ -4032,11 +4668,38 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639098991641964622
+  lastModified: 639124790643772093
   FileSizes:
   - Name: Desktop
     Value: 38592
   Exists: 1
+--- !u!114 &9098235881119625796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactables/tv-switch-off
+  m_EditorClassIdentifier: 
+  Path: event:/Interactables/tv-switch-off
+  Guid:
+    Data1: -1736396123
+    Data2: 1142562412
+    Data3: 458105510
+    Data4: -1689383530
+  Banks:
+  - {fileID: -7812746825709787190}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2040
 --- !u!114 &9125210713901249684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4079,7 +4742,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_EN.bank
   Name: Dialogue_EN
   StudioPath: bank:/Dialogue_EN
-  lastModified: 639098991537337734
+  lastModified: 639124790624375940
   FileSizes:
   - Name: Desktop
     Value: 61120

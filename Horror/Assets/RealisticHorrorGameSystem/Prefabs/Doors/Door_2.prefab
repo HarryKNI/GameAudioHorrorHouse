@@ -158,9 +158,8 @@ MonoBehaviour:
   isOpened: 0
   KeyID_ToOpen: 0
   doorCollider: {fileID: 1937781168137233253}
-  doorOpenEvent: {fileID: 0}
-  doorCloseEvent: {fileID: 0}
-  doorAnim: {fileID: 0}
+  doorLockedEvent: {fileID: 0}
+  doorCloseEvent: {fileID: 5634341293235144468}
 --- !u!114 &8589319901065097704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,11 +215,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1652904472
-      Data2: 1192208627
-      Data3: -125142357
-      Data4: -1149771785
-    Path: event:/Building/Door Open
+      Data1: 1125158724
+      Data2: 1215768668
+      Data3: -380992089
+      Data4: 1039913086
+    Path: event:/Building/Door Creak
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

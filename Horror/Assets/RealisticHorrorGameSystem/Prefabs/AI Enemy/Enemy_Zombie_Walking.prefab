@@ -1961,9 +1961,9 @@ MonoBehaviour:
   InitSpeed: 0
   attacked: 0
   PointsToPatrol: []
-  DemonRoar: {fileID: 0}
-  DemonIdle: {fileID: 0}
-  DemonChase: {fileID: 0}
+  DemonRoar: {fileID: 7118049081345687704}
+  DemonIdle: {fileID: 7118049081345687704}
+  DemonChase: {fileID: 7118049081345687704}
 --- !u!54 &1611607876914110281
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2051,14 +2051,14 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 522105440
-      Data2: 1304246639
-      Data3: -152602438
-      Data4: -1793671370
-    Path: event:/Zombie_Groans
+      Data1: -101618021
+      Data2: 1257203199
+      Data3: 727985587
+      Data4: 601162639
+    Path: event:/Zombie Groans/Zombie_Groans
   Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
