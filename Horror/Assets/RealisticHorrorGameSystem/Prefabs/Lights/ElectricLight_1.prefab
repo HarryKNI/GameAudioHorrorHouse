@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6688017909337721589}
   - component: {fileID: 804391791118072578}
   - component: {fileID: 2394594136314849630}
+  - component: {fileID: 1783007032540652138}
   m_Layer: 0
   m_Name: ElectricLight_1
   m_TagString: Item
@@ -87,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84faea26b0539234e98a4d365be523f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canFlick: 1
+  canFlick: 0
   Light: {fileID: 3644138272726421060}
   AudioSource: {fileID: 0}
   meshRenderer: {fileID: 9009349058686406509}
@@ -95,6 +96,38 @@ MonoBehaviour:
   off: {fileID: 2100000, guid: 80fa12b2a1ebaae4db4d83649106a63f, type: 2}
   flickingSound: {fileID: 8300000, guid: 482a55c9437de6a44899d639ab978095, type: 3}
   lightIsOnWhenStart: 0
+  Lightswitch: {fileID: 1783007032540652138}
+--- !u!114 &1783007032540652138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8165488893578335803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2099613155
+      Data2: 1237312708
+      Data3: 1341707178
+      Data4: 817490607
+    Path: event:/Interactables/Switch
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &6591080099263426470
 PrefabInstance:
   m_ObjectHideFlags: 0

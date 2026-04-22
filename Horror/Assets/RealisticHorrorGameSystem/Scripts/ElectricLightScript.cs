@@ -1,4 +1,6 @@
 using System.Collections;
+using FMODUnity;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace RealisticHorrorGameSystem
@@ -15,6 +17,9 @@ namespace RealisticHorrorGameSystem
         private Coroutine flickerCoroutine;
         public AudioClip flickingSound;
         public bool lightIsOnWhenStart = false;
+
+        [Header("FMOD Doohickey Crap")]
+        [SerializeField]StudioEventEmitter Lightswitch;
 
         private void Start()
         {
@@ -39,13 +44,14 @@ namespace RealisticHorrorGameSystem
                 Light.SetActive(!Light.activeSelf);
                 if (Light.activeSelf)
                 {
-                    AudioSource.Play();
+                    Lightswitch.Play();
                     meshRenderer.material = on;
                     if (flickerCoroutine == null)
                         flickerCoroutine = StartCoroutine(FlickerRoutine());
                 }
                 else
                 {
+                    Lightswitch.Play();
                     meshRenderer.material = off;
                     if (flickerCoroutine != null)
                     {

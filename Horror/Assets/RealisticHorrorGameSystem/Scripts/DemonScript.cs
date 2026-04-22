@@ -1,6 +1,7 @@
 using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -37,6 +38,11 @@ namespace RealisticHorrorGameSystem
         //public AudioClip[] audios_Roars;
         public List<Transform> PointsToPatrol;
         private bool hasRealizedPlayer = false;
+
+        [Header("Fmod Doohickey Crap")]
+        [SerializeField] StudioEventEmitter DemonRoar;
+        [SerializeField] StudioEventEmitter DemonIdle;
+        [SerializeField] StudioEventEmitter DemonChase;
 
         IEnumerator Start()
         {
@@ -91,11 +97,25 @@ namespace RealisticHorrorGameSystem
 
         public void Roar()
         {
-            if (currentStatus == BehoviourType.Chasing || currentStatus == BehoviourType.Idle)
+            if (currentStatus == BehoviourType.Chasing) //|| currentStatus == BehoviourType.Idle)
             {
                 //audioSourceRoar.clip = audios_Roars[UnityEngine.Random.Range(0, audios_Roars.Length)];
                 //audioSourceRoar.Play();
+
+                DemonRoar.Play();
+                print("Sound Played");
                 
+            }
+
+            if (currentStatus == BehoviourType.Idle)
+            {
+                DemonIdle.Play();
+            }
+
+            if (currentStatus == BehoviourType.Patrolling)
+            {
+                DemonChase.Play();
+                print("DemonSound");
             }
         }
 
