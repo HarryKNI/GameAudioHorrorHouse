@@ -268,30 +268,30 @@ namespace RealisticHorrorGameSystem
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.tag == "CarpetSurface")
-            {
-                surfaceParam.Value = 0;
-                SurfaceIndex = 0;
-                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
-            }
-            else if (other.gameObject.tag == "GrassSurface")
-            {
-                surfaceParam.Value = 1;
-                SurfaceIndex = 1;
-                audioManager.footstepEvent.SetParameter("Surface", 1, false);
-            }
-            else if (other.gameObject.tag == "WoodSurface")
-            {
-                surfaceParam.Value = 2;
-                SurfaceIndex = 2;
-                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
-            }
-            else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
-            {
-                surfaceParam.Value = 3;
-                SurfaceIndex = 3;
-                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
-            }
+            //if (other.gameObject.tag == "CarpetSurface")
+            //{
+            //    surfaceParam.Value = 0;
+            //    SurfaceIndex = 0;
+            //    audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            //}
+            //else if (other.gameObject.tag == "GrassSurface")
+            //{
+            //    surfaceParam.Value = 1;
+            //    SurfaceIndex = 1;
+            //    audioManager.footstepEvent.SetParameter("Surface", 1, false);
+            //}
+            //else if (other.gameObject.tag == "WoodSurface")
+            //{
+            //    surfaceParam.Value = 2;
+            //    SurfaceIndex = 2;
+            //    audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            //}
+            //else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
+            //{
+            //    surfaceParam.Value = 3;
+            //    SurfaceIndex = 3;
+            //    audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            //}
         }
 
         private void OnTriggerStay(Collider other)
@@ -306,27 +306,28 @@ namespace RealisticHorrorGameSystem
                 surfaceParam.Value = 0;
                 SurfaceIndex = 0;
                 audioManager.footstepEvent.SetParameter("Surface", 0, false);
-                Debug.Log("Swap to carpet");
             }
             else if (other.gameObject.tag == "GrassSurface")
             {
                 surfaceParam.Value = 1;
                 SurfaceIndex = 1;
                 audioManager.footstepEvent.SetParameter("Surface", 1, false);
-                Debug.Log("Swap to grass");
             }
             else if (other.gameObject.tag == "WoodSurface")
             {
                 surfaceParam.Value = 2;
                 SurfaceIndex = 2;
                 audioManager.footstepEvent.SetParameter("Surface", 2, false);
-                Debug.Log("Swap to wood");
             }
             else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
             {
                 surfaceParam.Value = 3;
                 SurfaceIndex = 3;
                 audioManager.footstepEvent.SetParameter("Surface", 3, false);
+            }
+            else if (other.gameObject.tag == "ConcreteSurface")
+            {
+                audioManager.footstepEvent.SetParameter("Surface", 4, false);
             }
         }
 

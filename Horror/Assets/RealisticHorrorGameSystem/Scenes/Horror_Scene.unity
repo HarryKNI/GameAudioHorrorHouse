@@ -5952,7 +5952,7 @@ MonoBehaviour:
       Data2: 1192208627
       Data3: -125142357
       Data4: -1149771785
-    Path: event:/Character/Door Open
+    Path: event:/Building/Door Open
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -19063,6 +19063,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3274849988680494586, guid: fd23961fe719d894a8c70868009cdddb,
+        type: 3}
+      propertyPath: doorAnim
+      value: 
+      objectReference: {fileID: 2041221581}
     - target: {fileID: 7029213319551665473, guid: fd23961fe719d894a8c70868009cdddb,
         type: 3}
       propertyPath: m_Name
@@ -54375,8 +54380,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 75.18872, y: 1, z: 44.357452}
-  m_Center: {x: -1.0571594, y: 0, z: -14.234299}
+  m_Size: {x: 75.18872, y: 1, z: 37.46118}
+  m_Center: {x: -1.0571594, y: 0, z: -17.682434}
 --- !u!23 &2039374280
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -54430,6 +54435,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039374277}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!111 &2041221581 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: 8544973656570061722, guid: fd23961fe719d894a8c70868009cdddb,
+    type: 3}
+  m_PrefabInstance: {fileID: 753040823}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2042335037
 PrefabInstance:
   m_ObjectHideFlags: 0
