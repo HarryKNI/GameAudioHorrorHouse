@@ -158,6 +158,9 @@ MonoBehaviour:
   isOpened: 0
   KeyID_ToOpen: 0
   doorCollider: {fileID: 1937781168137233253}
+  doorOpenEvent: {fileID: 0}
+  doorCloseEvent: {fileID: 0}
+  doorAnim: {fileID: 0}
 --- !u!114 &8589319901065097704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +220,7 @@ MonoBehaviour:
       Data2: 1192208627
       Data3: -125142357
       Data4: -1149771785
-    Path: event:/Character/Door Open
+    Path: event:/Building/Door Open
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

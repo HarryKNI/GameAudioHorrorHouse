@@ -44,7 +44,7 @@ Animation:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7029213319551665473}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: 5427d4eea3e264f8f9741e30e94fc0c2, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 5427d4eea3e264f8f9741e30e94fc0c2, type: 2}
@@ -52,6 +52,7 @@ Animation:
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
+  m_UpdateMode: 0
   m_CullingType: 0
 --- !u!114 &3274849988680494586
 MonoBehaviour:
@@ -70,6 +71,9 @@ MonoBehaviour:
   isOpened: 0
   KeyID_ToOpen: 0
   doorCollider: {fileID: 2881054346080681604}
+  doorOpenEvent: {fileID: 0}
+  doorCloseEvent: {fileID: 0}
+  doorAnim: {fileID: 8544973656570061722}
 --- !u!114 &7165672556225715198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,12 +189,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 455bfad969065174c97363d6ea20d5f0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 98416e899a67c864d9f786416b51a203, type: 2}
     - target: {fileID: -1592289475483123607, guid: 455bfad969065174c97363d6ea20d5f0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 088859dd120c7294fb981a2a9ef2d662, type: 2}
     - target: {fileID: 919132149155446097, guid: 455bfad969065174c97363d6ea20d5f0,
@@ -200,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4407187375235809858, guid: 455bfad969065174c97363d6ea20d5f0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 98416e899a67c864d9f786416b51a203, type: 2}
     m_RemovedComponents: []
@@ -350,22 +354,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1746935857993125669, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 22df8b5d5b534f44597ac3369eca933a, type: 2}
     - target: {fileID: 4278200481962586376, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1964d52e42ecf434fb672e3d249a4c4e, type: 2}
     - target: {fileID: 8424073627695423409, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1d45ac9d0bbd0d04f8e2516a0db5fe8c, type: 2}
     - target: {fileID: 8996021495921455304, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 795a859597440ab4e851287f5a7d7a2e, type: 2}
     m_RemovedComponents: []
