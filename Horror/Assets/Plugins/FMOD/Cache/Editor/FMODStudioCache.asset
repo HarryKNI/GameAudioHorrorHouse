@@ -318,30 +318,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-7920587654887192136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Door Creak/Progress
-  m_EditorClassIdentifier: 
-  Name: Progress
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3932173303
-    data2: 3352709284
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-7852769971002937146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,10 +333,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
   Name: Interactables
   StudioPath: bank:/Interactables
-  lastModified: 639124790636770317
+  lastModified: 639124805974767497
   FileSizes:
   - Name: Desktop
-    Value: 1902560
+    Value: 1891776
   Exists: 1
 --- !u!114 &-7812746825709787190
 MonoBehaviour:
@@ -377,7 +353,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639124790642787065
+  lastModified: 639124805978484770
   FileSizes:
   - Name: Desktop
     Value: 21950144
@@ -1102,6 +1078,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-5884601561731667731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Building/Doors/Door Creak
+  m_EditorClassIdentifier: 
+  Path: event:/Building/Doors/Door Creak
+  Guid:
+    Data1: 1125158724
+    Data2: 1215768668
+    Data3: -380992089
+    Data4: 1039913086
+  Banks:
+  - {fileID: -7812746825709787190}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6788863137382804330}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5831340360546997291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2375,8 +2379,6 @@ MonoBehaviour:
   - {fileID: 4910792328178416225}
   - {fileID: -4714218375854972450}
   - {fileID: 5891803442787029273}
-  - {fileID: 4096774061835873264}
-  - {fileID: 4123137901581273511}
   - {fileID: 7725124312577102684}
   - {fileID: -3424055260057416839}
   - {fileID: 1571796248553238512}
@@ -2387,7 +2389,6 @@ MonoBehaviour:
   - {fileID: 2387703516719226595}
   - {fileID: -6551824766190223827}
   - {fileID: -6166713390090229420}
-  - {fileID: 3316517849959856842}
   - {fileID: 2765579428812583537}
   - {fileID: -7332521812450277697}
   - {fileID: -9013036096231825377}
@@ -2398,6 +2399,8 @@ MonoBehaviour:
   - {fileID: 7609841185638415420}
   - {fileID: 2745706993330569305}
   - {fileID: 1496606268558404409}
+  - {fileID: -5884601561731667731}
+  - {fileID: 6073699340724801030}
   EditorParameters:
   - {fileID: -3533095292210106517}
   MasterBanks:
@@ -2405,7 +2408,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639124793488215094
+  cacheTime: 639124805979113152
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2826,10 +2829,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639124793487900891
+  lastModified: 639124805975257120
   FileSizes:
   - Name: Desktop
-    Value: 5908
+    Value: 5870
   Exists: 1
 --- !u!114 &1890264081741740455
 MonoBehaviour:
@@ -3260,33 +3263,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2182
---- !u!114 &3316517849959856842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Interactables/tv-switch-off 2
-  m_EditorClassIdentifier: 
-  Path: event:/Interactables/tv-switch-off 2
-  Guid:
-    Data1: 231132346
-    Data2: 1114583248
-    Data3: -1658392422
-    Data4: -1634725043
-  Banks:
-  - {fileID: -7852769971002937146}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2040
 --- !u!114 &3325237649366995459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3302,7 +3278,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639124790644175027
+  lastModified: 639124805979113152
   FileSizes:
   - Name: Desktop
     Value: 21536
@@ -3542,61 +3518,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &4096774061835873264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Building/Door Creak
-  m_EditorClassIdentifier: 
-  Path: event:/Building/Door Creak
-  Guid:
-    Data1: 1125158724
-    Data2: 1215768668
-    Data3: -380992089
-    Data4: 1039913086
-  Banks:
-  - {fileID: -7812746825709787190}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -7920587654887192136}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &4123137901581273511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Building/Door Locked
-  m_EditorClassIdentifier: 
-  Path: event:/Building/Door Locked
-  Guid:
-    Data1: 1988374449
-    Data2: 1321644581
-    Data3: -1737194309
-    Data4: -2146172601
-  Banks:
-  - {fileID: -7812746825709787190}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
 --- !u!114 &4394570498034804187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3802,7 +3723,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639124790624059729
+  lastModified: 639124805964635534
   FileSizes:
   - Name: Desktop
     Value: 459168
@@ -4010,6 +3931,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &6073699340724801030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Building/Doors/Door Locked
+  m_EditorClassIdentifier: 
+  Path: event:/Building/Doors/Door Locked
+  Guid:
+    Data1: 1988374449
+    Data2: 1321644581
+    Data3: -1737194309
+    Data4: -2146172601
+  Banks:
+  - {fileID: -7812746825709787190}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &6163655321219284885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4074,6 +4022,30 @@ MonoBehaviour:
   ID:
     data1: 1427404727
     data2: 1388265268
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6788863137382804330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Door Creak/Progress
+  m_EditorClassIdentifier: 
+  Name: Progress
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3932173303
+    data2: 3352709284
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -4543,7 +4515,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639124793487880750
+  lastModified: 639124805975236915
   FileSizes:
   - Name: Desktop
     Value: 34304

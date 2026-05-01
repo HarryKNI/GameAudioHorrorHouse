@@ -219,7 +219,7 @@ MonoBehaviour:
       Data2: 1215768668
       Data3: -380992089
       Data4: 1039913086
-    Path: event:/Building/Door Creak
+    Path: event:/Building/Doors/Door Creak
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

@@ -134,7 +134,7 @@ MonoBehaviour:
       Data2: 1215768668
       Data3: -380992089
       Data4: 1039913086
-    Path: event:/Building/Door Creak
+    Path: event:/Building/Doors/Door Creak
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
       Data2: 1321644581
       Data3: -1737194309
       Data4: -2146172601
-    Path: event:/Building/Door Locked
+    Path: event:/Building/Doors/Door Locked
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
