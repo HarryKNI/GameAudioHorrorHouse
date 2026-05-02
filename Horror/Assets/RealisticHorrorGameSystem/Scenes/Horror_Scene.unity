@@ -9738,6 +9738,43 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1137339921}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &339712121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 263495881510914863, guid: c4214c4e92e5742d98682732fd98bf9e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1604380891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &339712123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339712121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -833296400
+      Data2: 1256258702
+      Data3: 1770281872
+      Data4: 267677802
+    Path: event:/Character/Tracker
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &341576396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44139,6 +44176,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6222184077799095300, guid: c4214c4e92e5742d98682732fd98bf9e,
+        type: 3}
+      propertyPath: trackerEvent
+      value: 
+      objectReference: {fileID: 339712123}
     - target: {fileID: 9174070354681486089, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
       propertyPath: m_ClearFlags
@@ -44171,6 +44213,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2001800982}
+    - targetCorrespondingSourceObject: {fileID: 263495881510914863, guid: c4214c4e92e5742d98682732fd98bf9e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 339712123}
     - targetCorrespondingSourceObject: {fileID: 919132148234764195, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
       insertIndex: -1

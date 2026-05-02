@@ -23,9 +23,9 @@ namespace RealisticHorrorGameSystem
         }
         public void Grabbed()
         {
-            HeroPlayerScript.Instance.ResetHands();
-            HeroPlayerScript.Instance.Hand_Cross.SetActive(true);
-            HeroPlayerScript.Instance.Cross.enabled = true;
+            //HeroPlayerScript.Instance.ResetHands();
+            //HeroPlayerScript.Instance.Hand_Cross.SetActive(true);
+            //HeroPlayerScript.Instance.Cross.enabled = true;
             GameCanvas.Instance.ActivateEquipments(EquipmentUIIndex);
             isGrabbed = true;
         }

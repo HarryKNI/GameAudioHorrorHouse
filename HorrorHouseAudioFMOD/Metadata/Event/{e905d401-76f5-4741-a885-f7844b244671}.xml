@@ -700,7 +700,6 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="MixerBusEffectChain" id="{3eb78b95-74bc-4846-8c28-6cd9f73d5f83}">
 		<relationship name="effects">
-			<destination>{8c5651ac-2be7-45ea-bf64-43bd49fe6f95}</destination>
 			<destination>{1989bc0b-9a10-41b4-9bc2-a5b7f8f8eeb9}</destination>
 			<destination>{aa278f44-843c-47b3-80c3-36bdc02eac85}</destination>
 		</relationship>
@@ -745,14 +744,6 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{968cff76-59b3-4cd1-b199-d797131da202}" />
-	<object class="SFXReverbEffect" id="{8c5651ac-2be7-45ea-bf64-43bd49fe6f95}">
-		<property name="decayTime">
-			<value>3500</value>
-		</property>
-		<property name="wetLevel">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{1989bc0b-9a10-41b4-9bc2-a5b7f8f8eeb9}" />
 	<object class="DistortionEffect" id="{aa278f44-843c-47b3-80c3-36bdc02eac85}">
 		<property name="level">

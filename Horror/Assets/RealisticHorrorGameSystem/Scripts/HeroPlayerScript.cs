@@ -58,6 +58,7 @@ namespace RealisticHorrorGameSystem
             HeroPlayerScript.Instance.AnomalyDetector.enabled = false;
             HeroPlayerScript.Instance.Knife.enabled = false;
             HeroPlayerScript.Instance.MedkitManager.enabled = false;
+  
             Hand_AnomalyDetector.SetActive(false);
             Hand_Cross.SetActive(false);
             Hand_FlashLight.SetActive(false);

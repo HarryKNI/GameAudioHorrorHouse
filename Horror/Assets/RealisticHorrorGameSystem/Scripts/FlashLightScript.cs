@@ -27,6 +27,7 @@ namespace RealisticHorrorGameSystem
 
         public void Grabbed()
         {
+            AnomalyDetector.Instance.StopAudio();
             GameCanvas.Instance.ShowInfo("Press U to use Flashlight!");
             HeroPlayerScript.Instance.ResetHands();
             HeroPlayerScript.Instance.Hand_FlashLight.SetActive(true);

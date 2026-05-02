@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{2a9273f8-d155-45bd-9995-7760e1186ed8}">
+	<object class="AudioFile" id="{92afa6ea-a35f-436c-998e-0c7a4f142306}">
 		<property name="assetPath">
 			<value>Beep01.wav</value>
 		</property>

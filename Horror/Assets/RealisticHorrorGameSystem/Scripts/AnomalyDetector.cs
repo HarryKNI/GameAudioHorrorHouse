@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
+using FMOD.Studio;
 
 namespace RealisticHorrorGameSystem
 {
@@ -12,6 +14,10 @@ namespace RealisticHorrorGameSystem
         public AudioSource audioSource;
         public AudioClip audioDot;
         public int EquipmentUIIndex = 3;
+        private float smoothedDist = 20.0f;
+
+        [SerializeField] private StudioEventEmitter trackerEvent;
+        public EventInstance tracker;
 
         void Awake()
         {
@@ -19,9 +25,9 @@ namespace RealisticHorrorGameSystem
         }
         public void Grabbed()
         {
-            HeroPlayerScript.Instance.ResetHands();
-            HeroPlayerScript.Instance.Hand_AnomalyDetector.SetActive(true);
-            HeroPlayerScript.Instance.AnomalyDetector.enabled = true;
+            //HeroPlayerScript.Instance.ResetHands();
+            //HeroPlayerScript.Instance.Hand_AnomalyDetector.SetActive(true);
+            //HeroPlayerScript.Instance.AnomalyDetector.enabled = true;
             GameCanvas.Instance.ActivateEquipments(EquipmentUIIndex);
             isGrabbed = true;
         }
@@ -33,7 +39,8 @@ namespace RealisticHorrorGameSystem
         private void Update()
         {
             if (!isGrabbed) return;
-            if(Time.time > LastDetectionTime + DetectionCheckPeriod)
+            tracker.set3DAttributes(RuntimeUtils.To3DAttributes(HeroPlayerScript.Instance.MainCamera.transform));
+            if (Time.time > LastDetectionTime + DetectionCheckPeriod)
             {
                 LastDetectionTime = Time.time;
                 CheckForParanormalActivity();
@@ -55,36 +62,44 @@ namespace RealisticHorrorGameSystem
                 }
             }
 
-            if (closestDistance <= DetectionRange)
-            {
-                float normalized = 1f - Mathf.Clamp01(closestDistance / DetectionRange);
-                Image_Filler.fillAmount = normalized;
+            float clampedDist = Mathf.Clamp(closestDistance, 0.0f, DetectionRange);
+            float scaledDist = (clampedDist / DetectionRange) * 20.0f;
 
-                float minInterval = 0.1f;
-                float maxInterval = 1.0f;
-                float interval = Mathf.Lerp(minInterval, maxInterval, closestDistance / DetectionRange);
+            float smooth = Mathf.Lerp(smoothedDist, scaledDist, Time.deltaTime * 5f);
 
-                if (Time.time > LastDetectionTimeDot + interval)
-                {
-                    LastDetectionTimeDot = Time.time;
-                    PlayAudio();
-                }
-            }
-            else
-            {
-                Image_Filler.fillAmount = 0f;
-                StopAudio();
-            }
+            tracker.setParameterByName("Distance", scaledDist);
+
+            Image_Filler.fillAmount = 1f - (clampedDist / DetectionRange);
+
+            //float minInterval = 0.1f;
+            //float maxInterval = 1.0f;
+            //float interval = Mathf.Lerp(minInterval, maxInterval, closestDistance / DetectionRange);
+
+            //if (Time.time > LastDetectionTimeDot + interval)
+            //{
+            //    LastDetectionTimeDot = Time.time;
+            //    PlayAudio();
+            //}
         }
 
         public void PlayAudio()
         {
-            audioSource.PlayOneShot(audioDot);
+            //audioSource.PlayOneShot(audioDot);
+            tracker = RuntimeManager.CreateInstance("event:/Character/Tracker");
+            tracker.set3DAttributes(RuntimeUtils.To3DAttributes(HeroPlayerScript.Instance.MainCamera.transform));
+            tracker.start();
         }
 
         public void StopAudio()
         {
-            audioSource.Stop();
+            //audioSource.Stop();
+            //trackerEvent.Stop();
+
+            if (tracker.isValid())
+            {
+                tracker.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                tracker.release();
+            }
         }
     }
 }

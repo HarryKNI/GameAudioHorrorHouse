@@ -33,7 +33,7 @@
 	</object>
 	<object class="LowpassEffect" id="{071569b3-6a18-4832-896d-d29b4a63c8d5}">
 		<property name="cutoff">
-			<value>10</value>
+			<value>22000</value>
 		</property>
 	</object>
 </objects>
