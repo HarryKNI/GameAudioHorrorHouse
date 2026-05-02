@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.01.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{69d0d47a-7f4b-4d6c-bfc3-bda91e9f7f1f}">
 		<property name="name">
 			<value>VO</value>
@@ -18,6 +18,7 @@
 		<relationship name="effects">
 			<destination>{623c72f2-91b0-441a-aaef-1b6108364a42}</destination>
 			<destination>{d89c162f-d43b-46b5-a5c2-36c22f6abaf8}</destination>
+			<destination>{d5d017d6-8205-4c1d-ab53-bdef95d311c9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d97cc1b6-d8f7-4971-b19e-18973d1ca2d5}">
@@ -30,4 +31,9 @@
 	</object>
 	<object class="Sidechain" id="{623c72f2-91b0-441a-aaef-1b6108364a42}" />
 	<object class="MixerBusFader" id="{d89c162f-d43b-46b5-a5c2-36c22f6abaf8}" />
+	<object class="LowpassEffect" id="{d5d017d6-8205-4c1d-ab53-bdef95d311c9}">
+		<property name="cutoff">
+			<value>10</value>
+		</property>
+	</object>
 </objects>

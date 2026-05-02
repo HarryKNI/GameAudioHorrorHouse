@@ -111,6 +111,8 @@ namespace RealisticHorrorGameSystem
             Panel_Pause.SetActive(false);
             Panel_Settings.SetActive(false);
             Panel_GameUI.SetActive(true);
+
+            AudioManager.Instance.SetPaused(false);
         }
 
         public void ShowHint(string text)
@@ -149,6 +151,8 @@ namespace RealisticHorrorGameSystem
             isPaused = true;
             Panel_Pause.SetActive(true);
             Panel_GameUI.SetActive(false);
+
+            AudioManager.Instance.SetPaused(true);
         }
 
         public void UpdateHealth()

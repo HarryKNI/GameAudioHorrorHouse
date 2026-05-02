@@ -21,6 +21,7 @@
 		<relationship name="effects">
 			<destination>{7fd423d2-f491-4d97-9ada-841c9377334e}</destination>
 			<destination>{c8b28687-4f38-43f8-ae3a-64c9dcfbfee0}</destination>
+			<destination>{071569b3-6a18-4832-896d-d29b4a63c8d5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bfbace69-aa45-4e7f-b2ca-ef8f4c761769}" />
@@ -28,6 +29,11 @@
 	<object class="MultibandEqEffect" id="{c8b28687-4f38-43f8-ae3a-64c9dcfbfee0}">
 		<property name="frequencyA">
 			<value>22000</value>
+		</property>
+	</object>
+	<object class="LowpassEffect" id="{071569b3-6a18-4832-896d-d29b4a63c8d5}">
+		<property name="cutoff">
+			<value>10</value>
 		</property>
 	</object>
 </objects>

@@ -1,6 +1,7 @@
 using FMODUnity;
 using UnityEditor;
 using UnityEngine;
+using FMOD.Studio;
 
 namespace RealisticHorrorGameSystem
 {
@@ -47,9 +48,37 @@ namespace RealisticHorrorGameSystem
         [SerializeField] GameObject player;
         [SerializeField] private HeroPlayerScript playerscript;
 
+        private Bus sfxBus;
+        private Bus musicBus;
+        private Bus VOBus;
+        private EventInstance pauseSnapshot;
+
         private void Awake()
         {
             Instance = this;
+
+            sfxBus = RuntimeManager.GetBus("bus:/SFX");
+            musicBus = RuntimeManager.GetBus("bus:/Music");
+            VOBus = RuntimeManager.GetBus("bus:/VO");
+            pauseSnapshot = RuntimeManager.CreateInstance("snapshot:/Pause");
+            SetPaused(false);
+        }
+
+        public void SetPaused(bool paused)
+        {
+            //RuntimeManager.StudioSystem.setParameterByName("Pause", paused ? 1 : 0);
+
+            if (paused)
+            {
+                pauseSnapshot.start();
+            }
+            else
+            {
+                pauseSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            }
+            sfxBus.setPaused(paused);
+            //musicBus.setPaused(paused);
+            VOBus.setPaused(paused);
         }
 
         public void Play_Audio_StaminaBreathing()

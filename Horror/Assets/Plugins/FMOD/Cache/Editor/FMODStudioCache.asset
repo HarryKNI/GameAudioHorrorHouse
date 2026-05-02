@@ -162,6 +162,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1162
+--- !u!114 &-8713444931495160326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IsPaused
+  m_EditorClassIdentifier: 
+  Name: IsPaused
+  StudioPath: parameter:/IsPaused
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3774879937
+    data2: 3531919053
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Paused
+  - Unpaused
+  Exists: 1
 --- !u!114 &-8478528555142180114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +359,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
   Name: Interactables
   StudioPath: bank:/Interactables
-  lastModified: 639124805974767497
+  lastModified: 639132417990958753
   FileSizes:
   - Name: Desktop
     Value: 1891776
@@ -353,7 +379,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639124805978484770
+  lastModified: 639132417996485512
   FileSizes:
   - Name: Desktop
     Value: 21950144
@@ -568,6 +594,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56888
+--- !u!114 &-7091853406502580105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Building/Window Raindrops
+  m_EditorClassIdentifier: 
+  Path: event:/Building/Window Raindrops
+  Guid:
+    Data1: -278021498
+    Data2: 1322473416
+    Data3: 1912885167
+    Data4: 888026411
+  Banks:
+  - {fileID: 4962848633035128301}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13000
 --- !u!114 &-7042704693827981391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,10 +840,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639124790638668915
+  lastModified: 639132598589617071
   FileSizes:
   - Name: Desktop
-    Value: 10454752
+    Value: 10547648
   Exists: 1
 --- !u!114 &-6586037241541655132
 MonoBehaviour:
@@ -2103,7 +2156,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639124793488215094
+  lastModified: 639132417996760058
   FileSizes:
   - Name: Desktop
     Value: 51712
@@ -2401,14 +2454,17 @@ MonoBehaviour:
   - {fileID: 1496606268558404409}
   - {fileID: -5884601561731667731}
   - {fileID: 6073699340724801030}
+  - {fileID: -7091853406502580105}
+  - {fileID: 2736812354913120246}
   EditorParameters:
   - {fileID: -3533095292210106517}
+  - {fileID: -8713444931495160326}
   MasterBanks:
   - {fileID: 8496942661731490781}
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639124805979113152
+  cacheTime: 639132817139194834
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2486,52 +2542,54 @@ MonoBehaviour:
     index: 36
   - key: event:/Character/Flashlight
     index: 37
-  - key: event:/Building/Door Creak
-    index: 38
-  - key: event:/Building/Door Locked
-    index: 39
   - key: event:/Ambience/water-dripping
-    index: 40
+    index: 38
   - key: event:/Ambience/wind-against-trees
-    index: 41
+    index: 39
   - key: event:/Ambience/windwhistle
-    index: 42
+    index: 40
   - key: event:/Interactables/toilet-flush
-    index: 43
+    index: 41
   - key: event:/Interactables/locking-door
-    index: 44
+    index: 42
   - key: event:/Interactables/tv-static
-    index: 45
+    index: 43
   - key: event:/Interactables/barrel_rolling_loop
-    index: 46
+    index: 44
   - key: event:/Interactables/rocking-chair
-    index: 47
+    index: 45
   - key: event:/Interactables/wooden_collision_1_dry_dull
-    index: 48
+    index: 46
   - key: event:/Interactables/wooden_collision_small_dry_dull
-    index: 49
-  - key: event:/Interactables/tv-switch-off 2
-    index: 50
+    index: 47
   - key: event:/Interactables/picking-up-paper
-    index: 51
+    index: 48
   - key: event:/Interactables/wooden_collision_3_dry_dull
-    index: 52
+    index: 49
   - key: event:/Interactables/wooden_collision_2_dry_dull
-    index: 53
+    index: 50
   - key: event:/Interactables/Switch
-    index: 54
+    index: 51
   - key: event:/Interactables/locking Door
-    index: 55
+    index: 52
   - key: event:/Interactables/tv-switch-off
-    index: 56
+    index: 53
   - key: event:/Weapons/Knife SFX/Knife-swoosh
-    index: 57
+    index: 54
   - key: event:/Weapons/Knife SFX/Knife-slash
-    index: 58
+    index: 55
   - key: event:/Weapons/Knife SFX/Knife-fleshy-SFX
-    index: 59
+    index: 56
   - key: event:/Zombie Groans/Zombie_Groans
+    index: 57
+  - key: event:/Building/Doors/Door Creak
+    index: 58
+  - key: event:/Building/Doors/Door Locked
+    index: 59
+  - key: event:/Building/Window Raindrops
     index: 60
+  - key: event:/Building/Fire Bin
+    index: 61
 --- !u!114 &331754751474402596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2728,10 +2786,10 @@ MonoBehaviour:
     Data3: -910530665
     Data4: -1011249613
   Banks:
-  - {fileID: 4962848633035128301}
+  - {fileID: -6595186989705155051}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -2829,10 +2887,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639124805975257120
+  lastModified: 639132815306715716
   FileSizes:
   - Name: Desktop
-    Value: 5870
+    Value: 6018
   Exists: 1
 --- !u!114 &1890264081741740455
 MonoBehaviour:
@@ -3072,6 +3130,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10598
+--- !u!114 &2736812354913120246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Building/Fire Bin
+  m_EditorClassIdentifier: 
+  Path: event:/Building/Fire Bin
+  Guid:
+    Data1: -877481115
+    Data2: 1171051136
+    Data3: 1855304088
+    Data4: -386360423
+  Banks:
+  - {fileID: 4962848633035128301}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41775
 --- !u!114 &2745706993330569305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3723,10 +3808,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639124805964635534
+  lastModified: 639132817139194834
   FileSizes:
   - Name: Desktop
-    Value: 459168
+    Value: 1238080
   Exists: 1
 --- !u!114 &5091775622544899185
 MonoBehaviour:
@@ -4515,10 +4600,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639124805975236915
+  lastModified: 639132815306695550
   FileSizes:
   - Name: Desktop
-    Value: 34304
+    Value: 35872
   Exists: 1
 --- !u!114 &8501398307316992438
 MonoBehaviour:

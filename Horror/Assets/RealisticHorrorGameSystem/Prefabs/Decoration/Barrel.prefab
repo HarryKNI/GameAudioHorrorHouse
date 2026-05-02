@@ -306,6 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 199541284284380053}
   - component: {fileID: 7084241366917238278}
+  - component: {fileID: 6033095320826181596}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -351,6 +352,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.733546, y: 1.2472334, z: 0.7200603}
   m_Center: {x: 0, y: 0.6267438, z: 0}
+--- !u!114 &6033095320826181596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4282859678665359230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -877481115
+      Data2: 1171051136
+      Data3: 1855304088
+      Data4: -386360423
+    Path: event:/Building/Fire Bin
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 12
 --- !u!1 &4349980589237236288
 GameObject:
   m_ObjectHideFlags: 0
