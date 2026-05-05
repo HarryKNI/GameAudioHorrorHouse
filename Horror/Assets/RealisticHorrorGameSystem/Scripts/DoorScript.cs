@@ -18,6 +18,7 @@ namespace RealisticHorrorGameSystem
 
         [SerializeField] private StudioEventEmitter doorLockedEvent;
         [SerializeField] private StudioEventEmitter doorCloseEvent;
+        [SerializeField] private StudioEventEmitter doorUnlockEvent;
 
         private void Start()
         {
@@ -53,7 +54,8 @@ namespace RealisticHorrorGameSystem
                     if (HeroPlayerScript.Instance.Keys_Grabbed.Contains(KeyID_ToOpen))
                     {
                         isLocked = false;
-                        AudioManager.Instance.Play_Door_UnLock();
+                        //AudioManager.Instance.Play_Door_UnLock();
+                        Play_Door_Unlocked();
                         StartCoroutine(OpenTheDoor());
                     }
                     else
@@ -117,6 +119,11 @@ namespace RealisticHorrorGameSystem
             }
             //audioSource.PlayOneShot(Door_Close[UnityEngine.Random.Range(0, Door_Close.Length)]);
             doorCloseEvent.Play();
+        }
+
+        public void Play_Door_Unlocked()
+        {
+            doorUnlockEvent.Play();
         }
     }
 }

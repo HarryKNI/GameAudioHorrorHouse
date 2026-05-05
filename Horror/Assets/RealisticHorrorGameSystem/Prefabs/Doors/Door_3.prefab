@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 4636630774514836310}
   - component: {fileID: 631215933137796167}
   - component: {fileID: 1502870251630896564}
+  - component: {fileID: 8977783137549200114}
   m_Layer: 0
   m_Name: Door_3
   m_TagString: Item
@@ -161,6 +162,7 @@ MonoBehaviour:
   doorCollider: {fileID: 4080684835195532724}
   doorLockedEvent: {fileID: 631215933137796167}
   doorCloseEvent: {fileID: 1502870251630896564}
+  doorUnlockEvent: {fileID: 8977783137549200114}
 --- !u!114 &2484281866188634571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,6 +254,37 @@ MonoBehaviour:
       Data3: -380992089
       Data4: 1039913086
     Path: event:/Building/Doors/Door Creak
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8977783137549200114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806058087483026313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -152725619
+      Data2: 1127411519
+      Data3: -468170565
+      Data4: -1775830579
+    Path: event:/Building/Doors/Door Unlocked
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

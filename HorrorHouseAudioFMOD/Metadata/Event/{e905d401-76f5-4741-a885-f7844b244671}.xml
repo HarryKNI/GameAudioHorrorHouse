@@ -307,7 +307,7 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="EventMixerGroup" id="{e64b8201-2a03-43b9-88c4-a1122c9dd63f}">
 		<property name="volume">
-			<value>-29.5</value>
+			<value>-15</value>
 		</property>
 		<property name="name">
 			<value>Footsteps Reverb</value>

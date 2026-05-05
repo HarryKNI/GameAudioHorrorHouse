@@ -383,7 +383,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
   Name: Interactables
   StudioPath: bank:/Interactables
-  lastModified: 639132417990958753
+  lastModified: 639135395211421528
   FileSizes:
   - Name: Desktop
     Value: 1891776
@@ -403,10 +403,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639133621089004651
+  lastModified: 639135421671560964
   FileSizes:
   - Name: Desktop
-    Value: 22474272
+    Value: 22545184
   Exists: 1
 --- !u!114 &-7747285715381928157
 MonoBehaviour:
@@ -618,6 +618,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56888
+--- !u!114 &-7147350199567197938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Building/Doors/Door Unlocked
+  m_EditorClassIdentifier: 
+  Path: event:/Building/Doors/Door Unlocked
+  Guid:
+    Data1: -152725619
+    Data2: 1127411519
+    Data3: -468170565
+    Data4: -1775830579
+  Banks:
+  - {fileID: -7812746825709787190}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1850
 --- !u!114 &-7091853406502580105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,7 +891,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639132598589617071
+  lastModified: 639135395252342650
   FileSizes:
   - Name: Desktop
     Value: 10547648
@@ -2455,6 +2482,7 @@ MonoBehaviour:
   - {fileID: 4455192418516556281}
   - {fileID: 745961326933685566}
   - {fileID: 3193400507102047743}
+  - {fileID: -7147350199567197938}
   EditorParameters:
   - {fileID: -3533095292210106517}
   - {fileID: -8713444931495160326}
@@ -2463,7 +2491,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1834074338679081542}
   cacheVersion: 131858
-  cacheTime: 639133621439901897
+  cacheTime: 639135421671560964
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2593,6 +2621,8 @@ MonoBehaviour:
     index: 62
   - key: event:/Character/Tracker
     index: 63
+  - key: event:/Building/Doors/Door Unlocked
+    index: 64
 --- !u!114 &331754751474402596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2917,10 +2947,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639133621082514067
+  lastModified: 639135395211946688
   FileSizes:
   - Name: Desktop
-    Value: 6126
+    Value: 6164
   Exists: 1
 --- !u!114 &1890264081741740455
 MonoBehaviour:
@@ -3206,8 +3236,8 @@ MonoBehaviour:
     Data3: 1612659589
     Data4: 26536155
   Banks:
-  - {fileID: -7812746825709787190}
   - {fileID: 3325237649366995459}
+  - {fileID: -7812746825709787190}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3422,7 +3452,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639133621089292783
+  lastModified: 639135395316473444
   FileSizes:
   - Name: Desktop
     Value: 21536
@@ -3894,7 +3924,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639133621439901897
+  lastModified: 639135395200877561
   FileSizes:
   - Name: Desktop
     Value: 1238080
@@ -4686,7 +4716,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639133621082493838
+  lastModified: 639135395211926616
   FileSizes:
   - Name: Desktop
     Value: 37056
