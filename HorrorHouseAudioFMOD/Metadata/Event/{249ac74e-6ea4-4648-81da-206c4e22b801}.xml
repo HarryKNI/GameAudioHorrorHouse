@@ -66,7 +66,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{ad58c3a7-2bc9-0263-14d6-c1fa1cb73367}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{561cd480-bd2b-4c2e-b919-d775f9c4f409}</destination>
+			<destination>{9ad4be16-4f5a-4e4c-a013-f35de106f106}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{22165439-dd04-48a0-a34e-7175c43f3f94}">

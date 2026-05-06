@@ -469,11 +469,38 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639123794629643602
+  lastModified: 639136870270686226
   FileSizes:
   - Name: Desktop
     Value: 51360
   Exists: 1
+--- !u!114 &-8130023813438915769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/shotgun_m1014_fire
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/shotgun_m1014_fire
+  Guid:
+    Data1: -386407310
+    Data2: 1145890329
+    Data3: 321642373
+    Data4: -115873485
+  Banks:
+  - {fileID: -5113639821448813714}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3167
 --- !u!114 &-8054542953569651911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,33 +919,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-6876271083606957930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Haptics/shotgun_m1014_prime_in
-  m_EditorClassIdentifier: 
-  Path: event:/Haptics/shotgun_m1014_prime_in
-  Guid:
-    Data1: 560949836
-    Data2: 1168139537
-    Data3: -2116552537
-    Data4: 1328016857
-  Banks:
-  - {fileID: -5113639821448813714}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 279
 --- !u!114 &-6842690846981336295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -938,7 +938,7 @@ MonoBehaviour:
     Data3: 1814092417
     Data4: 28844622
   Banks:
-  - {fileID: 811067539541299601}
+  - {fileID: 2390711819256143865}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1031,33 +1031,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &-6674479842769808531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Haptics/shotgun_m1014_fire
-  m_EditorClassIdentifier: 
-  Path: event:/Haptics/shotgun_m1014_fire
-  Guid:
-    Data1: -386407310
-    Data2: 1145890329
-    Data3: 321642373
-    Data4: -115873485
-  Banks:
-  - {fileID: -5113639821448813714}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3167
 --- !u!114 &-6672484466356226891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1360,10 +1333,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_EN.bank
   Name: Dialogue_EN
   StudioPath: bank:/Dialogue_EN
-  lastModified: 639123794550421443
+  lastModified: 639136805159789414
   FileSizes:
   - Name: Desktop
-    Value: 61088
+    Value: 61120
   Exists: 1
 --- !u!114 &-5831340360546997291
 MonoBehaviour:
@@ -1536,10 +1509,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Haptics.bank
   Name: Haptics
   StudioPath: bank:/Haptics
-  lastModified: 639123794551997472
+  lastModified: 639136903155904741
   FileSizes:
   - Name: Desktop
-    Value: 300480
+    Value: 387904
   Exists: 1
 --- !u!114 &-5089090083171660968
 MonoBehaviour:
@@ -1822,7 +1795,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_CN.bank
   Name: Dialogue_CN
   StudioPath: bank:/Dialogue_CN
-  lastModified: 639123794549908299
+  lastModified: 639136805159472616
   FileSizes:
   - Name: Desktop
     Value: 52416
@@ -1905,6 +1878,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1274
+--- !u!114 &-4169255822013180506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Haptics/rain_under_umbrella
+  m_EditorClassIdentifier: 
+  Path: event:/Haptics/rain_under_umbrella
+  Guid:
+    Data1: 1467178984
+    Data2: 1275008423
+    Data3: -2045544562
+    Data4: 293518840
+  Banks:
+  - {fileID: -5113639821448813714}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
 --- !u!114 &-4147635484496030139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2289,33 +2289,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 279
---- !u!114 &-2860122492838006645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Haptics/shotgun_m1014_prime_out
-  m_EditorClassIdentifier: 
-  Path: event:/Haptics/shotgun_m1014_prime_out
-  Guid:
-    Data1: -1619623716
-    Data2: 1097643237
-    Data3: 1607139244
-    Data4: 1948534467
-  Banks:
-  - {fileID: -5113639821448813714}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 363
 --- !u!114 &-2859927162271784408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2538,7 +2511,7 @@ MonoBehaviour:
     Data3: 130402976
     Data4: 239065686
   Banks:
-  - {fileID: 811067539541299601}
+  - {fileID: 2390711819256143865}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2790,11 +2763,38 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123822269259545
+  lastModified: 639136910652063058
   FileSizes:
   - Name: Desktop
-    Value: 16268
+    Value: 16650
   Exists: 1
+--- !u!114 &-834266200965742622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/shotgun_m1014_prime_out
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/shotgun_m1014_prime_out
+  Guid:
+    Data1: -1619623716
+    Data2: 1097643237
+    Data3: 1607139244
+    Data4: 1948534467
+  Banks:
+  - {fileID: -5113639821448813714}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 363
 --- !u!114 &-781135331150966254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3100,14 +3100,10 @@ MonoBehaviour:
   - {fileID: -8134698583402497937}
   EditorEvents:
   - {fileID: 5427411598562674347}
-  - {fileID: -6876271083606957930}
   - {fileID: -7537614092087024779}
-  - {fileID: -6674479842769808531}
   - {fileID: -8363541339232465302}
   - {fileID: -4679671500480187409}
   - {fileID: 1096331402042362270}
-  - {fileID: -2860122492838006645}
-  - {fileID: 2170185713195114155}
   - {fileID: -2826251062371713399}
   - {fileID: -8612072577061602890}
   - {fileID: 3748065631560827639}
@@ -3139,7 +3135,11 @@ MonoBehaviour:
   - {fileID: -8693015268282630515}
   - {fileID: 3006984620364509403}
   - {fileID: 3613129868538204426}
-  - {fileID: 4891528527030727789}
+  - {fileID: 4900978489655472622}
+  - {fileID: 8203461485059661280}
+  - {fileID: -8130023813438915769}
+  - {fileID: -834266200965742622}
+  - {fileID: -4169255822013180506}
   EditorParameters:
   - {fileID: -4121810010777335406}
   MasterBanks:
@@ -3147,89 +3147,89 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 6779418362309349635}
   cacheVersion: 131858
-  cacheTime: 639123822269269917
+  cacheTime: 639136910652083345
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
-  - key: event:/Haptics/shotgun_m1014_prime_in
-    index: 1
   - key: event:/Haptics/car_engine
-    index: 2
-  - key: event:/Haptics/shotgun_m1014_fire
-    index: 3
+    index: 1
   - key: event:/Haptics/pool_ball
-    index: 4
+    index: 2
   - key: event:/Haptics/knapsack_open
-    index: 5
+    index: 3
   - key: event:/Haptics/servo
-    index: 6
-  - key: event:/Haptics/shotgun_m1014_prime_out
-    index: 7
-  - key: event:/Haptics/rain_under_umbrella
-    index: 8
+    index: 4
   - key: snapshot:/Slow-Motion
-    index: 9
+    index: 5
   - key: snapshot:/Health Low
-    index: 10
+    index: 6
   - key: snapshot:/Reverb/Sewer Reverb
-    index: 11
+    index: 7
   - key: snapshot:/Pause
-    index: 12
+    index: 8
   - key: snapshot:/Reverb/Cave Reverb
-    index: 13
+    index: 9
   - key: event:/Music/Level 03
-    index: 14
+    index: 10
   - key: event:/Music/Level 01
-    index: 15
+    index: 11
   - key: event:/Music/Radio Station
-    index: 16
+    index: 12
   - key: event:/Music/Level 02
-    index: 17
+    index: 13
   - key: event:/Character/Player Footsteps
-    index: 18
+    index: 14
   - key: event:/Character/Door Open
-    index: 19
+    index: 15
   - key: event:/Weapons/Explosion
-    index: 20
+    index: 16
   - key: event:/Character/Enemy Footsteps
-    index: 21
+    index: 17
   - key: event:/Interactables/Barrel Roll
-    index: 22
+    index: 18
   - key: event:/Character/Flashlight
-    index: 23
+    index: 19
   - key: event:/Character/Door Close
-    index: 24
+    index: 20
   - key: event:/Ambience/Country
-    index: 25
+    index: 21
   - key: event:/Ambience/City
-    index: 26
+    index: 22
   - key: event:/Character/Radio Dialogue
-    index: 27
+    index: 23
   - key: event:/UI/Okay
-    index: 28
+    index: 24
   - key: event:/Character/Dialogue
-    index: 29
+    index: 25
   - key: event:/Weapons/Pistol
-    index: 30
+    index: 26
   - key: event:/Character/Health
-    index: 31
+    index: 27
   - key: event:/Interactables/Wooden Collision
-    index: 32
+    index: 28
   - key: event:/Ambience/Forest
-    index: 33
+    index: 29
   - key: event:/UI/Cancel
-    index: 34
+    index: 30
   - key: event:/Weapons/Machine Gun
-    index: 35
+    index: 31
   - key: event:/VO/Main Menu
-    index: 36
+    index: 32
   - key: event:/VO/Welcome
-    index: 37
+    index: 33
   - key: event:/Vehicles/Car Engine
-    index: 38
+    index: 34
   - key: event:/Vehicles/Ride-on Mower
-    index: 39
+    index: 35
   - key: event:/Zombie_Groans
+    index: 36
+  - key: event:/Weapons/shotgun_m1014_prime_in
+    index: 37
+  - key: event:/Weapons/shotgun_m1014_fire
+    index: 38
+  - key: event:/Weapons/shotgun_m1014_prime_out
+    index: 39
+  - key: event:/Haptics/rain_under_umbrella
     index: 40
 --- !u!114 &190817554587312619
 MonoBehaviour:
@@ -3338,10 +3338,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639123794628090658
+  lastModified: 639136909639768365
   FileSizes:
   - Name: Desktop
-    Value: 21873408
+    Value: 752576
   Exists: 1
 --- !u!114 &932587577283818773
 MonoBehaviour:
@@ -3700,33 +3700,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &2170185713195114155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Haptics/rain_under_umbrella
-  m_EditorClassIdentifier: 
-  Path: event:/Haptics/rain_under_umbrella
-  Guid:
-    Data1: 1467178984
-    Data2: 1275008423
-    Data3: -2045544562
-    Data4: 293518840
-  Banks:
-  - {fileID: -5113639821448813714}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8000
 --- !u!114 &2196167638310853831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3762,10 +3735,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639123794580684045
+  lastModified: 639136903909292212
   FileSizes:
   - Name: Desktop
-    Value: 10454624
+    Value: 31575360
   Exists: 1
 --- !u!114 &2530019044784417855
 MonoBehaviour:
@@ -4522,7 +4495,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 100
   Length: 0
---- !u!114 &4891528527030727789
+--- !u!114 &4900978489655472622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5080,10 +5053,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639123794629193913
+  lastModified: 639136805169567584
   FileSizes:
   - Name: Desktop
-    Value: 38624
+    Value: 38592
   Exists: 1
 --- !u!114 &6615898955527300215
 MonoBehaviour:
@@ -5104,7 +5077,7 @@ MonoBehaviour:
     Data3: 1431117501
     Data4: -326572916
   Banks:
-  - {fileID: 811067539541299601}
+  - {fileID: 2390711819256143865}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -5130,10 +5103,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123822269269917
+  lastModified: 639136910652083345
   FileSizes:
   - Name: Desktop
-    Value: 4708
+    Value: 4836
   Exists: 1
 --- !u!114 &6829301739416079392
 MonoBehaviour:
@@ -5386,10 +5359,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639123794628877043
+  lastModified: 639136805169259635
   FileSizes:
   - Name: Desktop
-    Value: 222688
+    Value: 222624
   Exists: 1
 --- !u!114 &7630340541505887058
 MonoBehaviour:
@@ -5478,10 +5451,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_JP.bank
   Name: Dialogue_JP
   StudioPath: bank:/Dialogue_JP
-  lastModified: 639123794550939189
+  lastModified: 639136805160125547
   FileSizes:
   - Name: Desktop
-    Value: 66592
+    Value: 66560
   Exists: 1
 --- !u!114 &7918719404771131752
 MonoBehaviour:
@@ -5606,6 +5579,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &8203461485059661280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapons/shotgun_m1014_prime_in
+  m_EditorClassIdentifier: 
+  Path: event:/Weapons/shotgun_m1014_prime_in
+  Guid:
+    Data1: 560949836
+    Data2: 1168139537
+    Data3: -2116552537
+    Data4: 1328016857
+  Banks:
+  - {fileID: -5113639821448813714}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 279
 --- !u!114 &8253254439780777540
 MonoBehaviour:
   m_ObjectHideFlags: 0
