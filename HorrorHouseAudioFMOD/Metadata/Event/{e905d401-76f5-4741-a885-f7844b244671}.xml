@@ -179,7 +179,7 @@ Recordings by David at Track Time Audio.</value>
 			<value>3</value>
 		</property>
 		<property name="volume">
-			<value>-10</value>
+			<value>-4</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -214,6 +214,9 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 		<property name="voiceStealing">
 			<value>3</value>
+		</property>
+		<property name="volume">
+			<value>5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{bbee94c0-039e-4699-97a9-e8aefd5df9eb}</destination>

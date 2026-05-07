@@ -156,7 +156,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639137675670542915
+  lastModified: 639137799442690770
   FileSizes:
   - Name: Desktop
     Value: 21536
@@ -437,7 +437,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
   Name: Interactables
   StudioPath: bank:/Interactables
-  lastModified: 639137675590788485
+  lastModified: 639137799363919278
   FileSizes:
   - Name: Desktop
     Value: 1163584
@@ -724,7 +724,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639137762884726388
+  lastModified: 639137802747665281
   FileSizes:
   - Name: Desktop
     Value: 23200032
@@ -801,10 +801,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639137761716396553
+  lastModified: 639137799365069451
   FileSizes:
   - Name: Desktop
-    Value: 6426
+    Value: 6366
   Exists: 1
 --- !u!114 &-2991247099912605500
 MonoBehaviour:
@@ -875,7 +875,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639137761716366327
+  lastModified: 639137799365041301
   FileSizes:
   - Name: Desktop
     Value: 688736
@@ -1463,7 +1463,6 @@ MonoBehaviour:
   - {fileID: 3301559199858347815}
   - {fileID: -154257593472160244}
   - {fileID: -2458547704513180363}
-  - {fileID: 691206457589357507}
   - {fileID: -1647401013176621327}
   - {fileID: -4482559744668360305}
   - {fileID: 5625697868449556295}
@@ -1502,7 +1501,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2994805204786922351}
   cacheVersion: 131858
-  cacheTime: 639137762884726388
+  cacheTime: 639137802747665281
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -1572,68 +1571,66 @@ MonoBehaviour:
     index: 32
   - key: event:/Ambience/water-dripping
     index: 33
-  - key: event:/Ambience/wind-against-trees
-    index: 34
   - key: event:/Building/Fire Bin
-    index: 35
+    index: 34
   - key: event:/Building/Window Raindrops
-    index: 36
+    index: 35
   - key: event:/Interactables/toilet-flush
-    index: 37
+    index: 36
   - key: event:/Interactables/locking-door
-    index: 38
+    index: 37
   - key: event:/Interactables/barrel_rolling_loop
-    index: 39
+    index: 38
   - key: event:/Interactables/rocking-chair
-    index: 40
+    index: 39
   - key: event:/Interactables/wooden_collision_1_dry_dull
-    index: 41
+    index: 40
   - key: event:/Interactables/wooden_collision_small_dry_dull
-    index: 42
+    index: 41
   - key: event:/Interactables/picking-up-paper
-    index: 43
+    index: 42
   - key: event:/Interactables/wooden_collision_3_dry_dull
-    index: 44
+    index: 43
   - key: event:/Interactables/wooden_collision_2_dry_dull
-    index: 45
+    index: 44
   - key: snapshot:/Reverb/Reverb Vent
-    index: 46
+    index: 45
   - key: event:/Interactables/locking Door
-    index: 47
+    index: 46
   - key: snapshot:/Reverb/Reverb
-    index: 48
+    index: 47
   - key: event:/Character/Flashlight
-    index: 49
+    index: 48
   - key: event:/Building/Doors/Door Creak
-    index: 50
+    index: 49
   - key: event:/Building/Doors/Door Unlocked
-    index: 51
+    index: 50
   - key: event:/Interactables/tv-switch-off
-    index: 52
+    index: 51
   - key: event:/Building/Doors/Door Locked
-    index: 53
+    index: 52
   - key: event:/Weapons/Knife SFX/Knife-fleshy-SFX
-    index: 54
+    index: 53
   - key: event:/Character/Tracker
-    index: 55
+    index: 54
   - key: event:/Weapons/Knife SFX/Knife-swoosh
-    index: 56
+    index: 55
   - key: event:/Weapons/Knife SFX/Knife-slash
-    index: 57
+    index: 56
   - key: event:/Zombie Groans/Zombie_Groans
-    index: 58
+    index: 57
   - key: event:/Interactables/tvStatic
-    index: 59
+    index: 58
   - key: event:/Zombie Groans/Corey_Demon_Attack
-    index: 60
+    index: 59
   - key: event:/Zombie Groans/Demon_Chase
-    index: 61
+    index: 60
   - key: event:/Ambience/ForestSoundsFrog
-    index: 62
+    index: 61
   - key: event:/Interactables/Drawer
-    index: 63
+    index: 62
   - key: event:/Ambience/Light Buzz
-    index: 64
+    index: 63
 --- !u!114 &104361661169231985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1759,33 +1756,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 840
---- !u!114 &691206457589357507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/wind-against-trees
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/wind-against-trees
-  Guid:
-    Data1: 1727387710
-    Data2: 1262254011
-    Data3: -853983605
-    Data4: 1674660450
-  Banks:
-  - {fileID: 4783145620568012715}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &932587577283818773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,7 +1905,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639137701922622491
+  lastModified: 639137799419274616
   FileSizes:
   - Name: Desktop
     Value: 16509632
@@ -2216,10 +2186,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639137761715787874
+  lastModified: 639137799355381717
   FileSizes:
   - Name: Desktop
-    Value: 1399680
+    Value: 1398752
   Exists: 1
 --- !u!114 &4783738360654824395
 MonoBehaviour:
@@ -2416,7 +2386,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639137701929065899
+  lastModified: 639137799445461623
   FileSizes:
   - Name: Desktop
     Value: 220704
