@@ -189,6 +189,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{8955f2c9-b5b7-4834-aa83-4bd1b466bb4d}</destination>
 		</relationship>
 		<relationship name="sounds">
+<<<<<<< HEAD
 			<destination>{f1bab5a0-eeae-49c4-9d4f-8d863ab40e6a}</destination>
 			<destination>{39ce82a4-433a-4083-9e6b-4561016d964b}</destination>
 			<destination>{91775004-c780-4aa0-a0da-6f7b7aba2991}</destination>
@@ -200,6 +201,17 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{87cd6606-0dc0-4755-97fc-73fb808e302e}</destination>
 			<destination>{bf97c942-2cb0-44b5-9d67-90c45217fe35}</destination>
 			<destination>{a142df30-8ded-458d-a9e3-cd0485ba08a7}</destination>
+=======
+			<destination>{68e4a419-cd31-41b6-ae2f-aa271ce2ac36}</destination>
+			<destination>{da0dbc74-2d30-471e-877d-0141c0a02274}</destination>
+			<destination>{eb64db6d-f2f7-4ac6-89db-72bc9f959891}</destination>
+			<destination>{dcda2582-a6f0-4606-b576-a328b2966f3a}</destination>
+			<destination>{d9bf15e5-6414-4958-95d2-5da8d9e52aeb}</destination>
+			<destination>{b0db09b0-7ee6-49c5-a505-7b80ebad8f85}</destination>
+			<destination>{2ea433bc-151d-4bea-b82e-275994552828}</destination>
+			<destination>{55b030d5-5cc0-4fd4-9072-ff8e04cb6578}</destination>
+			<destination>{6d1d1e50-9705-4181-ad79-a57f0731c86d}</destination>
+>>>>>>> origin/Henry_Branch2
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{c20932ee-3f55-4a2d-9e19-360418e793b5}">
@@ -220,11 +232,18 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{cd05ae94-c431-4dba-b16a-4facc0f57802}</destination>
 		</relationship>
 		<relationship name="sounds">
+<<<<<<< HEAD
 			<destination>{f1849734-0d5f-4a86-a43f-30d3e6d291a8}</destination>
 			<destination>{1ca06fe7-5ce1-40bb-bf01-2ca52b6df67c}</destination>
 			<destination>{c7b94ab4-9722-4c1b-8bd4-3fa5fff4039a}</destination>
 			<destination>{0f0b6968-60c7-474a-983f-9cd7e36499de}</destination>
 			<destination>{bc9e3c96-81c4-464a-b363-cc8a521ba88c}</destination>
+=======
+			<destination>{f158d841-066d-448d-87d5-8074b7985c89}</destination>
+			<destination>{cc2cea46-4fa0-4b91-b263-f9a5772dc02c}</destination>
+			<destination>{65f2e32e-df0f-4196-8dd6-6903ebf6d713}</destination>
+			<destination>{3d6cce59-2a98-44ff-86e7-5d228a22ef5c}</destination>
+>>>>>>> origin/Henry_Branch2
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{308d8aa2-9498-48bf-9c33-8de1f2fcad94}">
@@ -242,6 +261,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{ebe92199-3690-4951-be30-3a03924190ea}</destination>
 		</relationship>
 		<relationship name="sounds">
+<<<<<<< HEAD
 			<destination>{ca841a61-fe1a-4342-8b08-8eeeb823100b}</destination>
 			<destination>{b439e8ba-d5fb-4a14-b491-828ccf5070b1}</destination>
 			<destination>{e67d5b98-ea60-41cb-ba6e-0673976bc32f}</destination>
@@ -266,6 +286,11 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{3e131971-633f-4ac1-83f1-e8cce00bfc49}</destination>
 			<destination>{6d85af8b-7b21-40af-929f-3c9fc3dace26}</destination>
 			<destination>{f491e7b6-2f7c-472b-9726-2c0a5e62b5c7}</destination>
+=======
+			<destination>{7fa088e4-ccbb-44d1-aee4-17dee56da78b}</destination>
+			<destination>{028b6ed5-e1fe-43f6-966d-933b4a67c1ed}</destination>
+			<destination>{cbe98fec-5ea3-4667-92a0-da2075aa2d7f}</destination>
+>>>>>>> origin/Henry_Branch2
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cab8585f-4802-40ae-b8c8-8f822593975f}">
@@ -348,6 +373,7 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="MixerBusEffectChain" id="{098d2167-900f-4b62-909f-1a7c82abb11c}">
 		<relationship name="effects">
+			<destination>{15feb64f-0c6c-43b8-85d7-9da3243b316f}</destination>
 			<destination>{339a915c-b6a1-4c50-a1b7-2c9119e467ee}</destination>
 			<destination>{4675e2ba-138a-48e6-9ace-2abd8552a89f}</destination>
 			<destination>{b3c64595-530c-4a9b-b655-d0c099501ab2}</destination>
@@ -372,70 +398,119 @@ Recordings by David at Track Time Audio.</value>
 			<value>8.33333015</value>
 		</property>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{f1bab5a0-eeae-49c4-9d4f-8d863ab40e6a}">
 		<property name="startOffset">
 			<value>34.5</value>
+=======
+	<object class="SingleSound" id="{68e4a419-cd31-41b6-ae2f-aa271ce2ac36}">
+		<property name="startOffset">
+			<value>42.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{0c823bb5-5c16-4980-b685-e9828d6b5319}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{39ce82a4-433a-4083-9e6b-4561016d964b}">
 		<property name="startOffset">
 			<value>37</value>
+=======
+	<object class="SingleSound" id="{da0dbc74-2d30-471e-877d-0141c0a02274}">
+		<property name="startOffset">
+			<value>45.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{8eeb0d55-b15d-4092-bb59-176dc1489530}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{91775004-c780-4aa0-a0da-6f7b7aba2991}">
 		<property name="startOffset">
 			<value>35.5</value>
+=======
+	<object class="SingleSound" id="{eb64db6d-f2f7-4ac6-89db-72bc9f959891}">
+		<property name="startOffset">
+			<value>49.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{e5d0ab02-8558-4dc8-b892-08711c8b574a}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{83352d90-71dd-4c52-9edb-aa87c2c94b35}">
 		<property name="startOffset">
 			<value>24.5</value>
+=======
+	<object class="SingleSound" id="{dcda2582-a6f0-4606-b576-a328b2966f3a}">
+		<property name="startOffset">
+			<value>34.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{b4f3f95a-d755-4100-868b-5957b9be9697}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{fb4e4140-e13f-4f3e-ac9e-bebba9d65be8}">
 		<property name="startOffset">
 			<value>27</value>
+=======
+	<object class="SingleSound" id="{d9bf15e5-6414-4958-95d2-5da8d9e52aeb}">
+		<property name="startOffset">
+			<value>34</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{802d7611-0ca0-4ab3-85f8-c3ed75f16562}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{457a30e6-3dfa-420a-9c69-9e2f9d4bdec2}">
 		<property name="startOffset">
 			<value>9</value>
+=======
+	<object class="SingleSound" id="{b0db09b0-7ee6-49c5-a505-7b80ebad8f85}">
+		<property name="startOffset">
+			<value>24.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{c8fc887c-da59-4710-bc28-61f62c9d4e93}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{f8428823-2cee-41fe-a977-adceba832a26}">
 		<property name="startOffset">
 			<value>25</value>
+=======
+	<object class="SingleSound" id="{2ea433bc-151d-4bea-b82e-275994552828}">
+		<property name="startOffset">
+			<value>27.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{dae5c729-8430-4f6f-8a87-8944e8e622b7}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{9422b035-3962-49d7-b667-5174ecd5da7e}">
 		<property name="startOffset">
 			<value>30</value>
+=======
+	<object class="SingleSound" id="{55b030d5-5cc0-4fd4-9072-ff8e04cb6578}">
+		<property name="startOffset">
+			<value>48.5</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<relationship name="audioFile">
 			<destination>{ae23972b-8686-4676-80d9-5cb84f305f97}</destination>
 		</relationship>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{87cd6606-0dc0-4755-97fc-73fb808e302e}">
 		<property name="startOffset">
 			<value>37.5</value>
@@ -458,6 +533,14 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{11cb9f9d-d919-432d-8140-9ea4eaff14d9}</destination>
+=======
+	<object class="SingleSound" id="{6d1d1e50-9705-4181-ad79-a57f0731c86d}">
+		<property name="startOffset">
+			<value>45</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{6f5bacd4-8cb3-417d-b559-698777f63a96}</destination>
+>>>>>>> origin/Henry_Branch2
 		</relationship>
 	</object>
 	<object class="RandomizerModulator" id="{bbee94c0-039e-4699-97a9-e8aefd5df9eb}">
@@ -476,37 +559,24 @@ Recordings by David at Track Time Audio.</value>
 			<value>8.33333015</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{f1849734-0d5f-4a86-a43f-30d3e6d291a8}">
-		<property name="length">
-			<value>0</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
-		</property>
+	<object class="SingleSound" id="{f158d841-066d-448d-87d5-8074b7985c89}">
 		<relationship name="audioFile">
-			<destination>{c578feac-e90f-4dab-acd4-0730ff1efa4c}</destination>
+			<destination>{6d0b4ee4-acae-4bf9-8abb-16897b4d5680}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{1ca06fe7-5ce1-40bb-bf01-2ca52b6df67c}">
-		<property name="length">
-			<value>0</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
-		</property>
+	<object class="SingleSound" id="{cc2cea46-4fa0-4b91-b263-f9a5772dc02c}">
 		<relationship name="audioFile">
-			<destination>{8c036229-6316-44e5-930d-dbe9448cc1d4}</destination>
+			<destination>{73a56b69-b3d1-496e-a99f-eb2a496c0418}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c7b94ab4-9722-4c1b-8bd4-3fa5fff4039a}">
-		<property name="length">
-			<value>0</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
-		</property>
+	<object class="SingleSound" id="{65f2e32e-df0f-4196-8dd6-6903ebf6d713}">
 		<relationship name="audioFile">
-			<destination>{0d1a2d03-68bb-4208-b28d-208303a0166e}</destination>
+			<destination>{280093fe-944f-4bcd-9dbb-fa50dfb2e91e}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3d6cce59-2a98-44ff-86e7-5d228a22ef5c}">
+		<relationship name="audioFile">
+			<destination>{1d398815-de31-45a8-9c00-c8c561747f09}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0f0b6968-60c7-474a-983f-9cd7e36499de}">
@@ -535,6 +605,7 @@ Recordings by David at Track Time Audio.</value>
 			<value>3</value>
 		</property>
 	</object>
+<<<<<<< HEAD
 	<object class="SingleSound" id="{ca841a61-fe1a-4342-8b08-8eeeb823100b}">
 		<property name="volume">
 			<value>10</value>
@@ -629,6 +700,21 @@ Recordings by David at Track Time Audio.</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{d953a3a9-414a-49c8-830e-a05520052b27}</destination>
+=======
+	<object class="SingleSound" id="{7fa088e4-ccbb-44d1-aee4-17dee56da78b}">
+		<relationship name="audioFile">
+			<destination>{15e72572-4940-4160-9c00-6a21adc10b64}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{028b6ed5-e1fe-43f6-966d-933b4a67c1ed}">
+		<relationship name="audioFile">
+			<destination>{941e106e-4e1d-411d-8583-abe91b81e6e5}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{cbe98fec-5ea3-4667-92a0-da2075aa2d7f}">
+		<relationship name="audioFile">
+			<destination>{b81346e4-6542-48e1-ba1b-33215c8bd2d7}</destination>
+>>>>>>> origin/Henry_Branch2
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f422bf3-41c8-482b-9618-6725466c9717}">
@@ -637,6 +723,7 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4e064594-4d56-49e7-a721-e5dba6f1d8fa}" />
+<<<<<<< HEAD
 	<object class="RandomizerModulator" id="{b91d829f-a9be-4a9c-84f7-eda052d67e46}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
@@ -715,6 +802,13 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{6aa25006-7bba-4293-8d6c-e16fefc5f600}</destination>
 		</relationship>
 	</object>
+=======
+	<object class="SFXReverbEffect" id="{15feb64f-0c6c-43b8-85d7-9da3243b316f}">
+		<property name="wetLevel">
+			<value>-34</value>
+		</property>
+	</object>
+>>>>>>> origin/Henry_Branch2
 	<object class="MixerBusFader" id="{339a915c-b6a1-4c50-a1b7-2c9119e467ee}" />
 	<object class="ProxyEffect" id="{4675e2ba-138a-48e6-9ace-2abd8552a89f}">
 		<property name="inputFormat">

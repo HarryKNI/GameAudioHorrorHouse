@@ -2,7 +2,11 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{802d7611-0ca0-4ab3-85f8-c3ed75f16562}">
 		<property name="assetPath">
+<<<<<<< HEAD
 			<value>Character/Footsteps/Wood/footsteps wooden_footsteps-3.wav</value>
+=======
+			<value>Character/Footsteps/footsteps wooden_footsteps-3.wav</value>
+>>>>>>> origin/Henry_Branch2
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
