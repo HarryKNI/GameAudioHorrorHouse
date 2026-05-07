@@ -2946,6 +2946,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 95537081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &97401846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3257995879440958347, guid: 7380df026fd701040adf1c21e5af54fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 442911318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &97686238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 297420511091914079, guid: bfe584cf8a0c0904b9ab60634c1baee8,
@@ -13197,6 +13209,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4917718677255388112, guid: 7380df026fd701040adf1c21e5af54fa,
+        type: 3}
+      propertyPath: DemonStatus
+      value: 
+      objectReference: {fileID: 97401846}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
