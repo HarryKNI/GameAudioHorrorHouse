@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 804391791118072578}
   - component: {fileID: 2394594136314849630}
   - component: {fileID: 1783007032540652138}
+  - component: {fileID: 4754791634222967139}
   m_Layer: 0
   m_Name: ElectricLight_1
   m_TagString: Item
@@ -125,9 +126,40 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 5
+--- !u!114 &4754791634222967139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8165488893578335803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1794522735
+      Data2: 1085744977
+      Data3: 312135350
+      Data4: -1876567589
+    Path: event:/Ambience/Light Buzz
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 7
 --- !u!1001 &6591080099263426470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -224,7 +256,7 @@ PrefabInstance:
     - target: {fileID: 7632101765411611106, guid: d01b80533037d454a8b3a0f236ed92f1,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
