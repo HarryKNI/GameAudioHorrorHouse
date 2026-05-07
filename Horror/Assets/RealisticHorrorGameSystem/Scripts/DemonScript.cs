@@ -40,9 +40,8 @@ namespace RealisticHorrorGameSystem
         private bool hasRealizedPlayer = false;
 
         [Header("Fmod Doohickey Crap")]
-        [SerializeField] StudioEventEmitter DemonRoar;
-        [SerializeField] StudioEventEmitter DemonIdle;
-        [SerializeField] StudioEventEmitter DemonChase;
+
+        [SerializeField] StudioEventEmitter DemonStatus;
 
         IEnumerator Start()
         {
@@ -101,28 +100,39 @@ namespace RealisticHorrorGameSystem
             {
                 //audioSourceRoar.clip = audios_Roars[UnityEngine.Random.Range(0, audios_Roars.Length)];
                 //audioSourceRoar.Play();
-
-                DemonRoar.Play();
-                print("Sound Played");
+                DemonStatus.Stop();
+                DemonStatus.SetParameter("States", 0);
+                DemonStatus.Play();
+                print("Chasing Sound Playing");
                 
             }
 
             if (currentStatus == BehoviourType.Idle)
             {
-                DemonIdle.Play();
+                DemonStatus.Stop();
+                DemonStatus.SetParameter("States", 1);
+                DemonStatus.Play();
+                Debug.Log("Idle Sound Playing");
             }
 
             if (currentStatus == BehoviourType.Patrolling)
             {
-                DemonChase.Play();
-                print("DemonSound");
+                DemonStatus.Stop();
+                DemonStatus.SetParameter("States", 2);
+                DemonStatus.Play();
+                Debug.Log("Patrolling sound playing");
             }
         }
 
         void Update()
         {
-            if (currentStatus == BehoviourType.Dead) return;
+            if (currentStatus == BehoviourType.Dead)
+            {
+                DemonStatus.Stop();
+                return;
+            }
             animator.SetFloat("locomotion", agent.velocity.magnitude);
+
 
             if (currentStatus == BehoviourType.GettingHit && Time.time > LastTimeFireDamage + 1f)
             {
