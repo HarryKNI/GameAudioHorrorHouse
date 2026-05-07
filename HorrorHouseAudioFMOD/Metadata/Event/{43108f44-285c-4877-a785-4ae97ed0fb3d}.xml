@@ -17,13 +17,13 @@ https://www.fmod.com/docs/studio/modulator-reference.html#random-modulator
 Recordings by David at Track Time Audio.</value>
 		</property>
 		<property name="name">
-			<value>Door Close</value>
+			<value>Door Creak</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{33020bd4-6815-4ed7-b787-bc0035017be4}</destination>
+			<destination>{870030c2-5aa9-4c80-b753-d7dab1691e25}</destination>
 		</relationship>
 		<relationship name="tags">
 			<destination>{b25c4f9d-1f47-4b94-89e1-8b05ecc39502}</destination>
@@ -54,6 +54,9 @@ Recordings by David at Track Time Audio.</value>
 		<relationship name="timeline">
 			<destination>{e86e176c-eeea-49fa-9647-f0d02fd503b5}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{eb644b90-da14-4a12-bc43-38ac5a300168}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{561cd480-bd2b-4c2e-b919-d775f9c4f409}</destination>
 		</relationship>
@@ -82,19 +85,35 @@ Recordings by David at Track Time Audio.</value>
 	<object class="EventAutomatableProperties" id="{00c77f5c-1dac-4abd-aa71-4847d7801f95}" />
 	<object class="MarkerTrack" id="{bf1f005a-c589-45a5-afe8-7bc5d48d61ae}" />
 	<object class="GroupTrack" id="{74b7a2d0-1d08-4ce5-8c44-271830fc0e59}">
+		<relationship name="automationTracks">
+			<destination>{60ca0354-b9a0-4a3b-8111-b0c4c87b5f00}</destination>
+		</relationship>
 		<relationship name="modules">
-			<destination>{ae00a923-5ba8-465a-84fc-ce3ad2069415}</destination>
+			<destination>{4cb2545a-ae94-4976-a7b7-ba4ce131f161}</destination>
+			<destination>{e1a188db-43e2-4991-a2f0-4008940333ce}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{05890cd7-7aa1-4131-a188-98c96c828963}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{e86e176c-eeea-49fa-9647-f0d02fd503b5}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="ParameterProxy" id="{eb644b90-da14-4a12-bc43-38ac5a300168}">
 		<relationship name="modules">
-			<destination>{ae00a923-5ba8-465a-84fc-ce3ad2069415}</destination>
+			<destination>{4cb2545a-ae94-4976-a7b7-ba4ce131f161}</destination>
+			<destination>{e1a188db-43e2-4991-a2f0-4008940333ce}</destination>
+		</relationship>
+		<relationship name="preset">
+			<destination>{cfce4e45-4b61-4e11-85ce-82640af2096d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bda5988d-a70a-4c11-ba1c-458bc2058412}">
+		<property name="volume">
+			<value>-15</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{bfd044e7-8180-4e39-b14f-b57593e9db49}</destination>
 		</relationship>
@@ -111,24 +130,55 @@ Recordings by David at Track Time Audio.</value>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3b5f825d-c419-4a05-90b7-658bde062719}" />
-	<object class="MultiSound" id="{ae00a923-5ba8-465a-84fc-ce3ad2069415}">
+	<object class="AutomationTrack" id="{60ca0354-b9a0-4a3b-8111-b0c4c87b5f00}">
+		<relationship name="automator">
+			<destination>{edd9112c-02fe-4bf9-abcf-a353bd7df5d0}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{4cb2545a-ae94-4976-a7b7-ba4ce131f161}">
+		<property name="length">
+			<value>0.80000000000000004</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
+		<relationship name="automators">
+			<destination>{edd9112c-02fe-4bf9-abcf-a353bd7df5d0}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{58a3b057-68f7-4bed-9f06-19516dc767aa}</destination>
+			<destination>{82794188-6352-4a41-83e3-3d34a0268516}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{59c44815-8939-4d8c-b559-6516035b67d0}</destination>
+			<destination>{a4ee61ff-fdb9-44a1-b12a-58eccc0eb08b}</destination>
+			<destination>{82810555-d34e-496c-a84b-c262ea77aaff}</destination>
+		</relationship>
+	</object>
+	<object class="MultiSound" id="{e1a188db-43e2-4991-a2f0-4008940333ce}">
 		<property name="isAsync">
 			<value>true</value>
 		</property>
+		<property name="start">
+			<value>0.80000000000000004</value>
+		</property>
 		<property name="length">
-			<value>0.65345799999999998</value>
+			<value>0.19999999999999996</value>
 		</property>
 		<property name="voiceStealing">
 			<value>3</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="modulators">
-			<destination>{e58ba205-0dd1-40fa-a39f-49c2701d9d68}</destination>
-			<destination>{67f060ad-1d81-401c-b773-5ac81a7874f4}</destination>
+			<destination>{8bb01d5d-2e53-488f-a09b-0ca4c1310148}</destination>
+			<destination>{ae0ebc25-3f43-45a0-ba0d-89ed744add9a}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{d959d31f-0b0b-420d-abe8-4936c9eb55df}</destination>
-			<destination>{dce1ae0c-d554-42c5-a33a-f3ba7d938610}</destination>
-			<destination>{14536b2f-5b5c-4f0f-b660-7c2ef1ffab7f}</destination>
+			<destination>{f3a9c65c-7baa-48d7-847a-65bf01a61bac}</destination>
+			<destination>{a750f2fe-22af-44d6-9217-7047a5abc9f7}</destination>
+			<destination>{4dc21c33-d49a-42f8-bbaf-127eedf5162e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{05890cd7-7aa1-4131-a188-98c96c828963}">
@@ -154,7 +204,15 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="MixerBusPanner" id="{57c9a136-66a2-4598-8192-d4370bb71a18}" />
 	<object class="MixerBusFader" id="{972b2336-cfc5-41a5-b54e-7d55d78ead21}" />
-	<object class="RandomizerModulator" id="{e58ba205-0dd1-40fa-a39f-49c2701d9d68}">
+	<object class="Automator" id="{edd9112c-02fe-4bf9-abcf-a353bd7df5d0}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{831670f9-0b04-4b66-b846-90ad7381eff7}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{58a3b057-68f7-4bed-9f06-19516dc767aa}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
@@ -162,15 +220,49 @@ Recordings by David at Track Time Audio.</value>
 			<value>6.25</value>
 		</property>
 	</object>
-	<object class="RandomizerModulator" id="{67f060ad-1d81-401c-b773-5ac81a7874f4}">
+	<object class="RandomizerModulator" id="{82794188-6352-4a41-83e3-3d34a0268516}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
+		</property>
+		<property name="amount">
+			<value>40</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{59c44815-8939-4d8c-b559-6516035b67d0}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{7ee65a00-e463-420b-87fd-ad30ff8f0b10}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a4ee61ff-fdb9-44a1-b12a-58eccc0eb08b}">
+		<relationship name="audioFile">
+			<destination>{522d092f-fcd7-4db8-a179-ecce259f2984}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{82810555-d34e-496c-a84b-c262ea77aaff}">
+		<relationship name="audioFile">
+			<destination>{613cf05c-c828-4814-b8d9-419d22809c69}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{8bb01d5d-2e53-488f-a09b-0ca4c1310148}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>10.416666</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{ae0ebc25-3f43-45a0-ba0d-89ed744add9a}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>2</value>
+			<value>5</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{d959d31f-0b0b-420d-abe8-4936c9eb55df}">
+	<object class="SingleSound" id="{f3a9c65c-7baa-48d7-847a-65bf01a61bac}">
 		<property name="length">
 			<value>0</value>
 		</property>
@@ -181,7 +273,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{e7569c8f-0dec-41e1-a1d2-7a1eaf173a95}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{dce1ae0c-d554-42c5-a33a-f3ba7d938610}">
+	<object class="SingleSound" id="{a750f2fe-22af-44d6-9217-7047a5abc9f7}">
 		<property name="length">
 			<value>0</value>
 		</property>
@@ -192,7 +284,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{60eb7ebd-aede-42be-ad30-1dd39f94a7ce}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{14536b2f-5b5c-4f0f-b660-7c2ef1ffab7f}">
+	<object class="SingleSound" id="{4dc21c33-d49a-42f8-bbaf-127eedf5162e}">
 		<property name="length">
 			<value>0</value>
 		</property>
@@ -212,7 +304,7 @@ Recordings by David at Track Time Audio.</value>
 	<object class="MixerBusFader" id="{9f0da3bd-de53-45b5-89d7-730811c990b9}" />
 	<object class="ProxyEffect" id="{ca42aacf-4cca-4f8d-9fb5-fcee7881a47b}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{3eae0edd-4f73-005f-09e3-f727ff075640}</destination>
@@ -226,5 +318,78 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{028d38fd-417b-0bad-290b-a30ea50da357}</destination>
 		</relationship>
 	</object>
+	<object class="AutomationCurve" id="{831670f9-0b04-4b66-b846-90ad7381eff7}">
+		<relationship name="parameter">
+			<destination>{cfce4e45-4b61-4e11-85ce-82640af2096d}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{434c1cbb-fddf-4575-bf9c-bd60e93e93d4}</destination>
+			<destination>{4314bf9c-f7db-4517-a7e1-99409a48d9de}</destination>
+			<destination>{2e6f1376-b3ab-4c9d-991f-7cfc0f7dcffd}</destination>
+			<destination>{24b3869c-5669-4543-8706-889c59e0c37f}</destination>
+			<destination>{f8132f71-cbd1-4247-ab21-257e6ce787f8}</destination>
+			<destination>{c9d153e0-de11-4502-a377-02f0ce524632}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{47b58bfa-5af6-476e-8cee-cc0e5d9090ef}" />
+	<object class="AutomationPoint" id="{434c1cbb-fddf-4575-bf9c-bd60e93e93d4}">
+		<property name="position">
+			<value>0.80000000000000004</value>
+		</property>
+		<property name="value">
+			<value>-20</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.335759312</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{4314bf9c-f7db-4517-a7e1-99409a48d9de}">
+		<property name="position">
+			<value>0.85000000000000009</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{2e6f1376-b3ab-4c9d-991f-7cfc0f7dcffd}">
+		<property name="position">
+			<value>0.70000000000000007</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.257724553</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{24b3869c-5669-4543-8706-889c59e0c37f}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>0.726427555</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f8132f71-cbd1-4247-ab21-257e6ce787f8}">
+		<property name="position">
+			<value>0.15000000000000002</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{c9d153e0-de11-4502-a377-02f0ce524632}">
+		<property name="position">
+			<value>0.050000000000000003</value>
+		</property>
+		<property name="value">
+			<value>-20</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.151363403</value>
+		</property>
+	</object>
 </objects>

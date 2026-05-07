@@ -53,7 +53,7 @@
 			<destination>{aa153ea0-2dbd-4d6c-bc7d-028826f67e89}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{8113abaa-c46d-4439-8c9b-ab82cc7f3e16}</destination>
+			<destination>{af9d027a-3a1f-49a8-a9ef-4cbe20673632}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{26074b6d-cd9d-42a0-bc1e-a82019d1ac32}" />
@@ -69,9 +69,6 @@
 	<object class="Timeline" id="{d2bdadd8-f27d-413e-85e1-c4af1ac27a6c}">
 		<relationship name="modules">
 			<destination>{16e86f12-b49e-4b89-a1af-d9a3042f9725}</destination>
-		</relationship>
-		<relationship name="markers">
-			<destination>{554e3725-7ccb-43a9-bb3c-16e988254061}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{36b06a62-1f1c-4ebb-9784-1aa00b045558}">
@@ -108,9 +105,6 @@
 		<property name="color">
 			<value>Red</value>
 		</property>
-		<property name="volume">
-			<value>-10</value>
-		</property>
 		<property name="name">
 			<value>Zombie_Groans</value>
 		</property>
@@ -124,24 +118,10 @@
 			<destination>{36b06a62-1f1c-4ebb-9784-1aa00b045558}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{554e3725-7ccb-43a9-bb3c-16e988254061}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>2</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{d2bdadd8-f27d-413e-85e1-c4af1ac27a6c}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{9562de30-ef37-49c1-a922-cc3f8c2e362b}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{70860ce0-ea5e-4035-8491-bab965a1de35}">
 		<relationship name="effects">
 			<destination>{347c57d3-aaf5-4b2e-9205-f7dba948d65e}</destination>
-			<destination>{5bef3fb8-a8ff-4bd6-8bcb-40a54fe5546a}</destination>
+			<destination>{7a53d31d-518d-415d-9504-0ad2afb7c876}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fc5fe293-006a-4c82-a922-19455c458b70}" />
@@ -168,6 +148,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{5af7b6d8-f8c7-480c-bbfd-422cd2c5b078}" />
 	<object class="MixerBusFader" id="{347c57d3-aaf5-4b2e-9205-f7dba948d65e}" />
-	<object class="SpatialiserEffect" id="{5bef3fb8-a8ff-4bd6-8bcb-40a54fe5546a}" />
+	<object class="SpatialiserEffect" id="{7a53d31d-518d-415d-9504-0ad2afb7c876}" />
 	<object class="MixerBusFader" id="{686739c9-74ca-4fa4-9a26-01d2448b76c2}" />
 </objects>

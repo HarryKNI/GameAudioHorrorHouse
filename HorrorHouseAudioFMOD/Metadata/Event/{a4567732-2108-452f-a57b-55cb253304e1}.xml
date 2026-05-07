@@ -32,6 +32,9 @@
 		<relationship name="timeline">
 			<destination>{04593fea-2ee0-4348-af27-f1b4733216da}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{45d74a8a-3e03-4192-a588-6e60c6a69ae6}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{48dc26e4-0a73-4689-ad10-0e95cf6f7e69}">
 		<relationship name="masterBus">
@@ -51,7 +54,7 @@
 			<destination>{17643fd3-d732-42b7-8ab6-2eb9f827f586}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{d9982c58-a056-4e6c-b8e3-883854b4bffb}</destination>
+			<destination>{af9d027a-3a1f-49a8-a9ef-4cbe20673632}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a5ce7acd-85da-4ec0-8c20-8e4f3769e506}" />
@@ -79,6 +82,11 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{41ee2fb2-e5ad-4f64-ba5f-1e273ec18999}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{45d74a8a-3e03-4192-a588-6e60c6a69ae6}">
+		<relationship name="preset">
+			<destination>{5d31ad08-9cf2-4b4a-8c68-044307b9777f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5a9519cd-b486-4d31-a39b-a06ec830154a}">
@@ -585,7 +593,7 @@
 			<value>WhistlingFmax</value>
 		</property>
 		<property name="value">
-			<value>2096</value>
+			<value>1000</value>
 		</property>
 		<property name="curve">
 			<value>{(3.500000,1000.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(6.782609,5000.000000)}</value>
@@ -1132,7 +1140,7 @@
 			<value>WhistlingFmax</value>
 		</property>
 		<property name="value">
-			<value>1240</value>
+			<value>1000</value>
 		</property>
 		<property name="curve">
 			<value>{(3.500000,1000.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(6.782609,5000.000000)}</value>

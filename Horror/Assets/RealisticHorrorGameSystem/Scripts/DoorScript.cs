@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Linq;
 using FMODUnity;
 using UnityEngine.Audio;
+using FMOD.Studio;
 
 namespace RealisticHorrorGameSystem
 {
@@ -15,12 +16,24 @@ namespace RealisticHorrorGameSystem
         private Animation dooranimation;
         public Collider doorCollider;
 
-        [SerializeField] private StudioEventEmitter doorOpenEvent;
+        [SerializeField] private StudioEventEmitter doorLockedEvent;
         [SerializeField] private StudioEventEmitter doorCloseEvent;
+        [SerializeField] private StudioEventEmitter doorUnlockEvent;
 
         private void Start()
         {
             dooranimation = GetComponent<Animation>();
+        }
+
+        private void Update()
+        {
+            if (dooranimation != null && dooranimation.isPlaying)
+            {
+                AnimationState state = dooranimation["Custom_Animation_Door_Open"];
+                float progress = 1 - (state.time / state.length);
+
+                doorCloseEvent.SetParameter("Progress", progress, false);
+            }
         }
 
         IEnumerator OpenTheDoor()
@@ -41,7 +54,8 @@ namespace RealisticHorrorGameSystem
                     if (HeroPlayerScript.Instance.Keys_Grabbed.Contains(KeyID_ToOpen))
                     {
                         isLocked = false;
-                        AudioManager.Instance.Play_Door_UnLock();
+                        //AudioManager.Instance.Play_Door_UnLock();
+                        Play_Door_Unlocked();
                         StartCoroutine(OpenTheDoor());
                     }
                     else
@@ -49,7 +63,7 @@ namespace RealisticHorrorGameSystem
                         dooranimation["Custom_Animation_Door_Try"].time = 0;
                         dooranimation["Custom_Animation_Door_Try"].speed = 1;
                         dooranimation.Play("Custom_Animation_Door_Try");
-                        AudioManager.Instance.Play_Door_TryOpen();
+                        doorLockedEvent.Play();
                         if (giveLockMessage)
                         {
                             GameCanvas.Instance.Show_Warning("Locked. Find the key!");
@@ -90,13 +104,26 @@ namespace RealisticHorrorGameSystem
         public void Play_Door_Wooden_Open()
         {
             //audioSource.PlayOneShot(Door_Wooden_Open[UnityEngine.Random.Range(0, Door_Wooden_Open.Length)]);
-            doorOpenEvent.Play();
+            if (doorCloseEvent.IsPlaying())
+            {
+                doorCloseEvent.Stop();
+            }
+            doorCloseEvent.Play();
         }
 
         public void Play_Door_Close()
         {
+            if (doorCloseEvent.IsPlaying())
+            {
+                doorCloseEvent.Stop();
+            }
             //audioSource.PlayOneShot(Door_Close[UnityEngine.Random.Range(0, Door_Close.Length)]);
             doorCloseEvent.Play();
+        }
+
+        public void Play_Door_Unlocked()
+        {
+            doorUnlockEvent.Play();
         }
     }
 }

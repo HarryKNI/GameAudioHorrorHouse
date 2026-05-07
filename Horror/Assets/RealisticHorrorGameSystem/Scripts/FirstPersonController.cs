@@ -165,10 +165,12 @@ namespace RealisticHorrorGameSystem
                 if (sprintAction.IsPressed())
                 {
                     isSprinting = true;
+					AudioManager.Instance.footstepEvent.SetParameter("MoveState", 2, false);
                 }
                 else if (sprintAction.WasReleasedThisFrame())
                 {
                     isSprinting = false;
+                    AudioManager.Instance.footstepEvent.SetParameter("MoveState", 1, false);
                 }
                 if (isSprinting && Stamina > 0)
                 {
@@ -180,18 +182,24 @@ namespace RealisticHorrorGameSystem
 					Stamina = Stamina + Time.deltaTime * 10;
 					if (Stamina > 100) Stamina = 100;
 				}
-				if(Stamina <0)
+                if (Stamina <= 0)
                 {
-					AudioManager.Instance.Play_Audio_StaminaBreathing();
-					Stamina = 0;
-				}
-				GameCanvas.Instance.Slider_Stamina.fillAmount = (Stamina / 100f);
+                    AudioManager.Instance.Play_Audio_StaminaBreathing();
+                    Stamina = 0;
+                    AudioManager.Instance.footstepEvent.SetParameter("MoveState", 1, false);
+                }
+                GameCanvas.Instance.Slider_Stamina.fillAmount = (Stamina / 100f);
 			}
 
 
 			if(isCrouching)
             {
 				targetSpeed = (MoveSpeed / 1.5f);
+                AudioManager.Instance.footstepEvent.SetParameter("MoveState", 0, false);
+            }
+			else if (!isCrouching && !sprintAction.IsPressed())
+			{
+                AudioManager.Instance.footstepEvent.SetParameter("MoveState", 1, false);
             }
 
 

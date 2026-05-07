@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,8 +20,11 @@ namespace RealisticHorrorGameSystem
         public bool useMipMaps = false;
         public int antiAliasing = 1;
         public bool isOn = false;
-        public AudioSource audioSource;
+        //public AudioSource audioSource;
         public Material grayscaleMaterial;
+
+        [Header("Fmod Doohickey Crap")]
+        [SerializeField] StudioEventEmitter TVStatic;
 
         void OnEnable()
         {
@@ -85,6 +89,8 @@ namespace RealisticHorrorGameSystem
                 isOn = true;
                 Screen.SetActive(true);
                 monitor_animation.Play("Custom_Animation_CameraSwitch_On");
+                TVStatic.Play();
+                TVStatic.SetParameter("IsOn", 1);
             }
             else
             {
@@ -94,8 +100,12 @@ namespace RealisticHorrorGameSystem
                 isOn = false;
                 Screen.SetActive(false);
                 monitor_animation.Play("Custom_Animation_CameraSwitch_Off");
+                
+                TVStatic.Stop();
+                TVStatic.SetParameter("IsOn", 0);
             }
-            audioSource.Play();
+            //audioSource.Play();
+            
         }
 
         public void RecreateRT(int newW, int newH)

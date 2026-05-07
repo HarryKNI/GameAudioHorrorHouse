@@ -58,6 +58,7 @@ namespace RealisticHorrorGameSystem
             HeroPlayerScript.Instance.AnomalyDetector.enabled = false;
             HeroPlayerScript.Instance.Knife.enabled = false;
             HeroPlayerScript.Instance.MedkitManager.enabled = false;
+  
             Hand_AnomalyDetector.SetActive(false);
             Hand_Cross.SetActive(false);
             Hand_FlashLight.SetActive(false);
@@ -268,30 +269,30 @@ namespace RealisticHorrorGameSystem
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.tag == "CarpetSurface")
-            {
-                surfaceParam.Value = 0;
-                SurfaceIndex = 0;
-                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
-            }
-            else if (other.gameObject.tag == "GrassSurface")
-            {
-                surfaceParam.Value = 1;
-                SurfaceIndex = 1;
-                audioManager.footstepEvent.SetParameter("Surface", 1, false);
-            }
-            else if (other.gameObject.tag == "WoodSurface")
-            {
-                surfaceParam.Value = 2;
-                SurfaceIndex = 2;
-                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
-            }
-            else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
-            {
-                surfaceParam.Value = 3;
-                SurfaceIndex = 3;
-                audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
-            }
+            //if (other.gameObject.tag == "CarpetSurface")
+            //{
+            //    surfaceParam.Value = 0;
+            //    SurfaceIndex = 0;
+            //    audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            //}
+            //else if (other.gameObject.tag == "GrassSurface")
+            //{
+            //    surfaceParam.Value = 1;
+            //    SurfaceIndex = 1;
+            //    audioManager.footstepEvent.SetParameter("Surface", 1, false);
+            //}
+            //else if (other.gameObject.tag == "WoodSurface")
+            //{
+            //    surfaceParam.Value = 2;
+            //    SurfaceIndex = 2;
+            //    audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            //}
+            //else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
+            //{
+            //    surfaceParam.Value = 3;
+            //    SurfaceIndex = 3;
+            //    audioManager.footstepEvent.SetParameter("Surface", surfaceParam.Value, false);
+            //}
         }
 
         private void OnTriggerStay(Collider other)
@@ -301,32 +302,35 @@ namespace RealisticHorrorGameSystem
             //{
             //    firstPersonController.isInVent = true;
             //}
-            if (other.gameObject.tag == "CarpetSurface")
+            if (other.gameObject.CompareTag("CarpetSurface"))
             {
                 surfaceParam.Value = 0;
                 SurfaceIndex = 0;
                 audioManager.footstepEvent.SetParameter("Surface", 0, false);
-                Debug.Log("Swap to carpet");
             }
-            else if (other.gameObject.tag == "GrassSurface")
+            else if (other.gameObject.CompareTag("GrassSurface"))
             {
                 surfaceParam.Value = 1;
                 SurfaceIndex = 1;
                 audioManager.footstepEvent.SetParameter("Surface", 1, false);
-                Debug.Log("Swap to grass");
             }
-            else if (other.gameObject.tag == "WoodSurface")
+            else if (other.gameObject.CompareTag("WoodSurface"))
             {
                 surfaceParam.Value = 2;
                 SurfaceIndex = 2;
                 audioManager.footstepEvent.SetParameter("Surface", 2, false);
-                Debug.Log("Swap to wood");
             }
-            else if (other.gameObject.tag == "MetalSurface" || other.gameObject.tag == "Vent")
+            else if (other.gameObject.CompareTag("MetalSurface") || other.gameObject.CompareTag("Vent"))
             {
                 surfaceParam.Value = 3;
                 SurfaceIndex = 3;
                 audioManager.footstepEvent.SetParameter("Surface", 3, false);
+            }
+            else if (other.gameObject.CompareTag("ConcreteSurface"))
+            {
+                surfaceParam.Value = 4;
+                SurfaceIndex = 4;
+                audioManager.footstepEvent.SetParameter("Surface", 4, false);
             }
         }
 

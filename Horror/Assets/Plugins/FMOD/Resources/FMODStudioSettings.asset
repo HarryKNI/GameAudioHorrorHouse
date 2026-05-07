@@ -344,14 +344,17 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Ambience
   - Dialogue_CN
   - Dialogue_EN
   - Dialogue_JP
   - Haptics
+  - Interactables
   - Music
   - SFX
   - Vehicles
   - VO
+  - Weapons
   - Zombie_Groans
   BanksToLoad: []
   LiveUpdatePort: 9264

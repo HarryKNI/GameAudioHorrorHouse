@@ -58,6 +58,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -96,6 +99,9 @@ GameObject:
   - component: {fileID: 7842580020499861638}
   - component: {fileID: 730633542363008588}
   - component: {fileID: 3352544163524257809}
+  - component: {fileID: 3159688737553343944}
+  - component: {fileID: 1339029332636550332}
+  - component: {fileID: 9219922832028194917}
   m_Layer: 0
   m_Name: Door_6
   m_TagString: Item
@@ -127,7 +133,7 @@ Animation:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225644996389350262}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: 5427d4eea3e264f8f9741e30e94fc0c2, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 5427d4eea3e264f8f9741e30e94fc0c2, type: 2}
@@ -135,6 +141,7 @@ Animation:
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
+  m_UpdateMode: 0
   m_CullingType: 0
 --- !u!114 &7842580020499861638
 MonoBehaviour:
@@ -152,8 +159,10 @@ MonoBehaviour:
   giveLockMessage: 0
   isOpened: 0
   KeyID_ToOpen: 0
-  AngleForOpening: 60
   doorCollider: {fileID: 6492833951744747549}
+  doorLockedEvent: {fileID: 1339029332636550332}
+  doorCloseEvent: {fileID: 3159688737553343944}
+  doorUnlockEvent: {fileID: 9219922832028194917}
 --- !u!114 &730633542363008588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,12 +177,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 0
   Name: Door
-  playerInRange: 0
+  playerUsing: 0
   interactionType: 4
   eventToInvokeWhenInteract:
     m_PersistentCalls:
       m_Calls: []
-  imageToFill: {fileID: 0}
 --- !u!65 &3352544163524257809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -195,6 +203,99 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5801692, y: 2.4783988, z: 0.5983691}
   m_Center: {x: -0.0037554502, y: 1.2382588, z: 0.0012957454}
+--- !u!114 &3159688737553343944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225644996389350262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1125158724
+      Data2: 1215768668
+      Data3: -380992089
+      Data4: 1039913086
+    Path: event:/Building/Doors/Door Creak
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1339029332636550332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225644996389350262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1988374449
+      Data2: 1321644581
+      Data3: -1737194309
+      Data4: -2146172601
+    Path: event:/Building/Doors/Door Locked
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &9219922832028194917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225644996389350262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -152725619
+      Data2: 1127411519
+      Data3: -468170565
+      Data4: -1775830579
+    Path: event:/Building/Doors/Door Unlocked
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8755071737521884981
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +354,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
@@ -383,12 +487,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1746935857993125669, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 22df8b5d5b534f44597ac3369eca933a, type: 2}
     - target: {fileID: 4278200481962586376, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 23bba94d962ec704c91a6b39ee609193, type: 2}
     - target: {fileID: 4914354166523078778, guid: be31e89f69d85f742b6edef55530ab38,
@@ -414,12 +518,12 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8424073627695423409, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7cd2970d5991c4e4eba27a85f39ef732, type: 2}
     - target: {fileID: 8996021495921455304, guid: be31e89f69d85f742b6edef55530ab38,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 795a859597440ab4e851287f5a7d7a2e, type: 2}
     m_RemovedComponents: []

@@ -111,6 +111,8 @@ namespace RealisticHorrorGameSystem
             Panel_Pause.SetActive(false);
             Panel_Settings.SetActive(false);
             Panel_GameUI.SetActive(true);
+
+            AudioManager.Instance.SetPaused(false);
         }
 
         public void ShowHint(string text)
@@ -149,6 +151,8 @@ namespace RealisticHorrorGameSystem
             isPaused = true;
             Panel_Pause.SetActive(true);
             Panel_GameUI.SetActive(false);
+
+            AudioManager.Instance.SetPaused(true);
         }
 
         public void UpdateHealth()
@@ -211,6 +215,7 @@ namespace RealisticHorrorGameSystem
             {
                 if (FlashLightScript.Instance.isGrabbed)
                 {
+                    AnomalyDetector.Instance.StopAudio();
                     HeroPlayerScript.Instance.ResetHands();
                     HeroPlayerScript.Instance.Hand_FlashLight.SetActive(true);
                     HeroPlayerScript.Instance.FlashLight.enabled = true;
@@ -222,6 +227,7 @@ namespace RealisticHorrorGameSystem
             {
                 if (CrossScript.Instance.isGrabbed)
                 {
+                    AnomalyDetector.Instance.StopAudio();
                     HeroPlayerScript.Instance.ResetHands();
                     HeroPlayerScript.Instance.Hand_Cross.SetActive(true);
                     HeroPlayerScript.Instance.Cross.enabled = true;
@@ -232,6 +238,7 @@ namespace RealisticHorrorGameSystem
             {
                 if (KnifeScript.Instance.isGrabbed)
                 {
+                    AnomalyDetector.Instance.StopAudio();
                     HeroPlayerScript.Instance.ResetHands();
                     HeroPlayerScript.Instance.Hand_Knife.SetActive(true);
                     HeroPlayerScript.Instance.Knife.enabled = true;
@@ -242,6 +249,7 @@ namespace RealisticHorrorGameSystem
             {
                 if (AnomalyDetector.Instance.isGrabbed)
                 {
+                    AnomalyDetector.Instance.PlayAudio();
                     HeroPlayerScript.Instance.ResetHands();
                     HeroPlayerScript.Instance.Hand_AnomalyDetector.SetActive(true);
                     HeroPlayerScript.Instance.AnomalyDetector.enabled = true;
@@ -250,6 +258,7 @@ namespace RealisticHorrorGameSystem
             }
             else if (equipmentActions[4].WasPressedThisFrame())
             {
+                AnomalyDetector.Instance.StopAudio();
                 HeroPlayerScript.Instance.ResetHands();
                 HeroPlayerScript.Instance.MedkitManager.enabled = true;
                 ResetEquipmentBackgrounds(HeroPlayerScript.Instance.MedkitManager.EquipmentUIIndex);

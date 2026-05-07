@@ -73,9 +73,9 @@ namespace RealisticHorrorGameSystem
 
         public void Grabbed()
         {
-            HeroPlayerScript.Instance.ResetHands();
-            HeroPlayerScript.Instance.Hand_Knife.SetActive(true);
-            HeroPlayerScript.Instance.Knife.enabled = true;
+            //HeroPlayerScript.Instance.ResetHands();
+            //HeroPlayerScript.Instance.Hand_Knife.SetActive(true);
+            //HeroPlayerScript.Instance.Knife.enabled = true;
             GameCanvas.Instance.ActivateEquipments(EquipmentUIIndex);
             isGrabbed = true;
 
