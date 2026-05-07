@@ -75,18 +75,11 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#single-instrument
 	<object class="EventAutomatableProperties" id="{9be4c177-2836-47c7-afa4-084973c36f08}" />
 	<object class="MarkerTrack" id="{0c62e0d4-eb99-48cf-a3f6-944ef77e21b0}" />
 	<object class="GroupTrack" id="{21023f85-81e9-491e-b173-45447d0eb516}">
-		<relationship name="modules">
-			<destination>{c3402baf-f6de-4880-a774-e4a1179a2700}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7ed3da6f-3f9c-4c73-ad84-0db015f0907d}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{acbad2b6-5f1c-496b-8088-69fd4e773019}">
-		<relationship name="modules">
-			<destination>{c3402baf-f6de-4880-a774-e4a1179a2700}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{acbad2b6-5f1c-496b-8088-69fd4e773019}" />
 	<object class="UserProperty" id="{c9eb3bba-0751-4871-8b88-caf5796468cd}">
 		<property name="key">
 			<value>subtitle</value>
@@ -112,17 +105,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#single-instrument
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{346ff174-7386-40dd-b00e-5518e798185a}" />
-	<object class="SingleSound" id="{c3402baf-f6de-4880-a774-e4a1179a2700}">
-		<property name="length">
-			<value>2.1829166666666668</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{c0af1436-9a98-44af-9e91-c2de750c2235}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{7ed3da6f-3f9c-4c73-ad84-0db015f0907d}">
 		<property name="name">
 			<value>Welcome</value>
