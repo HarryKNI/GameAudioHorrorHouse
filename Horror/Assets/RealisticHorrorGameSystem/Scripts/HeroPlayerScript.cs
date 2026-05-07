@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEditor.Progress;
+//using static UnityEditor.Progress;
 
 namespace RealisticHorrorGameSystem
 {
@@ -230,6 +230,12 @@ namespace RealisticHorrorGameSystem
                         if (interactAction.WasPressedThisFrame())
                         {
                             item.Interact();
+
+                            if (item.name.Contains("Cross"))
+                            {
+                                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Interactables/CrossSound", item.gameObject);
+                            }
+
                             currentItem = item;
                         }
                     }

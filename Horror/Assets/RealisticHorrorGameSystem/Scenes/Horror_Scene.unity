@@ -276,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 8436214751282956670, guid: 5df1b6b89a356ef4182f1c274a61cc16,
         type: 3}
       propertyPath: field of view
-      value: 179
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7918151939551307885, guid: 5df1b6b89a356ef4182f1c274a61cc16, type: 3}
@@ -16987,6 +16987,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389459993670130476, guid: b943f0910913b2748894f2f9e7cc393d,
+        type: 3}
+      propertyPath: eventToInvokeWhenInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389459993670130476, guid: b943f0910913b2748894f2f9e7cc393d,
+        type: 3}
+      propertyPath: eventToInvokeWhenInteract.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49436,11 +49446,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jumpscare_ToyHorse
       objectReference: {fileID: 0}
-    - target: {fileID: 5826623812360847388, guid: a43a22cc340ce4ddebdad5a45a364593,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7901828146031297943, guid: a43a22cc340ce4ddebdad5a45a364593,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49490,6 +49495,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372735812595486726, guid: a43a22cc340ce4ddebdad5a45a364593,
+        type: 3}
+      propertyPath: EventPlayTrigger
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372735812595486726, guid: a43a22cc340ce4ddebdad5a45a364593,
+        type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372735812595486726, guid: a43a22cc340ce4ddebdad5a45a364593,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
