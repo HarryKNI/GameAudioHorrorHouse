@@ -752,10 +752,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639137788052808037
+  lastModified: 639137803354621497
   FileSizes:
   - Name: Desktop
-    Value: 23800544
+    Value: 23800896
   Exists: 1
 --- !u!114 &-3955527117061811011
 MonoBehaviour:
@@ -829,7 +829,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639137788048350057
+  lastModified: 639137803351605973
   FileSizes:
   - Name: Desktop
     Value: 6436
@@ -903,10 +903,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639137788048298932
+  lastModified: 639137803351570811
   FileSizes:
   - Name: Desktop
-    Value: 4198464
+    Value: 4198816
   Exists: 1
 --- !u!114 &-2779406121854797416
 MonoBehaviour:
@@ -1560,7 +1560,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2994805204786922351}
   cacheVersion: 131858
-  cacheTime: 639137788052808037
+  cacheTime: 639137803354621497
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
