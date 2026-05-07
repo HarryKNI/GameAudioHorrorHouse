@@ -78,9 +78,6 @@ www.yangseunghyuk.com</value>
 		<relationship name="timeline">
 			<destination>{fd38a5b1-b7eb-49fd-b2e7-6e6ec1631cbe}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{9ad4be16-4f5a-4e4c-a013-f35de106f106}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{bd41f6df-9aaa-48a4-ad4f-e6090319de0f}">
 		<relationship name="masterBus">

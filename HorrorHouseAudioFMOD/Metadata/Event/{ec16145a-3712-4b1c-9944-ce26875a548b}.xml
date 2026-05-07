@@ -94,9 +94,6 @@ www.yangseunghyuk.com</value>
 		<relationship name="parameters">
 			<destination>{09718727-0afc-4204-865f-ebe1f1ab004f}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{9ad4be16-4f5a-4e4c-a013-f35de106f106}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{61bcfd5c-5ef5-494c-9ea4-bdfe2820245a}">
 		<relationship name="masterBus">

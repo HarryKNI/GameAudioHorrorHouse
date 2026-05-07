@@ -66,9 +66,6 @@ Note that the audio does not continue through the bus - it is sent through the o
 		<relationship name="parameters">
 			<destination>{15a4d5e5-893e-434f-bb4c-d2e3cd2ca713}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{9ad4be16-4f5a-4e4c-a013-f35de106f106}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{7b943caa-24df-4250-8ec7-793d629bc185}">
 		<relationship name="masterBus">
