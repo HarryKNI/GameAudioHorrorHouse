@@ -17075,18 +17075,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3214722806811766143, guid: b943f0910913b2748894f2f9e7cc393d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 691553945}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b943f0910913b2748894f2f9e7cc393d, type: 3}
---- !u!1 &598960154 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3214722806811766143, guid: b943f0910913b2748894f2f9e7cc393d,
-    type: 3}
-  m_PrefabInstance: {fileID: 598960153}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &607119397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18419,37 +18409,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 598960153}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &691553945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598960154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1489904329
-      Data2: 1155692996
-      Data3: -268587372
-      Data4: 2003709853
-    Path: event:/Interactables/CrossSound
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &692402125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2157496129855897349, guid: ec5066a775b25dd4bb671aca52bf6d34,
