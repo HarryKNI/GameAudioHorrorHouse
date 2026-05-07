@@ -66,9 +66,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		<relationship name="timeline">
 			<destination>{175a2507-76ed-4565-a440-28ecd5d5f1be}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{9ad4be16-4f5a-4e4c-a013-f35de106f106}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{b17df152-6801-46a0-84df-b6c596ba2619}">
 		<relationship name="masterBus">

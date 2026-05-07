@@ -5,10 +5,10 @@
 			<value>Demon_Chase</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{10626052-c98b-4665-b391-646f2512cecd}</destination>
+			<destination>{66e69544-12d5-4ce9-aa19-20f82b704481}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8997759e-c947-46c7-b28c-a17838fccf76}</destination>
@@ -35,7 +35,7 @@
 			<destination>{ed5b8856-5fe6-4f1a-a405-a37134543aae}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{816d4737-171a-41e7-a9f0-32996ece71cb}</destination>
+			<destination>{5ee66383-fcea-4cfa-8b02-0003b83c33d1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{8997759e-c947-46c7-b28c-a17838fccf76}">
@@ -49,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{950d3774-0502-4b4b-b610-e541ca341fcc}">
+		<relationship name="masters">
+			<destination>{91a9c633-aab9-4897-8b3a-386f8ed19186}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{f3083ffe-1241-4668-bec1-4bb3002735e3}</destination>
 		</relationship>
@@ -56,7 +59,7 @@
 			<destination>{5a6bf4c9-6e48-41b7-8dc3-d7661ac48277}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{af9d027a-3a1f-49a8-a9ef-4cbe20673632}</destination>
+			<destination>{5ad357d4-83ed-4841-a37b-734b6e29f482}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7eb17798-7e57-4a9a-8b1e-da5d061da22e}" />
@@ -144,6 +147,7 @@
 	<object class="MixerBusEffectChain" id="{04b3fcba-30c6-414c-a7fc-bf35166bdc87}">
 		<relationship name="effects">
 			<destination>{622a599d-5fbb-4a78-8505-1dafd9ffe939}</destination>
+			<destination>{5a53e07b-7663-4ed0-919b-b2a8d85d088a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{558f47fa-2cb6-45c7-9e81-065a669e70aa}" />
@@ -162,6 +166,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{1eea11c3-10ea-48c1-8f6b-037378c765d6}" />
 	<object class="MixerBusFader" id="{622a599d-5fbb-4a78-8505-1dafd9ffe939}" />
+	<object class="SpatialiserEffect" id="{5a53e07b-7663-4ed0-919b-b2a8d85d088a}" />
 	<object class="SingleSound" id="{cf9c4e11-0b8d-4d16-8c4f-eec2dac52552}">
 		<relationship name="audioFile">
 			<destination>{2008e0fc-c06e-40a9-8f9a-dc57a59828f9}</destination>

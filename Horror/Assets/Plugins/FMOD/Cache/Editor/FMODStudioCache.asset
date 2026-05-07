@@ -128,7 +128,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639137570121559183
+  lastModified: 639137598021635222
   FileSizes:
   - Name: Desktop
     Value: 21536
@@ -157,33 +157,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-7646147278632077561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Corey_Demon_Attack
-  m_EditorClassIdentifier: 
-  Path: event:/Corey_Demon_Attack
-  Guid:
-    Data1: 707615669
-    Data2: 1087928353
-    Data3: -1369220718
-    Data4: -681172544
-  Banks:
-  - {fileID: -2859927162271784408}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3000
 --- !u!114 &-7641072015098415380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +172,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_JP.bank
   Name: Dialogue_JP
   StudioPath: bank:/Dialogue_JP
-  lastModified: 639124790624517586
+  lastModified: 639137611260483885
   FileSizes:
   - Name: Desktop
     Value: 66560
@@ -366,6 +339,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 78
+--- !u!114 &-6999371620380156434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Demon_Chase/States
+  m_EditorClassIdentifier: 
+  Name: States
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 1806806171
+    data2: 3870878301
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Chasing
+  - Idle
+  - Attacking
+  Exists: 1
 --- !u!114 &-6957535568612458325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,10 +409,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
   Name: Interactables
   StudioPath: bank:/Interactables
-  lastModified: 639137570010059751
+  lastModified: 639137635054223337
   FileSizes:
   - Name: Desktop
-    Value: 1891776
+    Value: 1163584
   Exists: 1
 --- !u!114 &-6598795175555618393
 MonoBehaviour:
@@ -434,30 +434,6 @@ MonoBehaviour:
   ID:
     data1: 3876895713
     data2: 1350755851
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-6586037241541655132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Radio Station/Freq
-  m_EditorClassIdentifier: 
-  Name: Freq
-  StudioPath: 
-  Min: 0
-  Max: 3
-  Default: 0
-  ID:
-    data1: 3651039008
-    data2: 3735099248
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -489,33 +465,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1850
---- !u!114 &-5701133819075512168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/windwhistle
-  m_EditorClassIdentifier: 
-  Path: event:/Ambience/windwhistle
-  Guid:
-    Data1: 1737857153
-    Data2: 1076883067
-    Data3: -910530665
-    Data4: -1011249613
-  Banks:
-  - {fileID: 2541119733352887556}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 7893
 --- !u!114 &-5458239254340002710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -642,8 +591,9 @@ MonoBehaviour:
     Data4: 28844622
   Banks:
   - {fileID: -4114666193001237388}
+  - {fileID: 2541119733352887556}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: 1915175699257939428}
@@ -698,6 +648,8 @@ MonoBehaviour:
     Data4: 888026411
   Banks:
   - {fileID: 4783145620568012715}
+  - {fileID: -4114666193001237388}
+  - {fileID: -2859927162271784408}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -729,34 +681,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-4209261469834504999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Demon_Chase
-  m_EditorClassIdentifier: 
-  Path: event:/Demon_Chase
-  Guid:
-    Data1: -2116288922
-    Data2: 1178588213
-    Data3: 698081670
-    Data4: 2101445371
-  Banks:
-  - {fileID: -2859927162271784408}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1059204216969481247}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-4114666193001237388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,10 +696,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639137570120868717
+  lastModified: 639137644665512677
   FileSizes:
   - Name: Desktop
-    Value: 22545184
+    Value: 23026912
   Exists: 1
 --- !u!114 &-3955527117061811011
 MonoBehaviour:
@@ -806,30 +730,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-3868433240215607343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 01/Stinger
-  m_EditorClassIdentifier: 
-  Name: Stinger
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 92787679
-    data2: 313628491
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-3348584690754572383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,64 +758,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9970
---- !u!114 &-3269134913484664979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Level 03
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Level 03
-  Guid:
-    Data1: -334097318
-    Data2: 1260140306
-    Data3: 651052185
-    Data4: -1957406073
-  Banks:
-  - {fileID: 2541119733352887556}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3427603549565191311}
-  - {fileID: 7630340541505887058}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 150857
---- !u!114 &-3176589333694790398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Level 01
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Level 01
-  Guid:
-    Data1: 1958460028
-    Data2: 1217165032
-    Data3: -261621348
-    Data4: -48242944
-  Banks:
-  - {fileID: 2541119733352887556}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3868433240215607343}
-  - {fileID: -1475480493491000730}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 54339
 --- !u!114 &-2994805204786922351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,10 +773,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639137573409169560
+  lastModified: 639137644662446627
   FileSizes:
   - Name: Desktop
-    Value: 6402
+    Value: 6304
   Exists: 1
 --- !u!114 &-2991247099912605500
 MonoBehaviour:
@@ -1005,10 +847,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639137573409146740
+  lastModified: 639137644662407551
   FileSizes:
   - Name: Desktop
-    Value: 328832
+    Value: 515520
   Exists: 1
 --- !u!114 &-2779406121854797416
 MonoBehaviour:
@@ -1056,8 +898,8 @@ MonoBehaviour:
     Data3: 1612659589
     Data4: 26536155
   Banks:
-  - {fileID: -4114666193001237388}
   - {fileID: -8428782050256020294}
+  - {fileID: -4114666193001237388}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1197,6 +1039,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 663
+--- !u!114 &-1535466990137581494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zombie Groans/Corey_Demon_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Zombie Groans/Corey_Demon_Attack
+  Guid:
+    Data1: 707615669
+    Data2: 1087928353
+    Data3: -1369220718
+    Data4: -681172544
+  Banks:
+  - {fileID: -2859927162271784408}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &-1507189828050581721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,32 +1089,6 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 1
   Labels: []
-  Exists: 1
---- !u!114 &-1475480493491000730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 01/Progression
-  m_EditorClassIdentifier: 
-  Name: Progression
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3062800359
-    data2: 1731195358
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Intro
-  - Main
   Exists: 1
 --- !u!114 &-1461363415362783111
 MonoBehaviour:
@@ -1321,33 +1164,6 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Labels: []
-  Exists: 1
---- !u!114 &-1059204216969481247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Demon_Chase/States
-  m_EditorClassIdentifier: 
-  Name: States
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 1
-  ID:
-    data1: 1806806171
-    data2: 3870878301
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Chasing
-  - Idle
-  - Attacking
   Exists: 1
 --- !u!114 &-1042713933165369014
 MonoBehaviour:
@@ -1469,7 +1285,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Haptics.bank
   Name: Haptics
   StudioPath: bank:/Haptics
-  lastModified: 639124790625243542
+  lastModified: 639137611261025519
   FileSizes:
   - Name: Desktop
     Value: 387904
@@ -1547,6 +1363,7 @@ MonoBehaviour:
     Data3: 1341707178
     Data4: 817490607
   Banks:
+  - {fileID: -4114666193001237388}
   - {fileID: -2859927162271784408}
   IsStream: 0
   Is3D: 0
@@ -1596,10 +1413,6 @@ MonoBehaviour:
   - {fileID: -415801565597856702}
   - {fileID: -2435369458542970761}
   - {fileID: -5071296112115383366}
-  - {fileID: -3269134913484664979}
-  - {fileID: -3176589333694790398}
-  - {fileID: 4797093617607316553}
-  - {fileID: 7034672953898104296}
   - {fileID: 3516481644061089776}
   - {fileID: 5091775622544899185}
   - {fileID: -1212200879054773780}
@@ -1626,7 +1439,6 @@ MonoBehaviour:
   - {fileID: -4482559744668360305}
   - {fileID: 5625697868449556295}
   - {fileID: 613873740432121274}
-  - {fileID: 3436463176569173229}
   - {fileID: 5927306703038103403}
   - {fileID: -2912275178835879308}
   - {fileID: -1554693032835267736}
@@ -1637,7 +1449,6 @@ MonoBehaviour:
   - {fileID: 6676859431752082621}
   - {fileID: 6170243576651682987}
   - {fileID: 7676416725008158454}
-  - {fileID: -5701133819075512168}
   - {fileID: -331726289298658417}
   - {fileID: -5439497991223531944}
   - {fileID: -6451739199807812914}
@@ -1649,9 +1460,9 @@ MonoBehaviour:
   - {fileID: -7508934708815304173}
   - {fileID: 104361661169231985}
   - {fileID: 4602145065166770653}
-  - {fileID: -4209261469834504999}
-  - {fileID: -7646147278632077561}
-  - {fileID: 3045811963275704619}
+  - {fileID: -1535466990137581494}
+  - {fileID: 6851519036867384517}
+  - {fileID: 937226362448805667}
   EditorParameters:
   - {fileID: -1507189828050581721}
   - {fileID: 1659447007401030349}
@@ -1660,7 +1471,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2994805204786922351}
   cacheVersion: 131858
-  cacheTime: 639137573409470062
+  cacheTime: 639137646358775062
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -1688,118 +1499,106 @@ MonoBehaviour:
     index: 11
   - key: snapshot:/Reverb/Cave Reverb
     index: 12
-  - key: event:/Music/Level 03
-    index: 13
-  - key: event:/Music/Level 01
-    index: 14
-  - key: event:/Music/Radio Station
-    index: 15
-  - key: event:/Music/Level 02
-    index: 16
   - key: event:/Character/Player Footsteps
-    index: 17
+    index: 13
   - key: event:/Weapons/Explosion
-    index: 18
+    index: 14
   - key: event:/Character/Enemy Footsteps
-    index: 19
+    index: 15
   - key: event:/Interactables/barrel Roll
-    index: 20
+    index: 16
   - key: event:/Ambience/Country
-    index: 21
+    index: 17
   - key: event:/Ambience/City
-    index: 22
+    index: 18
   - key: event:/Character/Radio Dialogue
-    index: 23
+    index: 19
   - key: event:/UI/Okay
-    index: 24
+    index: 20
   - key: event:/Character/Dialogue
-    index: 25
+    index: 21
   - key: event:/Weapons/Pistol
-    index: 26
+    index: 22
   - key: event:/Character/Health
-    index: 27
+    index: 23
   - key: event:/Interactables/wooden Collision
-    index: 28
+    index: 24
   - key: event:/Ambience/Forest
-    index: 29
+    index: 25
   - key: event:/UI/Cancel
-    index: 30
+    index: 26
   - key: event:/Weapons/Machine Gun
-    index: 31
+    index: 27
   - key: event:/Vehicles/Car Engine
-    index: 32
+    index: 28
   - key: event:/Vehicles/Ride-on Mower
-    index: 33
+    index: 29
   - key: event:/VO/Main Menu
-    index: 34
+    index: 30
   - key: event:/VO/Welcome
-    index: 35
+    index: 31
   - key: event:/Interactables/Switch
-    index: 36
+    index: 32
   - key: event:/Ambience/water-dripping
-    index: 37
+    index: 33
   - key: event:/Ambience/wind-against-trees
-    index: 38
+    index: 34
   - key: event:/Building/Fire Bin
-    index: 39
+    index: 35
   - key: event:/Building/Window Raindrops
-    index: 40
+    index: 36
   - key: event:/Interactables/toilet-flush
-    index: 41
+    index: 37
   - key: event:/Interactables/locking-door
-    index: 42
-  - key: event:/Interactables/tv-static
-    index: 43
+    index: 38
   - key: event:/Interactables/barrel_rolling_loop
-    index: 44
+    index: 39
   - key: event:/Interactables/rocking-chair
-    index: 45
+    index: 40
   - key: event:/Interactables/wooden_collision_1_dry_dull
-    index: 46
+    index: 41
   - key: event:/Interactables/wooden_collision_small_dry_dull
-    index: 47
+    index: 42
   - key: event:/Interactables/picking-up-paper
-    index: 48
+    index: 43
   - key: event:/Interactables/wooden_collision_3_dry_dull
-    index: 49
+    index: 44
   - key: event:/Interactables/wooden_collision_2_dry_dull
-    index: 50
+    index: 45
   - key: snapshot:/Reverb/Reverb Vent
-    index: 51
+    index: 46
   - key: event:/Interactables/locking Door
-    index: 52
+    index: 47
   - key: snapshot:/Reverb/Reverb
-    index: 53
-  - key: event:/Ambience/windwhistle
-    index: 54
+    index: 48
   - key: event:/Character/Flashlight
-    index: 55
+    index: 49
   - key: event:/Building/Doors/Door Creak
-    index: 56
+    index: 50
   - key: event:/Building/Doors/Door Unlocked
-    index: 57
+    index: 51
   - key: event:/Interactables/tv-switch-off
-    index: 58
+    index: 52
   - key: event:/Building/Doors/Door Locked
-    index: 59
+    index: 53
   - key: event:/Weapons/Knife SFX/Knife-fleshy-SFX
-    index: 60
+    index: 54
   - key: event:/Character/Tracker
-    index: 61
+    index: 55
   - key: event:/Weapons/Knife SFX/Knife-swoosh
-    index: 62
+    index: 56
   - key: event:/Weapons/Knife SFX/Knife-slash
-    index: 63
+    index: 57
   - key: event:/Zombie Groans/Zombie_Groans
-    index: 64
+    index: 58
   - key: event:/Interactables/tvStatic
-    index: 65
-  - key: event:/Demon_Chase
-    index: 66
-  - key: event:/Corey_Demon_Attack
-    index: 67
-  - key: event:/Zombie_Groans
-    index: 68
+    index: 59
+  - key: event:/Zombie Groans/Corey_Demon_Attack
+    index: 60
+  - key: event:/Zombie Groans/Demon_Chase
+    index: 61
+  - key: event:/Ambience/ForestSoundsFrog
+    index: 62
 --- !u!114 &104361661169231985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1869,7 +1668,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 639124790643484619
+  lastModified: 639137611266674618
   FileSizes:
   - Name: Desktop
     Value: 222624
@@ -1981,6 +1780,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &937226362448805667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/ForestSoundsFrog
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/ForestSoundsFrog
+  Guid:
+    Data1: 1671048310
+    Data2: 1213858576
+    Data3: 22583701
+    Data4: -1275125015
+  Banks:
+  - {fileID: 2541119733352887556}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30534
 --- !u!114 &1659447007401030349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2035,30 +1861,6 @@ MonoBehaviour:
   - Noon
   - Evening
   Exists: 1
---- !u!114 &2106491933149686626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 02/Area
-  m_EditorClassIdentifier: 
-  Name: Area
-  StudioPath: 
-  Min: 0
-  Max: 80
-  Default: 0
-  ID:
-    data1: 533873593
-    data2: 3478576879
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &2530019044784417855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2098,10 +1900,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639137570055664905
+  lastModified: 639137646358775062
   FileSizes:
   - Name: Desktop
-    Value: 10547648
+    Value: 16509632
   Exists: 1
 --- !u!114 &2559204472601443748
 MonoBehaviour:
@@ -2118,7 +1920,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_EN.bank
   Name: Dialogue_EN
   StudioPath: bank:/Dialogue_EN
-  lastModified: 639124790624375940
+  lastModified: 639137611260330888
   FileSizes:
   - Name: Desktop
     Value: 61120
@@ -2150,33 +1952,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10598
---- !u!114 &3045811963275704619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Zombie_Groans
-  m_EditorClassIdentifier: 
-  Path: event:/Zombie_Groans
-  Guid:
-    Data1: 522105440
-    Data2: 1304246639
-    Data3: -152602438
-    Data4: -1793671370
-  Banks:
-  - {fileID: 6225068812333281726}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
 --- !u!114 &3192324757024639134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2232,57 +2007,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2182
---- !u!114 &3427603549565191311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 03/Stinger
-  m_EditorClassIdentifier: 
-  Name: Stinger
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 92787679
-    data2: 313628491
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &3436463176569173229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Interactables/tv-static
-  m_EditorClassIdentifier: 
-  Path: event:/Interactables/tv-static
-  Guid:
-    Data1: 648992293
-    Data2: 1116684635
-    Data3: 681791376
-    Data4: -833095406
-  Banks:
-  - {fileID: -6914972949845980652}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 59861
 --- !u!114 &3516481644061089776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2339,30 +2063,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
---- !u!114 &3845147745712218425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Radio Station/Spatializer
-  m_EditorClassIdentifier: 
-  Name: Spatializer
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 3957412765
-    data2: 1502812825
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &4394570498034804187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,6 +2133,7 @@ MonoBehaviour:
     Data3: 1968309400
     Data4: 239510406
   Banks:
+  - {fileID: -4114666193001237388}
   - {fileID: -2859927162271784408}
   IsStream: 1
   Is3D: 1
@@ -2456,7 +2157,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639137569999474816
+  lastModified: 639137632480683133
   FileSizes:
   - Name: Desktop
     Value: 1238080
@@ -2488,35 +2189,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &4797093617607316553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Radio Station
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Radio Station
-  Guid:
-    Data1: -1284853857
-    Data2: 1279602452
-    Data3: 1660743820
-    Data4: -1969025494
-  Banks:
-  - {fileID: 2541119733352887556}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3845147745712218425}
-  - {fileID: -6586037241541655132}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &5091775622544899185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2560,7 +2232,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Dialogue_CN.bank
   Name: Dialogue_CN
   StudioPath: bank:/Dialogue_CN
-  lastModified: 639124790624236270
+  lastModified: 639137611260182336
   FileSizes:
   - Name: Desktop
     Value: 52416
@@ -2685,10 +2357,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639137573409470062
+  lastModified: 639137640044288413
   FileSizes:
   - Name: Desktop
-    Value: 53568
+    Value: 220704
   Exists: 1
 --- !u!114 &6266875955948353145
 MonoBehaviour:
@@ -2795,7 +2467,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &7034672953898104296
+--- !u!114 &6851519036867384517
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2805,24 +2477,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Level 02
+  m_Name: event:/Zombie Groans/Demon_Chase
   m_EditorClassIdentifier: 
-  Path: event:/Music/Level 02
+  Path: event:/Zombie Groans/Demon_Chase
   Guid:
-    Data1: -939964675
-    Data2: 1234949781
-    Data3: 661987496
-    Data4: 496157849
+    Data1: -2116288922
+    Data2: 1178588213
+    Data3: 698081670
+    Data4: 2101445371
   Banks:
-  - {fileID: 2541119733352887556}
+  - {fileID: 6225068812333281726}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2106491933149686626}
+  - {fileID: -6999371620380156434}
   MinDistance: 1
   MaxDistance: 20
-  Length: 56888
+  Length: 0
 --- !u!114 &7371601870157999856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2877,30 +2549,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1162
---- !u!114 &7630340541505887058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Level 03/Intensity
-  m_EditorClassIdentifier: 
-  Name: Intensity
-  StudioPath: 
-  Min: 0
-  Max: 4
-  Default: 0
-  ID:
-    data1: 4130366537
-    data2: 2699559447
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &7676416725008158454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2943,7 +2591,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639124790643772093
+  lastModified: 639137611266886326
   FileSizes:
   - Name: Desktop
     Value: 38592
