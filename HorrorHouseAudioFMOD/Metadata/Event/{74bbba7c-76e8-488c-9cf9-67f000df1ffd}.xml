@@ -76,10 +76,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{2763dd44-5d75-4875-a536-338382f14cd2}">
-		<relationship name="modules">
-			<destination>{b8d8173f-a02e-4fb1-b667-f465f68ed377}</destination>
-			<destination>{c6c69e65-fa91-42a6-ab3d-5bd6ca335397}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b4da85c9-17e6-4c93-8910-702044fa8738}</destination>
 		</relationship>
@@ -105,8 +101,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 	<object class="GroupTrack" id="{2fc36585-1968-4a3c-ae0a-55864c573f42}">
 		<relationship name="modules">
 			<destination>{5f142c9e-6967-4946-95ae-f94b2407319d}</destination>
-			<destination>{58c148af-a4fb-42a4-bfa5-2dc247e089c9}</destination>
-			<destination>{5de2f160-6a88-4ac9-a183-ab5c2c8abf24}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cb573308-96e6-4a1b-978f-ffd4beaedd20}</destination>
@@ -119,8 +113,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		<relationship name="modules">
 			<destination>{72c90f3b-1844-479b-994c-335ced088626}</destination>
 			<destination>{3fadbdbd-925e-438d-9268-e12933eb5091}</destination>
-			<destination>{e9ce5edb-bc4b-4394-a193-b0883358c3ed}</destination>
-			<destination>{c7b81c60-58f0-4bfa-bd4b-0feb6f6c21f1}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{abc6d8c8-e5d5-4c77-8f38-f59e37ecf91f}</destination>
@@ -130,8 +122,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		<relationship name="modules">
 			<destination>{f3973893-7c77-48ac-960f-1624ff377de1}</destination>
 			<destination>{ee62a129-489f-47b9-b05b-75af928f7d2d}</destination>
-			<destination>{326e4d1d-7a51-4a9a-8b79-f4b82bee12fb}</destination>
-			<destination>{7c548b36-bc10-41d9-a130-6d72d3ae59f7}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cec738de-f99f-4566-83cb-42be8144e558}</destination>
@@ -166,19 +156,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 			<destination>{b17df152-6801-46a0-84df-b6c596ba2619}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{b8d8173f-a02e-4fb1-b667-f465f68ed377}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{c6c69e65-fa91-42a6-ab3d-5bd6ca335397}">
-		<property name="start">
-			<value>10</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{f566de87-b10a-4b7e-9d5f-b6fd381b2ff3}">
 		<relationship name="effects">
 			<destination>{d3231bf3-7cb3-48bd-9022-3ad0ce2153eb}</destination>
@@ -201,19 +178,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		<relationship name="audioFile">
 			<destination>{8a80d319-7cc7-4d9f-ada0-d715e38def57}</destination>
 		</relationship>
-	</object>
-	<object class="TransitionSourceSound" id="{58c148af-a4fb-42a4-bfa5-2dc247e089c9}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{5de2f160-6a88-4ac9-a183-ab5c2c8abf24}">
-		<property name="start">
-			<value>10</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
 	</object>
 	<object class="EventMixerGroup" id="{cb573308-96e6-4a1b-978f-ffd4beaedd20}">
 		<property name="name">
@@ -273,19 +237,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		<relationship name="audioFile">
 			<destination>{bed6ead0-dc7e-4700-80d3-6ffa01173ed0}</destination>
 		</relationship>
-	</object>
-	<object class="TransitionSourceSound" id="{e9ce5edb-bc4b-4394-a193-b0883358c3ed}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{c7b81c60-58f0-4bfa-bd4b-0feb6f6c21f1}">
-		<property name="start">
-			<value>10</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
 	</object>
 	<object class="EventMixerGroup" id="{abc6d8c8-e5d5-4c77-8f38-f59e37ecf91f}">
 		<property name="name">
@@ -350,19 +301,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 			<destination>{cca9bd5a-6d12-4f84-a1eb-307dc2188fcd}</destination>
 		</relationship>
 	</object>
-	<object class="TransitionSourceSound" id="{326e4d1d-7a51-4a9a-8b79-f4b82bee12fb}">
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
-	<object class="TransitionDestinationSound" id="{7c548b36-bc10-41d9-a130-6d72d3ae59f7}">
-		<property name="start">
-			<value>10</value>
-		</property>
-		<property name="length">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="EventMixerGroup" id="{cec738de-f99f-4566-83cb-42be8144e558}">
 		<property name="name">
 			<value>Sting</value>
@@ -412,9 +350,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{acf06f29-ebfa-4436-ad2e-de0308d4e9c1}</destination>
-		</relationship>
-		<relationship name="transitionTimeline">
-			<destination>{4483ea6f-fea2-4e44-bc2e-de9f7e643e25}</destination>
 		</relationship>
 		<relationship name="destination">
 			<destination>{fa90166a-e210-43a9-9110-8038692aa45a}</destination>
@@ -560,21 +495,6 @@ https://www.fmod.com/docs/studio/working-with-instruments.html#delay-and-quantiz
 		</property>
 		<relationship name="parameter">
 			<destination>{25a540fc-fedb-48d6-8e2f-c51e3cbea5b0}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionTimeline" id="{4483ea6f-fea2-4e44-bc2e-de9f7e643e25}">
-		<property name="length">
-			<value>10</value>
-		</property>
-		<relationship name="modules">
-			<destination>{58c148af-a4fb-42a4-bfa5-2dc247e089c9}</destination>
-			<destination>{5de2f160-6a88-4ac9-a183-ab5c2c8abf24}</destination>
-			<destination>{e9ce5edb-bc4b-4394-a193-b0883358c3ed}</destination>
-			<destination>{c7b81c60-58f0-4bfa-bd4b-0feb6f6c21f1}</destination>
-			<destination>{326e4d1d-7a51-4a9a-8b79-f4b82bee12fb}</destination>
-			<destination>{7c548b36-bc10-41d9-a130-6d72d3ae59f7}</destination>
-			<destination>{b8d8173f-a02e-4fb1-b667-f465f68ed377}</destination>
-			<destination>{c6c69e65-fa91-42a6-ab3d-5bd6ca335397}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{c12ff3f1-db41-48d8-be34-3c3097903fb1}">
