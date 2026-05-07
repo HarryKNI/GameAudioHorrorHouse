@@ -5,7 +5,7 @@
 			<value>Ambience</value>
 		</property>
 		<relationship name="masters">
-			<destination>{3f0b7d64-e765-400e-ae74-c2d973ad4ca1}</destination>
+			<destination>{affdbc9c-9457-4a59-8ac1-bc27f6ae988c}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{20931c8e-ccb7-46f7-823c-5087a2849e46}</destination>
@@ -14,7 +14,11 @@
 			<destination>{d3c42ad5-d43b-4793-951d-ff12618efd0d}</destination>
 		</relationship>
 		<relationship name="output">
+<<<<<<< HEAD
 			<destination>{af9d027a-3a1f-49a8-a9ef-4cbe20673632}</destination>
+=======
+			<destination>{7e33a2b3-db05-4b7a-ba1e-e862f2bfde36}</destination>
+>>>>>>> MamudRostam
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{20931c8e-ccb7-46f7-823c-5087a2849e46}">
