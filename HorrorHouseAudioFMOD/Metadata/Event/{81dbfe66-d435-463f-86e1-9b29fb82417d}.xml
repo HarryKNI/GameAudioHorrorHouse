@@ -143,6 +143,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{04b3fcba-30c6-414c-a7fc-bf35166bdc87}">
 		<relationship name="effects">
+			<destination>{d4cff6d4-6667-40bf-a400-41454de5a5bb}</destination>
+			<destination>{70bee15e-2911-4f45-a04e-6794648cfa7d}</destination>
 			<destination>{622a599d-5fbb-4a78-8505-1dafd9ffe939}</destination>
 		</relationship>
 	</object>
@@ -161,6 +163,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1eea11c3-10ea-48c1-8f6b-037378c765d6}" />
+	<object class="DistortionEffect" id="{d4cff6d4-6667-40bf-a400-41454de5a5bb}">
+		<property name="level">
+			<value>0.454999983</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{70bee15e-2911-4f45-a04e-6794648cfa7d}">
+		<property name="mix">
+			<value>9</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{622a599d-5fbb-4a78-8505-1dafd9ffe939}" />
 	<object class="SingleSound" id="{cf9c4e11-0b8d-4d16-8c4f-eec2dac52552}">
 		<relationship name="audioFile">
