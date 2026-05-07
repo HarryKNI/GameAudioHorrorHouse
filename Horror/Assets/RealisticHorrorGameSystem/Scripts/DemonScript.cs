@@ -40,9 +40,6 @@ namespace RealisticHorrorGameSystem
         private bool hasRealizedPlayer = false;
 
         [Header("Fmod Doohickey Crap")]
-        [SerializeField] StudioEventEmitter DemonRoar;
-        [SerializeField] StudioEventEmitter DemonIdle;
-        [SerializeField] StudioEventEmitter DemonChase;
 
         [SerializeField] StudioEventEmitter DemonStatus;
 
