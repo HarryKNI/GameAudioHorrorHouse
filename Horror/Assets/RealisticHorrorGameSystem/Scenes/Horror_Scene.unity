@@ -37185,7 +37185,22 @@ PrefabInstance:
     - target: {fileID: 7118049081345687704, guid: 96ffac1321be9df4abd1a952b983aacb,
         type: 3}
       propertyPath: EventPlayTrigger
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118049081345687704, guid: 96ffac1321be9df4abd1a952b983aacb,
+        type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118049081345687704, guid: 96ffac1321be9df4abd1a952b983aacb,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118049081345687704, guid: 96ffac1321be9df4abd1a952b983aacb,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7129044404983030835, guid: 96ffac1321be9df4abd1a952b983aacb,
         type: 3}
@@ -38740,7 +38755,7 @@ Transform:
   m_GameObject: {fileID: 1370384011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.73, y: 6.39, z: -1.74}
+  m_LocalPosition: {x: -8.07, y: 6.39, z: -4.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38761,11 +38776,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1198788837
-      Data2: 1177438829
-      Data3: 1431117501
-      Data4: -326572916
-    Path: event:/Ambience/Forest
+      Data1: 614123342
+      Data2: 1179152036
+      Data3: 1814092417
+      Data4: 28844622
+    Path: event:/Ambience/Country
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -38774,9 +38789,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideAttenuation: 1
+  OverrideMinDistance: 10
+  OverrideMaxDistance: 15
 --- !u!1001 &1373032777
 PrefabInstance:
   m_ObjectHideFlags: 0

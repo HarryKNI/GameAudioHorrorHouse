@@ -469,10 +469,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Zombie_Groans.bank
   Name: Zombie_Groans
   StudioPath: bank:/Zombie_Groans
-  lastModified: 639136870270686226
+  lastModified: 639137432372990549
   FileSizes:
   - Name: Desktop
-    Value: 51360
+    Value: 51776
   Exists: 1
 --- !u!114 &-8130023813438915769
 MonoBehaviour:
@@ -940,7 +940,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 2390711819256143865}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -6839924757435307241}
@@ -3147,7 +3147,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 6779418362309349635}
   cacheVersion: 131858
-  cacheTime: 639136910652083345
+  cacheTime: 639137436967679952
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -3735,10 +3735,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639136903909292212
+  lastModified: 639137436967679952
   FileSizes:
   - Name: Desktop
-    Value: 31575360
+    Value: 31575680
   Exists: 1
 --- !u!114 &2530019044784417855
 MonoBehaviour:
@@ -4516,8 +4516,8 @@ MonoBehaviour:
   Banks:
   - {fileID: -8134698583402497937}
   IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
