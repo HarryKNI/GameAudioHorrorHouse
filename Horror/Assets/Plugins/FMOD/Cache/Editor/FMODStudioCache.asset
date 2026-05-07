@@ -605,6 +605,33 @@ MonoBehaviour:
   - Name: HTML5
     Value: 78464
   Exists: 1
+--- !u!114 &-4046587608409072438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Corey_Demon_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Corey_Demon_Attack
+  Guid:
+    Data1: 707615669
+    Data2: 1087928353
+    Data3: -1369220718
+    Data4: -681172544
+  Banks:
+  - {fileID: -2859927162271784408}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &-3955527117061811011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,14 +758,14 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639123796210741481
+  lastModified: 639137501859288989
   FileSizes:
   - Name: Desktop
-    Value: 4740
+    Value: 4878
   - Name: Desktop 2
-    Value: 4740
+    Value: 4878
   - Name: HTML5
-    Value: 4740
+    Value: 4878
   Exists: 1
 --- !u!114 &-2859927162271784408
 MonoBehaviour:
@@ -755,10 +782,10 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639123796210706304
+  lastModified: 639137501859268805
   FileSizes:
   - Name: Desktop
-    Value: 94784
+    Value: 797280
   - Name: HTML5
     Value: 94656
   Exists: 1
@@ -840,6 +867,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1926144924495855841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Demon_Chase
+  m_EditorClassIdentifier: 
+  Path: event:/Demon_Chase
+  Guid:
+    Data1: -2116288922
+    Data2: 1178588213
+    Data3: 698081670
+    Data4: 2101445371
+  Banks:
+  - {fileID: -2859927162271784408}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1900655188235622911}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1475480493491000730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1135,13 +1190,15 @@ MonoBehaviour:
   - {fileID: -4355173831777217841}
   - {fileID: -154257593472160244}
   - {fileID: 7474330611436467419}
+  - {fileID: -4046587608409072438}
+  - {fileID: -1926144924495855841}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2859927162271784408}
   StringsBanks:
   - {fileID: -2994805204786922351}
   cacheVersion: 131858
-  cacheTime: 639123796216106225
+  cacheTime: 639137501859288989
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -1227,6 +1284,10 @@ MonoBehaviour:
     index: 40
   - key: event:/Interactables/TvStatic
     index: 41
+  - key: event:/Corey_Demon_Attack
+    index: 42
+  - key: event:/Demon_Chase
+    index: 43
 --- !u!114 &331754751474402596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,6 +1386,33 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &1900655188235622911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Demon_Chase/States
+  m_EditorClassIdentifier: 
+  Name: States
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 1806806171
+    data2: 3870878301
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Chasing
+  - Idle
+  - Attacking
   Exists: 1
 --- !u!114 &1915175699257939428
 MonoBehaviour:

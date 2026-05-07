@@ -5,7 +5,7 @@
 			<value>Zombie_Groans</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{10626052-c98b-4665-b391-646f2512cecd}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{d2bdadd8-f27d-413e-85e1-c4af1ac27a6c}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{1c45e707-25a8-484c-9acb-e077f7cfaad9}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{5ee66383-fcea-4cfa-8b02-0003b83c33d1}</destination>
@@ -69,6 +72,11 @@
 	<object class="Timeline" id="{d2bdadd8-f27d-413e-85e1-c4af1ac27a6c}">
 		<relationship name="modules">
 			<destination>{16e86f12-b49e-4b89-a1af-d9a3042f9725}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{1c45e707-25a8-484c-9acb-e077f7cfaad9}">
+		<relationship name="preset">
+			<destination>{73f6fc7b-20ce-47a8-903b-a6588217704a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{36b06a62-1f1c-4ebb-9784-1aa00b045558}">
@@ -121,6 +129,7 @@
 	<object class="MixerBusEffectChain" id="{70860ce0-ea5e-4035-8491-bab965a1de35}">
 		<relationship name="effects">
 			<destination>{347c57d3-aaf5-4b2e-9205-f7dba948d65e}</destination>
+			<destination>{7a53d31d-518d-415d-9504-0ad2afb7c876}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fc5fe293-006a-4c82-a922-19455c458b70}" />
@@ -147,5 +156,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{5af7b6d8-f8c7-480c-bbfd-422cd2c5b078}" />
 	<object class="MixerBusFader" id="{347c57d3-aaf5-4b2e-9205-f7dba948d65e}" />
+	<object class="SpatialiserEffect" id="{7a53d31d-518d-415d-9504-0ad2afb7c876}" />
 	<object class="MixerBusFader" id="{686739c9-74ca-4fa4-9a26-01d2448b76c2}" />
 </objects>
