@@ -128,7 +128,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Weapons.bank
   Name: Weapons
   StudioPath: bank:/Weapons
-  lastModified: 639137570121559183
+  lastModified: 639137582986745497
   FileSizes:
   - Name: Desktop
     Value: 21536
@@ -409,7 +409,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Interactables.bank
   Name: Interactables
   StudioPath: bank:/Interactables
-  lastModified: 639137570010059751
+  lastModified: 639137582973961892
   FileSizes:
   - Name: Desktop
     Value: 1891776
@@ -772,7 +772,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639137570120868717
+  lastModified: 639137582986146585
   FileSizes:
   - Name: Desktop
     Value: 22545184
@@ -931,7 +931,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639137573409169560
+  lastModified: 639137582976891225
   FileSizes:
   - Name: Desktop
     Value: 6402
@@ -1005,7 +1005,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639137573409146740
+  lastModified: 639137582976871055
   FileSizes:
   - Name: Desktop
     Value: 328832
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2994805204786922351}
   cacheVersion: 131858
-  cacheTime: 639137573409470062
+  cacheTime: 639137583978002277
   SerializableEventsDict:
   - key: event:/Haptics/box_open
     index: 0
@@ -2098,7 +2098,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639137570055664905
+  lastModified: 639137583978002277
   FileSizes:
   - Name: Desktop
     Value: 10547648
@@ -2456,7 +2456,7 @@ MonoBehaviour:
   Path: ../HorrorHouseAudioFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 639137569999474816
+  lastModified: 639137582963696508
   FileSizes:
   - Name: Desktop
     Value: 1238080
