@@ -27,7 +27,7 @@ Recordings by David at Track Time Audio.</value>
 			<value>Country</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b6770cc5-a214-4b8e-bc5e-d7983fee345a}</destination>
@@ -66,7 +66,7 @@ Recordings by David at Track Time Audio.</value>
 			<destination>{ad58c3a7-2bc9-0263-14d6-c1fa1cb73367}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{9ad4be16-4f5a-4e4c-a013-f35de106f106}</destination>
+			<destination>{561cd480-bd2b-4c2e-b919-d775f9c4f409}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{22165439-dd04-48a0-a34e-7175c43f3f94}">
@@ -240,7 +240,6 @@ Recordings by David at Track Time Audio.</value>
 	<object class="MixerBusEffectChain" id="{efafb580-f54d-4001-baa6-4b49e9eaf918}">
 		<relationship name="effects">
 			<destination>{9e29f584-47ad-4f43-a8a6-25764fd7fb35}</destination>
-			<destination>{e298ecad-8d2a-4523-9fc3-047e8fbcad82}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b783e3e9-7999-4771-858f-19e71ca86c5b}" />
@@ -332,6 +331,5 @@ Recordings by David at Track Time Audio.</value>
 	</object>
 	<object class="MixerBusPanner" id="{59821b2d-cdc4-47b7-99da-39fbe2542165}" />
 	<object class="MixerBusFader" id="{9e29f584-47ad-4f43-a8a6-25764fd7fb35}" />
-	<object class="SpatialiserEffect" id="{e298ecad-8d2a-4523-9fc3-047e8fbcad82}" />
 	<object class="MixerBusFader" id="{e1e40e43-5ce1-4b53-a8b8-3d80da59d768}" />
 </objects>

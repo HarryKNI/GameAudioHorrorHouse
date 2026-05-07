@@ -56,11 +56,7 @@
 			<destination>{92cda4ee-aa25-4cc1-ba9b-b2feb54be29e}</destination>
 		</relationship>
 		<relationship name="output">
-<<<<<<< HEAD
 			<destination>{3e1d1653-8bd5-4dbc-865e-cba8e8ded970}</destination>
-=======
-			<destination>{009ebac0-e5a9-4e69-8d37-6bdc9d8c6f45}</destination>
->>>>>>> MamudRostam
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{cc873664-f456-4160-a989-dbf47b1bf5ae}" />
