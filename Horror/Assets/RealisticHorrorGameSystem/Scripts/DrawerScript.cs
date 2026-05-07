@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Collections;
 using UnityEngine;
 
@@ -11,6 +12,9 @@ namespace RealisticHorrorGameSystem
         private float LastTimeTry = 0;
         public GameObject itemInDrawer;
         public DrawerSide drawerSide;
+
+        [SerializeField] private StudioEventEmitter drawerMove;
+
         void Start()
         {
             if (itemInDrawer != null)
@@ -33,7 +37,8 @@ namespace RealisticHorrorGameSystem
                             isLocked = false;
                             AudioManager.Instance.Play_Door_UnLock();
                             isOpened = true;
-                            AudioManager.Instance.Play_Audio_Drawer_Open();
+                            //AudioManager.Instance.Play_Audio_Drawer_Open();
+                            PlayDrawerMove();
                             GetComponent<Animation>().Play("DrawerOpen" + drawerSide.ToString());
                             StartCoroutine(ActivateInsideCollider());
                         }
@@ -47,7 +52,8 @@ namespace RealisticHorrorGameSystem
                     else
                     {
                         isOpened = true;
-                        AudioManager.Instance.Play_Audio_Drawer_Open();
+                        //AudioManager.Instance.Play_Audio_Drawer_Open();
+                        PlayDrawerMove();
                         GetComponent<Animation>().Play("DrawerOpen" + drawerSide.ToString());
                         StartCoroutine(ActivateInsideCollider());
                     }
@@ -56,7 +62,8 @@ namespace RealisticHorrorGameSystem
             else
             {
                 isOpened = false;
-                AudioManager.Instance.Play_Audio_Drawer_Open();
+                //AudioManager.Instance.Play_Audio_Drawer_Open();
+                PlayDrawerMove();
                 GetComponent<Animation>().Play("DrawerClose" + drawerSide.ToString());
             }
         }
@@ -68,6 +75,11 @@ namespace RealisticHorrorGameSystem
             {
                 itemInDrawer.GetComponent<Collider>().enabled = true;
             }
+        }
+
+        public void PlayDrawerMove()
+        {
+            drawerMove.Play();
         }
     }
     public enum DrawerSide

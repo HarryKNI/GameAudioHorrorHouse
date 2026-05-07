@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e5baeed8-a203-446c-b163-000882af157a}">
 		<property name="assetPath">
-			<value>422742__kierankeegan__fire_crackle_1.wav</value>
+			<value>Crackle4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

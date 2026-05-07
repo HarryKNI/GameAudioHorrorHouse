@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{26a3e7c6-de9d-4d35-a106-4bfc83087325}">
 		<property name="assetPath">
-			<value>422851__ipaddeh__fire_crackle_01.wav</value>
+			<value>Crackle5.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

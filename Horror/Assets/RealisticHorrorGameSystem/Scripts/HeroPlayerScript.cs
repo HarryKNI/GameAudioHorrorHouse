@@ -301,37 +301,38 @@ namespace RealisticHorrorGameSystem
             //}
         }
 
+        // Used to detect footstep surface type by comparing the tags on triggers within the floor
         private void OnTriggerStay(Collider other)
         {
-            //Debug.Log("collision");
-            //if(other.gameObject.CompareTag("Vent") && !firstPersonController.isInVent && firstPersonController.isCrouching)
-            //{
-            //    firstPersonController.isInVent = true;
-            //}
+            // Detection for carpet surface
             if (other.gameObject.CompareTag("CarpetSurface"))
             {
                 surfaceParam.Value = 0;
                 SurfaceIndex = 0;
                 audioManager.footstepEvent.SetParameter("Surface", 0, false);
             }
+            // Detection for grass surface
             else if (other.gameObject.CompareTag("GrassSurface"))
             {
                 surfaceParam.Value = 1;
                 SurfaceIndex = 1;
                 audioManager.footstepEvent.SetParameter("Surface", 1, false);
             }
+            // Detection for wood surface
             else if (other.gameObject.CompareTag("WoodSurface"))
             {
                 surfaceParam.Value = 2;
                 SurfaceIndex = 2;
                 audioManager.footstepEvent.SetParameter("Surface", 2, false);
             }
+            // Detection for metal surface
             else if (other.gameObject.CompareTag("MetalSurface") || other.gameObject.CompareTag("Vent"))
             {
                 surfaceParam.Value = 3;
                 SurfaceIndex = 3;
                 audioManager.footstepEvent.SetParameter("Surface", 3, false);
             }
+            // Detection for concrete surface
             else if (other.gameObject.CompareTag("ConcreteSurface"))
             {
                 surfaceParam.Value = 4;

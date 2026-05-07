@@ -45,6 +45,7 @@ namespace RealisticHorrorGameSystem
                 if (Light.activeSelf)
                 {
                     Lightswitch.Play();
+                    Lightswitch.SetParameter("IsOn", 1, false);
                     meshRenderer.material = on;
                     if (flickerCoroutine == null)
                         flickerCoroutine = StartCoroutine(FlickerRoutine());
@@ -52,6 +53,7 @@ namespace RealisticHorrorGameSystem
                 else
                 {
                     Lightswitch.Play();
+                    Lightswitch.SetParameter("IsOn", 0, false);
                     meshRenderer.material = off;
                     if (flickerCoroutine != null)
                     {

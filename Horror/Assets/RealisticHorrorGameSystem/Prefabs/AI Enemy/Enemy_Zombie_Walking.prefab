@@ -2064,7 +2064,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 2
+  OverrideMaxDistance: 5
 --- !u!95 &8982662326720950271 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: fc74b966878c85c48b8c7a39c432b811,
