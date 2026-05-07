@@ -98,6 +98,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{7f06c7ec-cef6-4086-84f7-719154388914}" />
 	<object class="SingleSound" id="{ce7549ae-6b7a-41be-8e81-99a9497f4bb3}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>123.84528344671202</value>
 		</property>
@@ -110,7 +113,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{fa566d55-cb86-45de-a002-29c37a6e6625}">
 		<property name="volume">
-			<value>1.5</value>
+			<value>-13</value>
 		</property>
 		<property name="name">
 			<value>Room Tone</value>
