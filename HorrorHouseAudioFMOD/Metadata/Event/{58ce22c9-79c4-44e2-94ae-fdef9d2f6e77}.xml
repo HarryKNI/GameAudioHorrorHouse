@@ -153,7 +153,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e106f6e6-3711-4a28-acd1-5338cbb095fe}">
 		<property name="volume">
-			<value>10</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -171,6 +171,8 @@
 	<object class="MixerBusEffectChain" id="{2d590986-05b4-4c75-991b-3e8030c59820}">
 		<relationship name="effects">
 			<destination>{e3a357cf-e1dd-40f7-b237-0a694f49a277}</destination>
+			<destination>{587e0df8-b10b-45a3-b3de-793128570903}</destination>
+			<destination>{1ae43331-a4b7-436a-b2ca-f7cb671467d4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7264f323-f5d6-4f75-86e9-fa1bc73944b6}" />
@@ -224,6 +226,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{72d6aa3d-b9eb-4187-b22f-1de59c6b34dd}" />
 	<object class="MixerBusFader" id="{e3a357cf-e1dd-40f7-b237-0a694f49a277}" />
+	<object class="SFXReverbEffect" id="{587e0df8-b10b-45a3-b3de-793128570903}">
+		<property name="decayTime">
+			<value>4000</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>88</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{1ae43331-a4b7-436a-b2ca-f7cb671467d4}">
+		<property name="level">
+			<value>0.0449999981</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{0fbee119-0f3b-4f4a-9bcc-c1e9079ceb50}">
 		<property name="position">
 			<value>0</value>
