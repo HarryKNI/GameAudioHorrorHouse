@@ -37053,7 +37053,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335510701}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -37061,11 +37061,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1537837262
-      Data2: 1160716552
-      Data3: -883590235
-      Data4: -519818459
-    Path: event:/Ambience/Wind Whistle
+      Data1: 1737857153
+      Data2: 1076883067
+      Data3: -910530665
+      Data4: -1011249613
+    Path: event:/Ambience/windwhistle
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -37086,7 +37086,7 @@ Transform:
   m_GameObject: {fileID: 1335510701}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 425.15002, y: -1.631338, z: 360.4442}
+  m_LocalPosition: {x: 420.44, y: -1.631338, z: 350.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44468,12 +44468,12 @@ PrefabInstance:
     - target: {fileID: 9184931560027410446, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.46
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 9184931560027410446, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.51
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9184931560027410446, guid: c4214c4e92e5742d98682732fd98bf9e,
         type: 3}
