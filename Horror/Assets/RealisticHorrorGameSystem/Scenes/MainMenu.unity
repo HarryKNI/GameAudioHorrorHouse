@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 95551417}
   - component: {fileID: 95551416}
   - component: {fileID: 95551419}
+  - component: {fileID: 95551420}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -268,6 +269,37 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 0, b: 0.042179585, a: 1}
   m_EffectDistance: {x: 2, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &95551420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95551414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1840800105
+      Data2: 1164219590
+      Data3: -1091619938
+      Data4: 1253267948
+    Path: event:/UI/Okay
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &233478469
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,11 +435,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1958460028
-      Data2: 1217165032
-      Data3: -261621348
-      Data4: -48242944
-    Path: event:/Music/Level 01
+      Data1: -1685622679
+      Data2: 1163427674
+      Data3: -92506752
+      Data4: -1073703834
+    Path: event:/UI/MenuMusic
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -836,6 +868,7 @@ GameObject:
   - component: {fileID: 1401870848}
   - component: {fileID: 1401870847}
   - component: {fileID: 1401870850}
+  - component: {fileID: 1401870851}
   m_Layer: 5
   m_Name: QuitGame
   m_TagString: Untagged
@@ -972,6 +1005,37 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 0, b: 0.042179585, a: 1}
   m_EffectDistance: {x: 2, y: -3}
   m_UseGraphicAlpha: 1
+--- !u!114 &1401870851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401870845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 708724966
+      Data2: 1130599676
+      Data3: -768382828
+      Data4: 8080861
+    Path: event:/UI/Cancel
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1590649139
 GameObject:
   m_ObjectHideFlags: 0
